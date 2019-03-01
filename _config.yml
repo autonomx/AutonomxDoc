@@ -76,3 +76,4 @@ addthis_pubid: "ra-54a66cfa35915034" # Get your pubid at https://www.addthis.com
 pingdom_rum: "54a97d8aabe53daf361855a6" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
 
 uservoice: "nvdgD40UtxnMoshpVHYxg"
+theme: jekyll-theme-cayman
