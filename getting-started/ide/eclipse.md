@@ -23,6 +23,15 @@
 * Search for Testng
 * Install and restart
 
+## Enable Annotations
+
+* Right click on the project folder -&gt; properties -&gt; Java Compiler -&gt; Annotation Processing
+* Enable "Enable Annotation Process"
+* Set "Generated source directory" to "./target/generated-sources/annotations"
+* Apply and Close
+* 
+![](../../.gitbook/assets/image%20%287%29.png)
+
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
