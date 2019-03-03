@@ -37,4 +37,5 @@
 * [Service Level Testing](service-level-testing.md)
 * [Script Runner](script-runner.md)
 * [Reports](reports.md)
+* [Integration](integration.md)
 
