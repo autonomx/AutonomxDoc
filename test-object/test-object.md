@@ -73,6 +73,14 @@
 * To get a value from UserObject, we use the following syntax: user.username\(\).get\(\)
 * If the value is not set, null will be returned
 
+## Modify Values
+
+* To modify the values in the UserObject, use the following syntax
+* ```text
+  user = user.toBuilder().username("usernameUpdated").email("emailUpdated").buildPartial();
+
+  ```
+
 
 
 ## Use In Test
