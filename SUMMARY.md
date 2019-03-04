@@ -31,7 +31,7 @@
 * [Test Data](test-object/README.md)
   * [Test Object](test-object/test-object.md)
 * [Test Panel](panel/README.md)
-  * [Structure](panel/structure.md)
+  * [Constructor](panel/structure.md)
   * [Locators](panel/locators.md)
   * [Actions](panel/actions.md)
 * [Test Case](test-case/README.md)
