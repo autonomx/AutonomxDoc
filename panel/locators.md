@@ -47,5 +47,24 @@
     .byCss("[placeholder='John Doe']")
     ```
 
+## Dynamic Locators
+
+* Dynamic locators allow for the locator to be dynamically modified based on context
+* eg. 
+* ```text
+  	// dynamic element
+  		public static EnhancedBy question(String question) {
+  			return Element.byAccessibility(question, question + " field");
+  		}
+  ```
+* In this example, the question can be dynamically set
+* We don't need to defined a new locator for each question
+
+
+
+
+
+
+
 ## 
 
