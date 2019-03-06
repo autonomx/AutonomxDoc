@@ -46,6 +46,12 @@
   	public static class Builder extends User_Builder {
   	}
   ```
+* Define builder
+* ```text
+  public static UserObject user() {
+      return new UserObject.Builder().buildPartial();
+  }
+  ```
 
 ## Add Predefined Objects
 
@@ -87,7 +93,7 @@
 
 * To use in test, we create the user object and pass it in to the login method
 * ```text
-  UserObject user = new UserObject.Builder().buildPartial().withAdminLogin();
+  UserObject user = UserObject.user().withAdminLogin();
   app.webApp.login.login(user);
   ```
 

@@ -41,5 +41,5 @@
   ```
   {% endcode-tabs-item %}
   {% endcode-tabs %}
-* Refer to 
+* Refer to [Test Object](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_G98XxUqlCKVCkJFH2/test-object/test-object) section for more info
 
