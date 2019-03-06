@@ -35,4 +35,6 @@
   * windows app: getWinAppDriver\(\)
   * api driver: getApiDriver\(\)
   * generic driver: getGenericDriver\(\)
+* Api or generic drivers are automatically created if no driver is specified
+* For api tests, driver does not need to be created
 
