@@ -36,6 +36,7 @@
   * [Actions](panel/actions.md)
 * [Test Case](test-case/README.md)
   * [Setting Up Driver](test-case/test-case-structure.md)
+  * [Test Method](test-case/test-method.md)
 * [Test Suite](test-suite.md)
 * [Service Level Testing](service-level-testing.md)
 * [Script Runner](script-runner.md)
