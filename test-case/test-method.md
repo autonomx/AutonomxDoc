@@ -43,3 +43,16 @@
   {% endcode-tabs %}
 * Refer to [Test Object](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_G98XxUqlCKVCkJFH2/test-object/test-object) section for more info
 
+## Panel Action
+
+* Actions refer to methods described in Panel classes 
+* ```text
+  app.webApp.login.login(user);
+  ```
+* Syntax: app.&lt;module&gt;.&lt;panel&gt;.&lt;action&gt;
+* We can call any of the modules and actions in our test environment
+* This allows for cross platform and cross application testing
+* eg. testing android and web together in one test method
+
+
+
