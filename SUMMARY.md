@@ -15,7 +15,7 @@
     * [Eclipse](getting-started/ide/eclipse.md)
 * [Helpers](helpers.md)
 * [Configuration](configuration/README.md)
-  * [ApiConfig](configuration/apiconfig/README.md)
+  * [Api configuration](configuration/apiconfig/README.md)
     * [Api](configuration/apiconfig/api.md)
     * [DataBase](configuration/apiconfig/database.md)
   * [Properties](configuration/properties/README.md)
