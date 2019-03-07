@@ -2,7 +2,6 @@
 
 * [Overview](README.md)
 * [Prerequisites](prerequisites/README.md)
-  * [Web](prerequisites/web.md)
   * [iOS](prerequisites/ios.md)
   * [Android](prerequisites/android.md)
 * [Quick Start](quick-start.md)
