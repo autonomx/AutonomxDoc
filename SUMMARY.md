@@ -18,7 +18,7 @@
   * [Api configuration](configuration/apiconfig/README.md)
     * [Api](configuration/apiconfig/api.md)
     * [DataBase](configuration/apiconfig/database.md)
-  * [Properties](configuration/properties/README.md)
+  * [Ui Testing Properties](configuration/properties/README.md)
     * [Email](configuration/properties/email.md)
     * [Slack](configuration/properties/slack.md)
     * [Global Config](configuration/properties/global-config.md)
