@@ -1,10 +1,11 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Prerequisites](untitled/README.md)
-  * [iOS](untitled/ios.md)
-  * [Android](untitled/android.md)
-* [Quick Start](untitled-1.md)
+* [Prerequisites](prerequisites/README.md)
+  * [Web](prerequisites/web.md)
+  * [iOS](prerequisites/ios.md)
+  * [Android](prerequisites/android.md)
+* [Quick Start](quick-start.md)
 * [Getting Started](getting-started/README.md)
   * [Script Runner](getting-started/script-runner.md)
   * [Android Tests](getting-started/android-tests.md)
