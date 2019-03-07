@@ -6,7 +6,6 @@
   * [Android](prerequisites/android.md)
 * [Quick Start](quick-start.md)
 * [Getting Started](getting-started/README.md)
-  * [Script Runner](getting-started/script-runner.md)
   * [Android Tests](getting-started/android-tests.md)
   * [iOS Tests](getting-started/ios-tests.md)
   * [WinApp Tests](getting-started/winapp-tests.md)
@@ -42,7 +41,7 @@
 * [Service Level Testing](service-level-testing/README.md)
   * [Database](service-level-testing/database.md)
   * [Rest Api](service-level-testing/rest-api.md)
-* [Script Runner](script-runner.md)
+* [Script Runner](script-runner-1.md)
 * [Reports](reports.md)
 * [Integration](integration.md)
 
