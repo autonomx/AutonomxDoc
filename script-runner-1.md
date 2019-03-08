@@ -6,7 +6,7 @@
 * Script Server will run the tests defined in [Test Suite](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_LX4fZgKxC018opI_I/test-suite) 
 * This can be used for demos or convenient means of running the test suites
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image.png)
 
 ## Script Server
 
@@ -37,12 +37,12 @@ Python 3.4 or higher with the following modules:
 
 
 
-![](.gitbook/assets/image%20%284%29.png)
+![](.gitbook/assets/image.png)
 
 ## Admin panel
 
 * Admin panel is accessible on admin.html page \(e.g. [http://localhost:5000/admin.html](http://localhost:5000/admin.html)\)
 * Admin panel contains history of executions and details associated with them
 
-![](.gitbook/assets/image%20%285%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 
