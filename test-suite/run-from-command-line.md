@@ -12,5 +12,14 @@
 
 ## Parameters
 
-* We can override any of the parameters in the [Api configuration](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_QvuoFoSynl6igDOcX/configuration/apiconfig) and 
+* We can override any of the parameters in the [Api configuration](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_QvuoFoSynl6igDOcX/configuration/apiconfig) and [UI Testing Properties](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_R-B2NHQOfaLzaN9fN/configuration/properties) through the following prefix "-D"
+* ```text
+  -DlaunchReportAfterTest=false
+  ```
+* Hence, our command becomes
+* ```text
+  mvn clean compiler:compile compiler:testCompile 
+  surefire:test -Dsurefire.suiteXmlFiles=suites/webSmokeTests.xml 
+  -DlaunchReportAfterTest=false 
+  ```
 
