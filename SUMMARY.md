@@ -43,7 +43,10 @@
 * [Service Level Testing](service-level-testing/README.md)
   * [Database](service-level-testing/database.md)
   * [Rest Api](service-level-testing/rest-api.md)
-* [Script Runner](script-runner-1.md)
+* [Script Runner](script-runner-1/README.md)
+  * [Installation](script-runner-1/installation.md)
+  * [Generating Tests Scripts](script-runner-1/generating-tests-scripts.md)
+  * [Running Tests](script-runner-1/execute-tests.md)
 * [Reports](reports.md)
 * [Integration](integration.md)
 
