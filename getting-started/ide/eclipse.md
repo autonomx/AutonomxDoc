@@ -13,7 +13,7 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 * Select finish
 
@@ -30,12 +30,12 @@
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 * 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2810%29.png)
+* ![](../../.gitbook/assets/image%20%2811%29.png)
 
 ## Verify The Setup
 
@@ -44,10 +44,10 @@
   * Right click and select: Run As → TestNG Tests
   * 
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
 * * Test should pass
   * 
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%283%29.png)
 

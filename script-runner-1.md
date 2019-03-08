@@ -44,5 +44,5 @@ Python 3.4 or higher with the following modules:
 * Admin panel is accessible on admin.html page \(e.g. [http://localhost:5000/admin.html](http://localhost:5000/admin.html)\)
 * Admin panel contains history of executions and details associated with them
 
-![](.gitbook/assets/image%20%283%29.png)
+![](.gitbook/assets/image%20%284%29.png)
 
