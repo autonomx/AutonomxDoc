@@ -1,4 +1,4 @@
-# Ui Testing Properties
+# UI Testing Properties
 
 
 
