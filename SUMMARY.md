@@ -48,5 +48,6 @@
   * [Generating Tests Scripts](script-runner-1/generating-tests-scripts.md)
   * [Running Tests](script-runner-1/execute-tests.md)
 * [Reports](reports.md)
-* [Integration](integration.md)
+* [Integration](integration/README.md)
+  * [Console Mode Execution](integration/console-mode-execution.md)
 
