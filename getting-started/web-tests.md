@@ -7,6 +7,7 @@
   # Web
   webApp="http://45.76.245.149:1337/admin/"
   ```
+* Note: **webApp is the name of the web module**
 * Example project: ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ ⁨webApp⁩
   * Setup locators
 
