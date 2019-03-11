@@ -29,7 +29,7 @@
 * Go to url [http://dl.bintray.com/testng-team/testng-eclipse-release//](http://dl.bintray.com/testng-team/testng-eclipse-release//)
 * Go to latest TestNG version link
 * Copy the url of the version. eg. [http://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/](http://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/)
-* In Eclipse: Navigate: Helper -&gt; Install New Software
+* In Eclipse: Navigate: Help -&gt; Install New Software
 * Paste the link in the work with field
 * 
 ![](../../.gitbook/assets/image.png)
@@ -40,6 +40,8 @@
 * 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
+* Security warning could be displayed. Install anyways
+* Restart eclipse to apply changes
 * TestNG plugin should now be installed
 
 
