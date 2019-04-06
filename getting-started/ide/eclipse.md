@@ -27,7 +27,7 @@
 
 * Select Eclipse -&gt; Preferences -&gt; Workspace
 * Deselect "Refresh using native hooks or polling"
-* This is important, so as to not get stuck in build loop from code generation and code change detection
+* This is important, so the code generator will not be called more than once per file update
 
 ![](../../.gitbook/assets/image%20%286%29.png)
 
