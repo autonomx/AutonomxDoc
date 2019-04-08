@@ -82,7 +82,7 @@
 ## Define objects
 
 * ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨module ▸ webApp ▸ user.csv
-* We are going to use the csv file to setup our data
+* We are going to use the csv file to setup our data. For more info [Csv](https://app.gitbook.com/@ehsan-matean/s/autonomx/test-object/csv-test-data)
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
