@@ -2,13 +2,25 @@
 
 ## Configure Web app
 
-* resources -&gt; properties.property
+* resources -&gt; properties -&gt; web.property
 * ```text
   # Web
-  webApp="http://45.76.245.149:1337/admin/"
+  #key value. key should match the web app test.module name. eg. test.module name = google, therefore: google="http://google.com"
+  webApp="http://104.207.156.47:1337/admin/"
+  # Options: CHROME,FIREFOX, INTERNET_EXPLORER, MICROSOFT_EDGE, Opera, PHANTOMJS
+  web.browserType = CHROME
+  # Options: LATEST or version number. eg. 56.4
+  web.driverVersion = LATEST
+  web.maximizeBrowser = false
+  # Options: REMOTE_WEBDRIVER, LOCAL_WEBDRIVER
+  web.webdriverType = LOCAL_WEBDRIVER
+
+  # valid when REMOTE_WEBDRIVER is selected
+  web.remote.server_url = localhost
+  web.remote.server_port = 4444
   ```
 * Note: **webApp is the name of the web module**
-* Example project: ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ ⁨webApp⁩
+* Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ ⁨webApp⁩
   * Setup locators
 
     webApp ▸ LoginPanel.java
@@ -43,23 +55,23 @@
         * 
         * @param user
         */
-       public void login(UserObject user) {
+       public void login(User user) {
            setLoginFields(user);
            Helper.form.formSubmit(elements.LOGIN_SUBMIT, MainPanel.elements.ADMIN_LOGO, elements.LOADING_INDICATOR);
 
        }
 
-       public void loginError(UserObject user) {
+       public void loginError(User user) {
            setLoginFields(user);
            Helper.form.formSubmit(elements.LOGIN_SUBMIT, elements.ERROR_MESSAGE);
        }
 
-       public void relogin(UserObject user) {
+       public void relogin(User user) {
            manager.main.logout();
            login(user);
        }
 
-       public void setLoginFields(UserObject user) {
+       public void setLoginFields(User user) {
            Helper.form.setField(elements.USER_NAME_FIELD, user.username().get());
            Helper.form.setField(elements.PASSWORD_FIELD, user.password().get());
        }
@@ -69,30 +81,10 @@
 
 ## Define objects
 
-* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨common⁩ ▸ ⁨objects⁩
+* ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨module ▸ webApp ▸ user.csv
+* We are going to use the csv file to setup our data
 
-  {% code-tabs %}
-  {% code-tabs-item title="userObject.java" %}
-  ```java
-  object
-  */
-  public abstract Optional name();
-  public abstract Optional username();
-  public abstract Optional password();
-  public abstract Optional email();
-  /**
-  Predefined objects
-
-  @return
-  */
-  public UserObject withAdminLogin() {
-  return new UserObject.Builder().username(ADMIN_USER).password(ADMIN_PASSWORD).buildPartial();
-  }
-  ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
-
-## Write Test
+![](../.gitbook/assets/image%20%284%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="Verify\_Login\_Test.java" %}
