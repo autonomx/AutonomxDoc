@@ -2,16 +2,27 @@
 
 ## Configure iOS app
 
-* resources -&gt; properties.property
+* resources -&gt; properties -&gt; ios.property
 * ```text
   #iOS
-  iosApp = "eurika.app"
-  ios_app_dir = "resources/"
-  iosMobile = "iPhone 7"
-  iosTablet = "iPad Air 2"
-  iosDeviceVersion = "12.1"
+  ios.app = "eurika.app"
+  ios.appDir = "resources/"
+  ios.mobile = "iPhone 7"
+  ios.tablet = "iPad Air 2"
+
+  # to add additional capabilities, add capability after the "ios.capabilities." prefix
+  ios.capabilties.platform = iOS
+  ios.capabilties.platformVersion = 12.1
+  ios.capabilties.automationName = XCuiTest
+  ios.capabilties.fullReset = false
+  ios.capabilties.noReset = true
+  ios.capabilties.waitForQuiescence = false
+  ios.capabilties.useNewWDA = true
+  ios.capabilties.clearSystemFiles = false
+  ios.capabilties.shouldUseSingletonTestManager = false
+  ios.capabilties.shouldUseTestManagerForVisibilityDetection = false
   ```
-* Example project: ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ iosApp⁩
+* Example project: ⁨autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ iosApp⁩
   * Setup locators
 
     iosApp ▸ MainPanel.java
@@ -59,19 +70,24 @@
 
 * Objects contain test data used for the tests
 * In this example, they contain values for the form
-* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
+* ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
 * {% code-tabs %}
   {% code-tabs-item title="PlainTableViewObject.java" %}
   ```text
-  public static final String NAME = "auto";
-      public static final String USER_NAME = "auto user";
-      public static final String EMAIL_ADDRESS = "test123@email.com";
-      public static final String PASSWORD = "password123";
+  @Data
+  public class PlainTableViewObject {
 
-      public abstract Optional<String> name();
-      public abstract Optional<String> username();
-      public abstract Optional<String> emailAddress();
-      public abstract Optional<String> password();
+  	private static final String NAME = "auto";
+  	private static final String USER_NAME = "auto user";
+  	private static final String EMAIL_ADDRESS = "test123@email.com";
+  	private static final String PASSWORD = "password123";
+	
+  	public String name = "";
+  	public String username = "";
+  	public String emailAddress = "";
+  	public String password = "";
+
+  }
   ```
   {% endcode-tabs-item %}
   {% endcode-tabs %}
@@ -79,11 +95,15 @@
 * {% code-tabs %}
   {% code-tabs-item title="PlainTableViewObject.java" %}
   ```text
-      public PlainTableViewObject withDefaultValues() {
-          return new PlainTableViewObject.Builder()
-                  .name(NAME).username(USER_NAME).emailAddress(EMAIL_ADDRESS).password(PASSWORD)        
-                  .buildPartial();
-      }
+  	public PlainTableViewObject withDefaultValues() {
+  		PlainTableViewObject view = new PlainTableViewObject();
+  		view.name = NAME;
+  		view.username = USER_NAME;
+  		view.emailAddress = EMAIL_ADDRESS;
+  		view.password = PASSWORD;
+
+  		return view;
+  	}
   ```
   {% endcode-tabs-item %}
   {% endcode-tabs %}
@@ -96,31 +116,31 @@
   {% code-tabs-item title="RegisterUserTest.java" %}
   ```text
       public void beforeMethod() throws Exception {
-          setupWebDriver(app.androidApp.getAndroidMobileDriver());
+          setupWebDriver(app.iosApp.getIosMobileDriver());
       }
   ```
   {% endcode-tabs-item %}
   {% endcode-tabs %}
 * Add Test
-* \`\`\`text
-
-  public class RegisterUserTest extends TestBase {
 
 ```text
   @BeforeMethod
   public void beforeMethod() throws Exception {
-      setupWebDriver(app.androidApp.getAndroidMobileDriver());
+     setupWebDriver(app.iosApp.getIosMobileDriver());
   }
 
-  @Test
-  public void registerUser() {
-      UserObject user = UserObject.user().withDefaultUser();
+ @Test
+	public void verifyPlainTableViewForm() {
+		PlainTableViewObject form = Data.iosApp.plaintableviewobject().withDefaultValues();
 
-      TestLog.When("I select the registration panel");
-      app.androidApp.main.selectRegisterPanel();
-
-      TestLog.When("I register a user");
-      app.androidApp.registration.registerUser(user);
-  }
+		TestLog.When("I select plain table view object form");
+		app.iosApp.main.selectPanel(options.PLAIN_TABLE_VIEW_STYLE);
+		
+		TestLog.Then("I fill in the form");		
+		app.iosApp.plaintableview.fillForm(form);
+		
+		TestLog.Then("I return to the main panel");
+		Helper.verifyElementIsDisplayed(MainPanel.elements.PLAIN_TABLE_VIEW_STYLE);
+	}
 ```
 

@@ -6,17 +6,31 @@ description: setting up an Android Test
 
 ## Configure Android app
 
-* resources -&gt; properties.property
+* resources -&gt; properties -&gt; android.property
 * ```text
   # Android
+  android.app = "selendroid.apk"
+  android.appDir = "resources/"
+  android.mobile = "Pixel_2_XL_API_25"
+  android.tablet = "Pixel_2_XL_API_25"
+
+  # to add additional capabilities, add capability after the "android.capabilities." prefix
   # Espresso or UiAutomator2
-  androidTechnology=Espresso
-  androidApp = "selendroid.apk"
-  android_app_dir = "resources/"
-  androidMobile = "Pixel_2_XL_API_25"
-  androidTablet = "Pixel_2_XL_API_25"
+  android.capabilties.automationName = UiAutomator2
+  android.capabilties.deviceName = Android
+  android.capabilties.unicodeKeyboard = true
+  android.capabilties.resetKeyboard = true
+  android.capabilties.fullReset = false
+  android.capabilties.noReset = false
+  android.capabilties.recreateChromeDriverSessions = true
+  android.capabilties.autoGrantPermissions = true
+  android.capabilties.newCommandTimeout = 300
+  android.capabilties.noSign = true
+
+  android.home = ""
+  android.javaHome = ""
   ```
-* * Example project: ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ androidApp⁩
+* * Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ androidApp⁩
   * Setup locators
 
     androidApp ▸ MainPanel.java
@@ -74,7 +88,7 @@ description: setting up an Android Test
 
   @Test
   public void registerUser() {
-      UserObject user = UserObject.user().withDefaultUser();
+      CommonUser user = Data.common.commonuser().withDefaultUser();
 
       TestLog.When("I select the registration panel");
       app.androidApp.main.selectRegisterPanel();
