@@ -29,10 +29,22 @@
 * ```text
    Data.webApp.user().admin().getUsername()
   ```
-* to set value
+* to modify value
 * ```text
   Data.webApp.user().admin().withUsername("user2")
   ```
+
+## Pass In As Parameter
+
+* To use the CommonUser in the login action, we pass it the CommonUser as a parameter to the login method:
+* ```text
+  	public void login(CommonUser user) {
+  		Helper.form.setField(elements.USER_NAME_FIELD, user.username);
+  		Helper.form.setField(elements.PASSWORD_FIELD, user.password);
+  	}
+  ```
+
+* To get a value from CommonUser, we use the following syntax: user.username
 
 ## Create Data Object
 
