@@ -15,7 +15,8 @@
 
 * The automation project is already setup for intellij
 * Launch Intellij -&gt; Open
-* Navigate to: project folder -&gt; automation -&gt; open
+* Navigate to: project folder -&gt; autonomx -&gt; automation -&gt; open
+* Import dependencies from the Intellij 
 
 ## Verify Project
 
