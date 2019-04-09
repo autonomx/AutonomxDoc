@@ -28,6 +28,7 @@
     * [Web](configuration/properties/web.md)
     * [Reports](configuration/properties/reports.md)
 * [Test Data](test-object/README.md)
+  * [Data Provider](test-object/data-provider.md)
   * [Csv Test Data](test-object/csv-test-data.md)
   * [Test Object](test-object/test-object.md)
 * [Test Panel](panel/README.md)
