@@ -2,12 +2,12 @@
 
 ## Configure WebApp app
 
-* resources -&gt; properties.property
+* resources -&gt; properties -&gt; win.property
 * ```text
   #win
-  winApp = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+  win.app = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
   ```
-* * Example project: ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ windowsApp⁩
+* * Example project: ⁨autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ windowsApp⁩
   * Setup locators
 
     windowsApp ▸ CalculatorPanel.java
