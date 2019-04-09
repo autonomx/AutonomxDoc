@@ -26,14 +26,14 @@
 * Select Ant build from the right side panel
 * Ant build is used to generate source code
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ### Verify Test
 
 * Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ### Verify Results
 
