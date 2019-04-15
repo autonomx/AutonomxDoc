@@ -1,11 +1,25 @@
 # Prerequisites
 
-
-
 ## An Integrated Development Environment
 
 * You will need a modern IDE to work with Java
 * [Eclipse](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_LG8F5yxhSdB1sjMGm/getting-started/ide/eclipse) or [Intellij](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_LG8F5yxhSdB1sjMGm/getting-started/ide/intellij) can be used
+
+## JAVA 
+
+####  Install Java on your computer
+
+Download and install the **Java Software Development Kit \(JDK\)** [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+
+[![How to Download &amp; Install Selenium WebDriver](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst1.png)](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst1.png)
+
+Next –
+
+[![How to Download &amp; Install Selenium WebDriver](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst2.png)](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst2.png)
+
+This JDK version comes bundled with Java Runtime Environment \(JRE\), so you do not need to download and install the JRE separately.
+
+Once installation is complete, open command prompt and type “java”. If you see the following screen you are good to move to the next step
 
 ## Maven
 
