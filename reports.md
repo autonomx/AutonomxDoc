@@ -16,7 +16,7 @@
 
 * Test failures are displayed with stack trace of the failed test
 * 
-![](.gitbook/assets/image%20%2825%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
