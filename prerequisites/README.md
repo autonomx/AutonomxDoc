@@ -29,4 +29,18 @@
 
 #### Mac
 
-* 
+* Add maven path to bash profile:
+*   ```text
+  vim ~/.bash_profile
+  ```
+
+* Add path:
+* ```bash
+  export M2_HOME=/Users/someUser/apache-maven-3.6.1
+  export PATH=$PATH:$M2_HOME/bin
+  ```
+* Save and close
+  * press "shift + :" and type "wq!" to save
+* Close and reopen the terminal
+* Verify with "mvn --version"
+
