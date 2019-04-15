@@ -10,7 +10,7 @@
 
 * Add csv file to folder 'data' in the module
 
-![user.csv](../.gitbook/assets/image%20%286%29.png)
+![user.csv](../.gitbook/assets/image%20%287%29.png)
 
 * Code generator will pick up the csv files and generate data objects
 

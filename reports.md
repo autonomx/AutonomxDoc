@@ -10,18 +10,18 @@
     * eg. verifyLoginTest class becomes "Verify Login Test"
     * eg. validate\_User\_Login becomes "Validate User Login"
 
-![](.gitbook/assets/image%20%282%29.png)
+![](.gitbook/assets/image%20%283%29.png)
 
 ## Test Failures
 
 * Test failures are displayed with stack trace of the failed test
 * 
-![](.gitbook/assets/image%20%2826%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ## Configuration
 
@@ -40,11 +40,11 @@
   report.enableDetailedReport = false
   ```
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 ## Test Report Location
 
 * Test report location is displayed at the end of the test in the test console
 * 
-![](.gitbook/assets/image%20%287%29.png)
+![](.gitbook/assets/image%20%288%29.png)
 
