@@ -16,12 +16,12 @@
 
 * Test failures are displayed with stack trace of the failed test
 * 
-![](.gitbook/assets/image%20%2828%29.png)
+![](.gitbook/assets/image%20%2829%29.png)
 
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
 
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 ## Configuration
 
@@ -40,7 +40,7 @@
   report.enableDetailedReport = false
   ```
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
 ## Test Report Location
 

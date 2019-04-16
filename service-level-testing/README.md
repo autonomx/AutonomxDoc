@@ -13,3 +13,22 @@
 
 * The csv files are based on template with the following columns
 
+![](../.gitbook/assets/image%20%2815%29.png)
+
+* TestSuite:
+* TestCaseID:
+* RunFlag:
+* Description:
+* InterfaceType:
+* UriPath:
+* ContentType:
+* Method:
+* Option:
+* RequestHeaders:
+* TemplateFile:
+* RequestBodyL
+* OutputParams:
+* RespCodeExp:
+* ExpectedResponse:
+* TcComment:
+
