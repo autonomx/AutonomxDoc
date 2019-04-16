@@ -52,4 +52,6 @@
 * [Reports](reports.md)
 * [Integration](integration/README.md)
   * [Console Mode Execution](integration/console-mode-execution.md)
+* [Testing Tips](testing-tips/README.md)
+  * [Pyramid Of Testing](testing-tips/pyramid-of-testing.md)
 
