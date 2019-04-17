@@ -13,7 +13,7 @@
 
 * The csv files are based on template with the following columns
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 * **TestSuite**: The name of the test series
 * **TestCaseID**: Unique test id for each test
@@ -26,9 +26,34 @@
 * **Option**: Additional options to be added for the interface type. Currently, API and SQL do not make use of it.
 * **RequestHeaders**: For API: headers values are added here. The format is key:value separated by ";". eg. Authorization:somekey
 * **TemplateFile**: template file to be used for requests. 
-* **RequestBody**: For API: the request goes here. For sql: the query goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username=admin defined in apiConfig.conf file.
+* **RequestBody**: For API: the request goes here. For sql: the query goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username=admin defined in apiConfig.property file.
 * **OutputParams**: We can store response values into variables defined here. The variables will then be available for other tests. Syntax: &lt;$variable&gt;. eg. userid=&lt;$adminUserId&gt;. the variable "adminUserId" can then be access by &lt;@adminUserId&gt; in subsequent tests
 * **RespCodeExp**: For API: the expected response code. eg. 200
 * **ExpectedResponse**: Verification of the response goes here. More description in the interface sections.
 * **TcComment:** comment for the tests. eg. disable for such and such reasons.
+
+## Service Tests Location
+
+* Service tests are located at: apiTestData -&gt; testCases
+* We can specify custom location through apiTestData -&gt; apiConfig.property 
+* {% code-tabs %}
+  {% code-tabs-item title="apiConfig.properties" %}
+  ```text
+  api.parallelTestcasePath = "../apiTestData/testCases/"
+  ```
+  {% endcode-tabs-item %}
+  {% endcode-tabs %}
+* The location is from the root of the project \( where pom.xml file is located \)
+
+## Running Service Tests
+
+* We can run the service tests from apiTestData -&gt; runner -&gt; &lt;os&gt; -&gt; apiRunner file
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+* We can also run the test directly located at module: test.module.service.tests: ServiceTestRunner.java
+
+![](../.gitbook/assets/image%20%2819%29.png)
+
+
 
