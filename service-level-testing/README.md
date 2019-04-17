@@ -15,14 +15,14 @@
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-* TestSuite:
-* TestCaseID:
-* RunFlag:
-* Description:
-* InterfaceType:
-* UriPath:
-* ContentType:
-* Method:
+* TestSuite: The name of the test series
+* TestCaseID: Unique test id for each test
+* RunFlag: set 'Y' to run the test. Set 'N' to skip.
+* Description: Short description of the test.
+* InterfaceType: The type of testing. Options: RESTfulAPI, SQL. Additional testing types can be added.
+* UriPath: The uri path appended to the based uri in the config folder. Applicable to rest api tests.
+* ContentType: Type of request. Applicable to rest api tests.
+* Method: For Rest API: type of call made: POST, GET, PUT, DELETE
 * Option:
 * RequestHeaders:
 * TemplateFile:
