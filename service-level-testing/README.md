@@ -23,11 +23,11 @@
 * UriPath: The uri path appended to the based uri in the config folder. Applicable to rest api tests.
 * ContentType: Type of request. Applicable to rest api tests.
 * Method: For Rest API: type of call made: POST, GET, PUT, DELETE
-* Option:
-* RequestHeaders:
-* TemplateFile:
-* RequestBodyL
-* OutputParams:
+* Option: Additional options to be added for the interface type. Currently, API and SQL do not make use of it.
+* RequestHeaders: For API: headers values are added here. The format is key:value separated by ";". eg. Authorization:somekey
+* TemplateFile: template file to be used for requests. 
+* RequestBody: For API: the request goes here. For sql: the query goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username=admin defined in apiConfig.conf file.
+* OutputParams: We can store response values into variables defined here. The variables will then be available for other tests. Syntax: &lt;$variable&gt;. eg. userid=&lt;$adminUserId&gt;. the variable "adminUserId" can then be access by &lt;@adminUserId&gt; in subsequent tests
 * RespCodeExp:
 * ExpectedResponse:
 * TcComment:
