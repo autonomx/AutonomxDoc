@@ -98,5 +98,46 @@
 
 ## Response Verification
 
+* Verification are separated by ";"
 
+### Row Equal
+
+```text
+ID:1: equalTo(1);
+```
+
+* Column "ID", at row 1 equals "1"
+
+### All Rows Equal
+
+```text
+ID:equalTo(1,2,3,4);
+```
+
+* We have 4 rows with column name "ID" which have values: 1, 2, 3, 4
+
+### Row Contain
+
+```text
+NAME:1: contains(Paul);
+```
+
+* Column "NAME" at row 1 contains the text: Paul
+
+### All Rows Contain
+
+```text
+NAME:contains(Paul,Allen,Teddy,Mark);
+```
+
+* We have 4 or more rows with column "Name" which contain: Paul, Allen, Teddy, Mark
+
+### Row Value Not Empty
+
+```text
+ADDRESS:1:isNotEmpty;
+```
+
+* Column "Address" at row 1 is not empty
+* Usefully if we want to check a value exists but don't want to verify the value. eg. time stamp
 
