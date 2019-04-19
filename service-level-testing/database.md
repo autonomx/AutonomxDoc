@@ -27,8 +27,8 @@
       <th style="text-align:left">RequestBody</th>
       <th style="text-align:left">OutputParam</th>
       <th style="text-align:left">RespCodeExp</th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">ExpectedResponse</th>
+      <th style="text-align:left">TcComments</th>
     </tr>
   </thead>
   <tbody>
@@ -46,6 +46,7 @@
       <td style="text-align:left"></td>
       <td style="text-align:left">SELECT * FROM COMPANY</td>
       <td style="text-align:left">NAME:1:&lt;$name&gt;</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
         <p>ID:1: equalTo(1);</p>
         <p>ID:equalTo(1,2,3,4);</p>
@@ -54,7 +55,6 @@
         <p>AGE:1: equalTo(32);</p>
         <p>ADDRESS:1: isNotEmpty, SALARY:1: equalTo(20000)</p>
       </td>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -71,8 +71,8 @@
       <td style="text-align:left"></td>
       <td style="text-align:left">SELECT * FROM COMPANY WHERE NAME = &apos;&lt;@name&gt;&apos;</td>
       <td style="text-align:left">AGE:1:&lt;$age&gt;</td>
-      <td style="text-align:left">ID:1: equalTo(1);</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">ID:1: equalTo(1);</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
