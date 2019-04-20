@@ -44,7 +44,7 @@
   * [Run From Command Line](test-suite/run-from-command-line.md)
 * [Service Level Testing](service-level-testing/README.md)
   * [Database](service-level-testing/database.md)
-  * [Rest Api](service-level-testing/rest-api.md)
+  * [Restful Api](service-level-testing/rest-api.md)
 * [Script Runner](script-runner-1/README.md)
   * [Installation](script-runner-1/installation.md)
   * [Generating Tests Scripts](script-runner-1/generating-tests-scripts.md)

@@ -1,4 +1,4 @@
-# Rest Api
+# Restful Api
 
 ## Purpose
 
@@ -115,4 +115,24 @@
     </tr>
   </tbody>
 </table>## 
+
+## Column Values
+
+* **TestSuite**: The name of the test series
+* **TestCaseID**: Unique test id for each test
+* **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
+* **Description**: Short description of the test.
+* **InterfaceType**: SQLDB
+* **UriPath**: 
+* **ContentType**: 
+* **Method**: 
+* **Option**: 
+* **RequestHeaders**: 
+* **TemplateFile**: 
+* **RequestBody**: Relational database query
+* **OutputParams**: We can store response values into variables defined here. The variables will then be available for other tests.
+  *  Syntax: &lt;$variable&gt;. eg. NAME:1:&lt;$name&gt;. the variable "name" can then be access through syntax &lt;@name&gt; in subsequent tests
+* **RespCodeExp**: 
+* **ExpectedResponse**: Verification of the response goes here. More description in the interface sections.
+* **TcComment:** comment for the tests. eg. disable for such and such reasons.
 
