@@ -51,6 +51,8 @@
   * [Running Tests](script-runner-1/execute-tests.md)
 * [Reports](reports.md)
 * [Integration](integration/README.md)
+  * [Cloud Service](integration/cloud-service.md)
+  * [Continuous Integration](integration/continuous-integration.md)
   * [Console Mode Execution](integration/console-mode-execution.md)
 * [Testing Tips](testing-tips/README.md)
   * [Pyramid Of Testing](testing-tips/pyramid-of-testing.md)
