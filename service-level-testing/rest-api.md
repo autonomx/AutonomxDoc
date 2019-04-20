@@ -235,7 +235,7 @@ NAME:contains(Paul,Allen,Teddy,Mark);
 
 * We have 4 or more rows with column "Name" which contain: Paul, Allen, Teddy, Mark
 
-### Row Value Not Empty
+### Json Path Not Empty
 
 ```text
 ADDRESS:1:isNotEmpty;
