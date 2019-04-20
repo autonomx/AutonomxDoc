@@ -180,7 +180,7 @@
 
 * Verification are separated by ";"
 
-### Row Equal
+### Json Path Equals
 
 ```text
 "user.email":1: equalTo("autouser313@gmail.com");
@@ -188,7 +188,7 @@
 
 * first instance of user.email equals "autouser313@gmail.com"
 
-### All Rows Equal
+### All Values In Json Path Equals
 
 ```text
 "user.email": equalTo("autouser313@gmail.com");
@@ -219,7 +219,7 @@
   "user.email": equalTo("autouser1@gmail.com","autouser2@gmail.com");
   ```
 
-### Row Contain
+### Jason Path Contains
 
 ```text
 NAME:1: contains(Paul);
@@ -227,7 +227,7 @@ NAME:1: contains(Paul);
 
 * Column "NAME" at row 1 contains the text: Paul
 
-### All Rows Contain
+### All Values in Json Path Contain
 
 ```text
 NAME:contains(Paul,Allen,Teddy,Mark);
