@@ -114,9 +114,7 @@
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>## 
-
-## Column Values
+</table>## Column Values
 
 * **TestSuite**: The name of the test series
 * **TestCaseID**: Unique test id for each test
