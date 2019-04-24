@@ -28,6 +28,7 @@
 * On Browser: [http://localhost](http://localhost) for login page
   * Username: klovadmin
   *  Password: password
+* The password can be changed in the My Account settings page
 
 
 
