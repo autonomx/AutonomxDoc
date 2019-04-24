@@ -30,7 +30,15 @@
   *  Password: password
 * The password can be changed in the My Account settings page
 
+## Usage
 
+* Set report type to "klov"
+* At resources -&gt; properties -&gt; report.property
+* ```text
+  # report types: html (single html page) or klov (server using mongodb)
+  report.reporterType = klov
+  ```
+* Navigate to [http://localhost](http://localhost) to view the report
 
 ## 
 
