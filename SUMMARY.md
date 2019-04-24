@@ -52,6 +52,7 @@
 * [Reports](reports-1/README.md)
   * [Persistant Report](reports-1/persistant-report.md)
   * [HTML Report](reports-1/reports.md)
+  * [TestNG Report](reports-1/testng-report.md)
 * [Integration](integration/README.md)
   * [Cloud Service](integration/cloud-service.md)
   * [Continuous Integration](integration/continuous-integration.md)

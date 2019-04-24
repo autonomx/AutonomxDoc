@@ -20,7 +20,7 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 * Select finish
 
@@ -67,7 +67,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 * Csv Files will not look like this:
 
@@ -85,7 +85,7 @@
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2834%29.png)
+* ![](../../.gitbook/assets/image%20%2836%29.png)
 
 ## Verify The Setup
 
