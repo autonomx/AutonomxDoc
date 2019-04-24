@@ -1,5 +1,24 @@
 # HTML Report
 
+## 
+
+![](../.gitbook/assets/image%20%282%29.png)
+
+## Usage
+
+* Set report type to "html"
+* At resources -&gt; properties -&gt; report.property
+  * ```text
+    # report types: html (single html page) or klov (server using mongodb)
+    report.reporterType = html
+    ```
+
+## Test Report Location
+
+* Test report location is displayed at the end of the test in the test console
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
 ## Extent Reports
 
 * Extent report is used for html reporting
@@ -43,9 +62,5 @@
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
-## Test Report Location
 
-* Test report location is displayed at the end of the test in the test console
-* 
-![](../.gitbook/assets/image%20%2811%29.png)
 
