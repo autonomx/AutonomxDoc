@@ -7,7 +7,7 @@
 
 ## Run Test Suite
 
-* mvn clean compiler:compile compiler:testCompile surefire:test -Dsurefire.suiteXmlFiles=suites/completeTestSuite.xml
+* mvn clean compile test -DsuiteXmlFile=suites/completeTestSuite.xml
 * This will compile and run the test suite: completeTestSuite
 
 ## Run With Parameters
@@ -15,7 +15,7 @@
 * We can override any of the parameters in the properties files with appending "-D&lt;property name&gt; to the command
 * eg. -DlaunchReportAfterTest=false
 * Full command example: 
-* mvn clean compiler:compile compiler:testCompile surefire:test -Dsurefire.suiteXmlFiles=suites/completeTestSuite.xml -DlaunchReportAfterTest=true
+* mvn clean compile test -DsuiteXmlFile=suites/completeTestSuite.xml -DlaunchReportAfterTest=true
 
 
 

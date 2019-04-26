@@ -9,8 +9,8 @@
 ## Manual Run
 
 * To compile using command line:
-  * mvn clean compiler:compile compiler:testCompile surefire:test -Dsurefire.suiteXmlFiles=suites/completeTestSuite.xml
-  * This will compile and run the test suite: completeTestSuite.xml
+  * mvn clean compile test -DsuiteXmlFile=suites/servicesTests.xml
+  * This will compile and run the test suite: serviceTests.xml
 
 
 
