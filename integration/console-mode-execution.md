@@ -3,7 +3,7 @@
 ## Command Line Compile
 
 * To compile using command line
-  * mvn clean compiler:compile compiler:testCompile
+  * mvn clean compile
 
 ## Run Test Suite
 
