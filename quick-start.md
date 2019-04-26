@@ -1,6 +1,6 @@
 # Quick Start
 
-
+## Quick Test Run Using Script Runner
 
 * Clone the repository [Autonomx](https://github.com/autonomx/Autonomx)
 * Navigate to runner//. eg. runner/mac/restTests.sh
