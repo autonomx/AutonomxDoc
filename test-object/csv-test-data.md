@@ -31,7 +31,7 @@
   ```
 * to modify value
 * ```text
-  Data.webApp.user().admin().withUsername("user2")
+  User user = Data.webApp.user().admin().withUsername("user2")
   ```
 
 ## Pass In As Parameter
