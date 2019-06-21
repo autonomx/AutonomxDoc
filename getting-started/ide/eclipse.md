@@ -30,13 +30,7 @@
 * Search for Testng
 * Install and restart
 
-## Disable Refresh Using Native Hooks Or Polling
 
-* Select Eclipse -&gt; Preferences -&gt; Workspace
-* Deselect "Refresh using native hooks or polling"
-* This is important, so the code generator will not be called more than once per file update
-
-![](../../.gitbook/assets/image%20%2817%29.png)
 
 ### Install Plugin Manually
 
@@ -58,6 +52,14 @@
 * Security warning could be displayed. Install anyways
 * Restart eclipse to apply changes
 * TestNG plugin should now be installed
+
+## Disable Refresh Using Native Hooks Or Polling
+
+* Select Eclipse -&gt; Preferences -&gt; Workspace
+* Deselect "Refresh using native hooks or polling"
+* This is important, so the code generator will not be called more than once per file update
+
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 
 
