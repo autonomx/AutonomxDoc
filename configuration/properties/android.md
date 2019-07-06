@@ -1,7 +1,5 @@
 # Android
 
-
-
 ## Description
 
 * Handles configuration applicable to Android testing
@@ -11,6 +9,9 @@
   android.appDir = "resources/"
   android.mobile = "Pixel_2_XL_API_25"
   android.tablet = "Pixel_2_XL_API_25"
+
+  # udid for real device
+  android.UDID = ""
 
   # to add additional capabilities, add capability after the "android.capabilities." prefix
   # Espresso or UiAutomator2
@@ -37,6 +38,7 @@
 | android.app\_dir | directory of android apk, from the root folder |
 | android.mobile | simulator name for android mobile. Use android studios to create AVDs. [https://developer.android.com/studio/run/managing-avds](https://developer.android.com/studio/run/managing-avds) |
 | android.tablet | simulator name for android tablet. Use android studios to create AVDs. [https://developer.android.com/studio/run/managing-avds](https://developer.android.com/studio/run/managing-avds) |
+| android.UDID | UDID of the Android real device. Test will run on the device when UDID is set |
 | android.capabilities.unicodeKeyboard | Enable Unicode input, default `false.` |
 | android.capabilties.resetKeyboard | Reset keyboard to its original state, after running Unicode tests with `unicodeKeyboard` capability. Ignored if used alone. Default false. More info at [http://appium.io/docs/en/writing-running-appium/caps/](http://appium.io/docs/en/writing-running-appium/caps/) |
 | android.capabilities.fullReset | Perform a complete reset. [http://appium.io/docs/en/writing-running-appium/caps/](http://appium.io/docs/en/writing-running-appium/caps/) |

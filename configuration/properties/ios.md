@@ -12,6 +12,9 @@
   ios.mobile = "iPhone 7"
   ios.tablet = "iPad Air 2"
 
+  # udid for real device
+  ios.UDID = ""
+
   # to add additional capabilities, add capability after the "ios.capabilities." prefix
   ios.capabilties.platform = iOS
   ios.capabilties.platformVersion = 12.1
@@ -33,8 +36,9 @@
 | :--- | :--- |
 | ios.app | ios app name |
 | ios.app\_dir | ios app directory |
-| ios.mobile | mobile emulator name |
-| ios.tablet | tablet emulator name |
+| ios.mobile | mobile emulator name. If real device is connected, the real device will be selected |
+| ios.tablet | tablet emulator name. If real device is connected, the real device will be selected |
+| ios.UDID | UDID of the iOS real device. Test will run on the device when UDID is set |
 | ios.deviceVersion | version of the simulator |
 | ios.capabilties.fullReset | Perform a complete reset. [http://appium.io/docs/en/writing-running-appium/caps/\#ios-only](http://appium.io/docs/en/writing-running-appium/caps/#ios-only) |
 | ios.capabilties.noReset | on't reset app state before this session. [http://appium.io/docs/en/writing-running-appium/caps/\#ios-only](http://appium.io/docs/en/writing-running-appium/caps/#ios-only) |
