@@ -20,7 +20,7 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 * Select finish
 
@@ -47,7 +47,7 @@
 * Set Name: testNG
 * Select testNG from the result and then Next
 * 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 * Security warning could be displayed. Install anyways
 * Restart eclipse to apply changes
@@ -69,7 +69,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 * Csv Files will not look like this:
 
@@ -82,12 +82,12 @@
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2836%29.png)
+* ![](../../.gitbook/assets/image%20%2837%29.png)
 
 ## Verify The Setup
 
@@ -95,7 +95,7 @@
   * src → test → java → module -&gt; web -&gt; tests → VerifyLoginTest.java
   * Right click and select: Run As → TestNG Tests
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 * * Test should pass
 
