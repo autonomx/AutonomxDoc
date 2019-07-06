@@ -20,6 +20,7 @@
     * [DataBase](configuration/apiconfig/database.md)
   * [UI Testing Properties](configuration/properties/README.md)
     * [Email](configuration/properties/email.md)
+    * [Screen Recorder](configuration/properties/screen-recorder.md)
     * [Slack](configuration/properties/slack.md)
     * [Global Config](configuration/properties/global-config.md)
     * [Appium](configuration/properties/appium.md)

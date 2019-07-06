@@ -1,7 +1,5 @@
 # Email
 
-
-
 ## Description
 
 * Handles configuration applicable for slack integration
