@@ -23,6 +23,8 @@
 ![](../../.gitbook/assets/image%20%2845%29.png)
 
 * Select finish
+* **If project has errors, Clean the project**
+  * Projects -&gt; Clean...
 
 ## Download TestNG Plugin
 
