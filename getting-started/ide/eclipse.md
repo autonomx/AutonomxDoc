@@ -20,11 +20,13 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 * Select finish
 * **If project has errors, Clean the project**
   * Projects -&gt; Clean...
+
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 ## Download TestNG Plugin
 
