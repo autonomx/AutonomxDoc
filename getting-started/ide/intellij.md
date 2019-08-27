@@ -14,11 +14,11 @@
 ## Launch Automation Project Through Intellij
 
 * The automation project is already setup for intellij
-* Launch Intellij -&gt; Open
+* **Launch Intellij -&gt; Open**
 * Navigate to: project folder -&gt; autonomx -&gt; automation -&gt; open
 * Import maven dependencies from the Intellij 
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ## Verify Project
 
@@ -28,20 +28,27 @@
 * Select Ant build from the right side panel
 * Ant build is used to generate source code
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
+
+### Verify Annotation Processor 
+
+* Ensure the annotation processor is disabled
+* Autonomx uses maven through Ant file to generate annotation class files
+
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ### Verify Test
 
 * Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 ### Verify Results
 
 * Results should be displayed in the testNG panel
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 
 

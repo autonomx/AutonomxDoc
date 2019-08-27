@@ -17,7 +17,7 @@
 
 
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 | Parameter | Description |
 | :--- | :--- |
