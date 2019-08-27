@@ -14,5 +14,10 @@
   * mvn clean compile test -DsuiteXmlFile=suites/servicesTests.xml
   * This will compile and run the test suite: serviceTests.xml
 
+## IDE Setup
+
+* For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
+* For Eclipse IDE, navigate to [Eclipse Setup Page](https://docs.autonomx.io/getting-started/ide/eclipse)
+
 
 
