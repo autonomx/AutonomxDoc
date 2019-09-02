@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 ## Android Tests
 
@@ -15,14 +15,14 @@
 * Set Agent as Hosted macOS
 * If using a locally hosted vm, select appropriate agent
 
-![](../../../.gitbook/assets/image%20%2856%29.png)
+![](../../../.gitbook/assets/image%20%2865%29.png)
 
 ### Install Node 10.x
 
 * Add task Node.js tool installer
 * Set version to 10.x
 
-![](../../../.gitbook/assets/image%20%2832%29.png)
+![](../../../.gitbook/assets/image%20%2835%29.png)
 
 ### Install Appium
 
@@ -32,7 +32,7 @@
   npm install -g appium
   ```
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 ### Run Android Simulator
 
@@ -80,7 +80,7 @@
   mvn clean compile test -DsuiteXmlFile=suites/androidSmokeTests.xml -Dandroid.mobile="test_android_emulator" -Dappium.useExternalAppiumServer=true -Drecorder.enableRecording=true 
   ```
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2845%29.png)
 
 ### Publish the results
 

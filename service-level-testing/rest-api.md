@@ -10,7 +10,7 @@
 
 * We can set the values in the csv file as follows:
 
-![apiTestData/testCases/TestTestCases\_database.csv](../.gitbook/assets/image%20%2836%29.png)
+![apiTestData/testCases/TestTestCases\_database.csv](../.gitbook/assets/image%20%2840%29.png)
 
 
 

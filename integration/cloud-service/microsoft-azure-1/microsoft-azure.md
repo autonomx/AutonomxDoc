@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 * 
-![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2852%29.png)
+![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2859%29.png)
 
 ## Web Tests
 
@@ -20,9 +20,6 @@
 ### Run Tests
 
 * Add Bash task with maven command to run the tests
-
-![](../../../.gitbook/assets/image%20%2822%29.png)
-
 * The script command:
 * ```text
   mvn clean compile test -DsuiteXmlFile=suites/webSmokeTests.xml
@@ -30,6 +27,8 @@
 * To add additional configuration parameters, use prefix '-D' to each property value
   * eg.-Dweb.maximizeBrowser=true 
   * note: There should be no space in setting the key value combination
+
+![](../../../.gitbook/assets/image%20%2827%29.png)
 
 ### Publish the results
 
@@ -40,5 +39,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2834%29.png)
+![](../../../.gitbook/assets/image%20%2838%29.png)
 

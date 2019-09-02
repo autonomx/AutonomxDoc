@@ -59,6 +59,7 @@
     * [Microsoft Azure](integration/cloud-service/microsoft-azure-1/README.md)
       * [Web/Service Tests](integration/cloud-service/microsoft-azure-1/microsoft-azure.md)
       * [Android Tests](integration/cloud-service/microsoft-azure-1/android-tests.md)
+      * [iOS Tests](integration/cloud-service/microsoft-azure-1/ios-tests.md)
   * [Cloud Services](integration/continuous-integration.md)
   * [Console Mode Execution](integration/console-mode-execution.md)
 * [Testing Tips](testing-tips/README.md)

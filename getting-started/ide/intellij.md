@@ -33,7 +33,7 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 ### Verify Annotation Processor 
 
