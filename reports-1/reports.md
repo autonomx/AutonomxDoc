@@ -17,7 +17,7 @@
 
 * Test report location is displayed at the end of the test in the test console
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ## Extent Reports
 
@@ -36,12 +36,12 @@
 * Test failures are displayed with stack trace of the failed test
 * Screenshot is attached to the failing step 
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 ## Configuration
 

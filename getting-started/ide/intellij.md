@@ -18,7 +18,7 @@
 * Navigate to: project folder -&gt; autonomx -&gt; automation -&gt; open
 * Import maven dependencies from the Intellij 
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 ## Verify Project
 
@@ -33,7 +33,7 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2837%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ### Verify Annotation Processor 
 
@@ -47,7 +47,7 @@
 * Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 ### Verify Results
 

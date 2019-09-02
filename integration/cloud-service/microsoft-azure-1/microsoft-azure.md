@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 * 
-![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2851%29.png)
+![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2852%29.png)
 
 ## Web Tests
 
@@ -21,7 +21,7 @@
 
 * Add Bash task with maven command to run the tests
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 * The script command:
 * ```text
@@ -40,5 +40,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2833%29.png)
+![](../../../.gitbook/assets/image%20%2834%29.png)
 
