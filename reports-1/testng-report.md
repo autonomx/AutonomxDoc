@@ -11,7 +11,7 @@
   * automation -&gt; test-output 
   * This folder is generated after a test run
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 ## Junit Test Report Location
 
@@ -19,5 +19,5 @@
 * The location is:
   * automation -&gt; test-output -&gt; junitReports
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
