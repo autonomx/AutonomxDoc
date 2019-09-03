@@ -22,7 +22,7 @@
   ```
 * Values can be updating to config using :
 * ```text
-  ConfigVariable.globalTimeoutSeconds().setValue(90);  //key and value are String type
+  ConfigVariable.globalTimeoutSeconds().setValue(90); 
   ```
 * Values can be added to config using
 * ```text
