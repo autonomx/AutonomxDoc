@@ -1,7 +1,5 @@
 # iOS
 
-
-
 ## Description
 
 * Handles configuration applicable to Android testing

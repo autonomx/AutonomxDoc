@@ -1,4 +1,4 @@
-# Persistant Report
+# Persistent Report
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
@@ -14,7 +14,7 @@
 
 * [https://docs.mongodb.com/manual/installation/](https://docs.mongodb.com/manual/installation/)
 * Select the OS and follow the installation instructions
-* 
+
 ![](../.gitbook/assets/image%20%2860%29.png)
 
 ### Klov Server
