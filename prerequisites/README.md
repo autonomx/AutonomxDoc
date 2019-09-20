@@ -57,4 +57,9 @@ Once installation is complete, open command prompt and type “java”. If you s
   * press "shift + :" and type "wq!" to save
 * Close and reopen the terminal
 * Verify with "mvn --version"
+* or you can use brew: 
+
+  ```text
+  brew install maven
+  ```
 
