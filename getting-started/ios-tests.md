@@ -1,5 +1,12 @@
 # iOS Tests
 
+## Run Setup
+
+* Run autonomx -&gt; setup.sh/.bat
+  * 
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
 ## Configure iOS app
 
 * resources -&gt; properties -&gt; ios.property

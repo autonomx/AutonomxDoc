@@ -4,6 +4,13 @@ description: setting up an Android Test
 
 # Android Tests
 
+## Run Setup
+
+* Run autonomx -&gt; setup.sh/.bat
+  * 
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
 ## Configure Android app
 
 * resources -&gt; properties -&gt; android.property
