@@ -1,5 +1,12 @@
 # Web Tests
 
+## Run Setup
+
+* Run autonomx -&gt; setup.sh/.bat
+  * 
+
+![](../.gitbook/assets/image%20%2846%29.png)
+
 ## Configure Web app
 
 * resources -&gt; properties -&gt; web.property

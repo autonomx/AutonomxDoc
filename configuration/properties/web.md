@@ -28,7 +28,7 @@
 
 
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 <table>
   <thead>
