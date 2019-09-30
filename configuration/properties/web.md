@@ -1,7 +1,5 @@
 # Web
 
-
-
 ## Description
 
 * Handles configuration for web apps

@@ -10,6 +10,7 @@
 
 ## Manual Run
 
+* Run automation -&gt; setup.bash/.bat
 * To compile using command line:
   * mvn clean compile test -DsuiteXmlFile=suites/servicesTests.xml
   * This will compile and run the test suite: serviceTests.xml
