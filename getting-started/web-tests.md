@@ -19,7 +19,7 @@
   web.remote.server_url = localhost
   web.remote.server_port = 4444
   ```
-* Note: **webApp is the name of the web module**
+* Note: **webApp is the name of the web module. For more Info:** [**Web Properties**](https://app.gitbook.com/@autonomx/s/autonomx/configuration/properties/web)\*\*\*\*
 * Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ ⁨webApp⁩
   * Setup locators
 
