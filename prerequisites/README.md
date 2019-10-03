@@ -23,6 +23,8 @@ Once installation is complete, open command prompt and type “java”. If you s
 
 ## Maven
 
+* **Run autonomx -&gt; setup.sh/.bat to automatically downloaded maven locally**
+* or download manually:
 * You will also need [Maven 3.3.x or higher](https://maven.apache.org/download.cgi) installed.
 * Download maven zip file
 * 
