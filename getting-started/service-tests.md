@@ -33,6 +33,8 @@
 ## Run Sample Tests
 
 * Run service test suite at "automation -&gt; suites -&gt; serviceTests.xml"
+* If using web + service project, also run 
+  * "automation -&gt; suites -&gt; serviceIntegration.xml"
 * Test results will be displayed at the end of the run
 
 ## Create Tests
