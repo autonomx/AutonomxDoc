@@ -27,5 +27,13 @@ Python 3.4 or higher with the following modules:
 
 ![](../.gitbook/assets/image%20%2828%29.png)
 
-* run ⁨automation-client⁩ ▸ ⁨runner⁩ ▸ scriptServer.sh ⁨
+* run ⁨automation-client⁩ ▸ ⁨runner⁩ ▸ scriptServer.sh 
+
+## Run Script Server
+
+* Run ⁨automation-client⁩ ▸ ⁨runner⁩ ▸ scriptServer.sh 
+* Windows: download git bash: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+  * Run scriptServer.sh using git bash
+
+## ⁨
 

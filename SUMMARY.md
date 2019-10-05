@@ -10,6 +10,7 @@
   * [iOS Tests](getting-started/ios-tests.md)
   * [WinApp Tests](getting-started/winapp-tests.md)
   * [Web Tests](getting-started/web-tests.md)
+  * [Service Tests](getting-started/service-tests.md)
   * [IDE](getting-started/ide/README.md)
     * [Intellij](getting-started/ide/intellij.md)
     * [Eclipse](getting-started/ide/eclipse.md)
