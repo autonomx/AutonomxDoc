@@ -1,5 +1,12 @@
 # Web Tests
 
+## Download Web Test Latest Release
+
+* Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
+* Download [autonomx-web-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-web-1.0.4.zip)
+* Or download the Web UI + API testing combination: [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
+* Unpack 
+
 ## Run Setup
 
 * Run autonomx -&gt; setup.sh/.bat
@@ -7,9 +14,22 @@
 
 ![](../.gitbook/assets/image%20%2846%29.png)
 
+* Wait until the download of the maven dependencies are complete \(~10 mins\)
+
+## Load The Project In IDE or Runner
+
+* Open the project in [Intellij](https://docs.autonomx.io/getting-started/ide/intellij) or [Eclipse](https://docs.autonomx.io/getting-started/ide/eclipse) \( Please follow the instructions properly, as the config files are build in\)
+* Or use the [Script Server](https://docs.autonomx.io/script-runner-1/installation) to quickly run the tests
+
+## Run Sample Tests
+
+* Run service test suite at "automation -&gt; suites -&gt; webSmokeTests.xml"
+* Test results will be displayed at the end of the run
+
 ## Configure Web app
 
 * resources -&gt; properties -&gt; web.property
+* More Info [Web Config](https://docs.autonomx.io/configuration/properties/web) and [Global Config](https://docs.autonomx.io/configuration/properties/global-config)
 * ```text
   # Web
   #key value. key should match the web app test.module name. eg. test.module name = google, therefore: google="http://google.com"
@@ -49,6 +69,8 @@
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+
 
 ## Define actions
 
