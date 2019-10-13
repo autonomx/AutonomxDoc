@@ -4,7 +4,7 @@
 
 * Download the latest release of [Autonomx](https://github.com/autonomx/Autonomx/releases) based on your project needs
 
-![choose the platform to test](.gitbook/assets/image%20%2857%29.png)
+![choose the platform to test](.gitbook/assets/image%20%2858%29.png)
 
 * Run the setup: 
   * setup.bat \(windows\)
@@ -13,7 +13,7 @@
 * Navigate to runner//. eg. runner/mac/restTests.sh
 * The run scripts are generated from testng testSuites by runner/generateScripts.sh. Each script is associated with a suite of tests
 
-![](.gitbook/assets/image%20%2867%29.png)
+![](.gitbook/assets/image%20%2868%29.png)
 
 ## Manual Run
 
