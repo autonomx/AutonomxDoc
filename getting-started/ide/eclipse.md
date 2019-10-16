@@ -7,10 +7,23 @@
 
 ## Clone Project
 
-* Clone the Autonomx project from github
-* [https://github.com/autonomx/Autonomx](https://github.com/autonomx/Autonomx) or [https://github.com/autonomx/AutonomxWeb](https://github.com/autonomx/AutonomxWeb) \(for just web + api testing\)
-* Select "clone or download" -&gt; Download as zip
-* or Clone with command: git clone [https://github.com/autonomx/AutonomxWeb.git](https://github.com/autonomx/Autonomx.git)
+* Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
+* Download a release version based on the testing needs: service \(api, db testing\), web, iOS, Android, WinApp. See Getting Started:
+  * [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
+  * [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
+  * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
+  * [Web Tests](https://docs.autonomx.io/getting-started/web-tests)
+  * [Service Tests](https://docs.autonomx.io/getting-started/service-tests)
+* Unpack
+
+## Run Setup
+
+* Run autonomx -&gt; setup.sh/.bat
+  * 
+
+![](../../.gitbook/assets/image%20%2847%29.png)
+
+* Wait until the download of the maven dependencies are complete \(~5 mins\)
 
 ## Launch Automation Project Through Eclipse
 
@@ -20,13 +33,13 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 * Select finish
 * **If project has errors, Clean the project**
   * Projects -&gt; Clean...
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ## Download TestNG Plugin
 
@@ -73,7 +86,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 * Csv Files will not look like this:
 
@@ -91,7 +104,7 @@
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2862%29.png)
+* ![](../../.gitbook/assets/image%20%2863%29.png)
 
 ## Verify The Setup
 

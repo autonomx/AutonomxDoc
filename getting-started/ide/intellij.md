@@ -6,10 +6,23 @@
 
 ## Clone project
 
-* Clone the Autonomx project from github
-* [https://github.com/autonomx/Autonomx](https://github.com/autonomx/Autonomx) or [https://github.com/autonomx/AutonomxWeb](https://github.com/autonomx/AutonomxWeb) \(for just web + api testing\)
-* Select "clone or download" -&gt; Download as zip
-* or Clone with command: git clone [https://github.com/autonomx/AutonomxWeb.git](https://github.com/autonomx/Autonomx.git)
+* Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
+* Download a release version based on the testing needs: service \(api, db testing\), web, iOS, Android, WinApp. See Getting Started:
+  * [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
+  * [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
+  * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
+  * [Web Tests](https://docs.autonomx.io/getting-started/web-tests)
+  * [Service Tests](https://docs.autonomx.io/getting-started/service-tests)
+* Unpack
+
+## Run Setup
+
+* Run autonomx -&gt; setup.sh/.bat
+  * 
+
+![](../../.gitbook/assets/image%20%2847%29.png)
+
+* Wait until the download of the maven dependencies are complete \(~5 mins\)
 
 ## Launch Automation Project Through Intellij
 
@@ -19,6 +32,20 @@
 * Import maven dependencies from the Intellij 
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
+
+## Add Save Actions Plugin
+
+* Save Actions plugin allows for the Ant code generator to run on save
+* Navigate to preferences -&gt; plugins
+  * search for Save Actions, install and restart
+
+![](../../.gitbook/assets/image%20%2854%29.png)
+
+* At preferences -&gt; Other Settings -&gt; Save Actions
+  * Set "Activate save actions on save"
+  * Set "No action if compile time errors"
+
+![](../../.gitbook/assets/image%20%2878%29.png)
 
 ## Verify Project
 

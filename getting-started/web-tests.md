@@ -14,7 +14,7 @@
 
 ![](../.gitbook/assets/image%20%2847%29.png)
 
-* Wait until the download of the maven dependencies are complete \(~10 mins\)
+* Wait until the download of the maven dependencies are complete \(~5 mins\)
 
 ## Load The Project In IDE or Runner
 
