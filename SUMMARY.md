@@ -46,7 +46,7 @@
   * [Create Test Suite](test-suite/create-test-suite.md)
   * [Run From Command Line](test-suite/run-from-command-line.md)
 * [Service Level Testing](service-level-testing/README.md)
-  * [Service UI Integration](service-level-testing/service-ui-integration.md)
+  * [Service Code Integration](service-level-testing/service-ui-integration.md)
   * [Database](service-level-testing/database.md)
   * [Restful Api](service-level-testing/rest-api.md)
 * [Script Runner](script-runner-1/README.md)
