@@ -7,25 +7,17 @@
   * Step comment
   * Data object
   * Panel action
-  * {% code-tabs %}
-    {% code-tabs-item title="Verify\_Login\_Test.java" %}
-    ```text
+  * ```text
     		TestLog.When("I login with admin user");
     		UserObject user = UserObject.user().withAdminLogin();
     		app.webApp.login.login(user);
     ```
-    {% endcode-tabs-item %}
-    {% endcode-tabs %}
 
 ## Step Comments
 
-* {% code-tabs %}
-  {% code-tabs-item title="Verify\_Login\_Test.java" %}
-  ```text
+* ```text
   TestLog.When("I login with admin user");
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Comments follow the Gherkins natural language model 
 * [https://www.guru99.com/gherkin-test-cucumber.html](https://www.guru99.com/gherkin-test-cucumber.html)
 * These comments are displayed in the extent test report 
@@ -34,13 +26,9 @@
 ## Data Objects
 
 * Data objects describe the data we want to use in the actions
-* {% code-tabs %}
-  {% code-tabs-item title="Verify\_Login\_Test.java" %}
-  ```text
+* ```text
   UserObject user = UserObject.user().withAdminLogin();
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Refer to [Test Object](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_G98XxUqlCKVCkJFH2/test-object/test-object) section for more info
 
 ## Panel Action

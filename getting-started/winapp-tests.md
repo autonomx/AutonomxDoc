@@ -18,9 +18,7 @@
   * Setup locators
 
     windowsApp ▸ CalculatorPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="calculatePanel.java" %}
-  ```text
+* ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -31,15 +29,11 @@
           public static EnhancedBy RESULTS = Element.byAccessibility("CalculatorResults", "calculator results");
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Define actions
 
 * windowsApp ▸ CalculatorPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="CalculatorPanel.java" %}
-  ```text
+* ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       /**
@@ -61,23 +55,17 @@
          Helper.assertEquals(val, result);
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨win -&gt; tests
 * setup the windows driver
-* {% code-tabs %}
-  {% code-tabs-item title="VerifyCalculatorTest.java" %}
-  ```text
+* ```text
       @BeforeMethod
       public void beforeMethod() throws Exception {
           setupWebDriver(app.windowsApp.getWinAppDriver());
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Add Test
 * \`\`\`text public class VerifyCalculatorTest extends TestBase {
 

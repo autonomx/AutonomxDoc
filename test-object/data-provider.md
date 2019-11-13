@@ -17,8 +17,8 @@
 * We generate the data object based on the csv file
 * To Implement in the test, we first create a test method with data provider annotation
 
-{% code-tabs %}
-{% code-tabs-item title="VerifyLoginTest.java" %}
+{% tabs %}
+{% tab title="VerifyLoginTest.java" %}
 ```text
 	/**
 	 * uses data from UserInvalid.csv at webApp.data
@@ -36,8 +36,8 @@
 		app.webApp.login.loginError(user);
 	}
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 * We set the dataProvider name to "DataRunner". This is used for all dataProviders.
 * The dataProviderClass is set to the csv file name. This refers to the generated class for the csv file

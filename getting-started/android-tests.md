@@ -41,9 +41,7 @@ description: setting up an Android Test
   * Setup locators
 
     androidApp ▸ MainPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="Main.java" %}
-  ```text
+* ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -52,37 +50,27 @@ description: setting up an Android Test
 
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Define actions
 
 * androidApp ▸ MainPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="Main.java" %}
-  ```text
+* ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectRegisterPanel() {
           Helper.clickAndExpect(elements.REGISTER_PANEL, RegistrationPanel.elements.USERNAME_FIELD);
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨android -&gt; tests
 * setup the android driver
-* {% code-tabs %}
-  {% code-tabs-item title="RegisterUserTest.java" %}
-  ```text
+* ```text
       public void beforeMethod() throws Exception {
           setupWebDriver(app.androidApp.getAndroidMobileDriver());
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Add Test
 
 ```text

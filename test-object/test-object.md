@@ -12,9 +12,7 @@
   * Type is the variable object type
     * String, Boolean, Integer ...
     * eg. src/main/java/module/common/data
-* {% code-tabs %}
-  {% code-tabs-item title="CommonUser.java" %}
-  ```text
+* ```text
   	/**
   	 * variables
   	 */
@@ -29,16 +27,12 @@
   	public Boolean blocked;
   	public String loginId = "";
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Add Predefined Objects
 
 * Predefined objects are optional
 * They define a preset of information for the object. eg. admin user
-* {% code-tabs %}
-  {% code-tabs-item title="CommonUser.java" %}
-  ```text
+* ```text
   	/**
   	 * Predefined objects
   	 * 
@@ -51,8 +45,6 @@
   		return user;
   	}
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Pass In As Parameter
 

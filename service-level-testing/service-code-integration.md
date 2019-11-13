@@ -11,9 +11,7 @@
 
 * We will create a service object containing the same information as we pass to csv file for our api tests
 * Example: we will use create service object for getting the access token
-* {% code-tabs %}
-  {% code-tabs-item title="module.serviceUiIntegration.panel.LoginPanel" %}
-  ```text
+* ```text
   public Response loginWithServiceObject(CommonUser user) {
 		
   		ServiceObject loginApi = Service.create()
@@ -32,8 +30,6 @@
   		return RestApiInterface.RestfullApiInterface(loginApi);
   	}
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * We specify: uri path, content type, method, request body, output parameters
 * We store the access token in variable "accessTokenAdmin"
 * The scope of the variable depends on where the call is made: before suite \(suite level\), before class \(class level\), test method \(test method only\)
@@ -61,9 +57,7 @@
 
 * We can then call any of these api calls using the testCaseID
 * eg. getToken
-* {% code-tabs %}
-  {% code-tabs-item title="module.serviceUiIntegration.panel.LoginPanel" %}
-  ```text
+* ```text
   /**
   	 * the scope of the stored token value depends on the where its called.
   	 *  eg. at before class (the scope is class level )
@@ -78,8 +72,6 @@
   				.build();
   	}
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Each testCaseID has a service object generated in code
 * Each parameter in request body is generated as a ".with" parameter 
 

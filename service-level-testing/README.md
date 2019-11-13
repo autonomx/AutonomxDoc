@@ -36,13 +36,9 @@
 
 * Service tests are located at: apiTestData -&gt; testCases
 * We can specify custom location through apiTestData -&gt; apiConfig.property 
-* {% code-tabs %}
-  {% code-tabs-item title="apiConfig.properties" %}
-  ```text
+* ```text
   api.parallelTestcasePath = "../apiTestData/testCases/"
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * The location is from the root of the project \( where pom.xml file is located \)
 
 ## Running Service Tests

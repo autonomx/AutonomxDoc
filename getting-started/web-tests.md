@@ -52,8 +52,8 @@
 
     webApp ▸ LoginPanel.java
 
-{% code-tabs %}
-{% code-tabs-item title="LoginPanel.java" %}
+{% tabs %}
+{% tab title="LoginPanel.java" %}
 ```java
         public static class elements {
             public static EnhancedBy USER_NAME_FIELD = Element.byCss("[placeholder='John Doe']", "username field");
@@ -67,8 +67,8 @@
 
         }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -76,8 +76,6 @@
 
 * webApp ▸ LoginPanel.java
 
-  {% code-tabs %}
-  {% code-tabs-item title="LoginPanel.java" %}
   ```java
        /**
         * enter login info and click login button
@@ -105,8 +103,6 @@
            Helper.form.setField(elements.PASSWORD_FIELD, user.password().get());
        }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Define objects
 
@@ -115,10 +111,12 @@
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="Verify\_Login\_Test.java" %}
+### Setup Tests
+
+{% tabs %}
+{% tab title="Verify\_Login\_Test.java" %}
 ```text
-* setup test
+
 
 
     @BeforeMethod
@@ -142,6 +140,6 @@
         Helper.verifyElementIsDisplayed(LoginPanel.elements.LOGIN_SUBMIT);
     }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 

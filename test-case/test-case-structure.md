@@ -3,16 +3,12 @@
 ## Driver Setup
 
 * Before starting the test, we need to setup the web driver
-* {% code-tabs %}
-  {% code-tabs-item title="Verify\_Login\_Test.java" %}
-  ```text
+* ```text
   	@BeforeMethod
   	public void beforeMethod() throws Exception {
   		setupWebDriver(app.webApp.getWebDriver());
   	}
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * In this example, we setup a web driver for the webApp module
 
 ## Syntax

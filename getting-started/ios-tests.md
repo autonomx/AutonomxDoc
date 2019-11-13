@@ -33,9 +33,7 @@
   * Setup locators
 
     iosApp ▸ MainPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="Main.java" %}
-  ```text
+* ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -45,15 +43,11 @@
 
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Define actions
 
 * iosApp ▸ MainPanel.java
-* {% code-tabs %}
-  {% code-tabs-item title="Main.java" %}
-  ```text
+* ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectPanel(options panel) {
@@ -70,17 +64,13 @@
           }
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Define objects
 
 * Objects contain test data used for the tests
 * In this example, they contain values for the form
 * ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
-* {% code-tabs %}
-  {% code-tabs-item title="PlainTableViewObject.java" %}
-  ```text
+* ```text
   @Data
   public class PlainTableViewObject {
 
@@ -96,12 +86,8 @@
 
   }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * ⁨define default values
-* {% code-tabs %}
-  {% code-tabs-item title="PlainTableViewObject.java" %}
-  ```text
+* ```text
   	public PlainTableViewObject withDefaultValues() {
   		PlainTableViewObject view = new PlainTableViewObject();
   		view.name = NAME;
@@ -112,22 +98,16 @@
   		return view;
   	}
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
 * setup the android driver
-* {% code-tabs %}
-  {% code-tabs-item title="RegisterUserTest.java" %}
-  ```text
+* ```text
       public void beforeMethod() throws Exception {
           setupWebDriver(app.iosApp.getIosMobileDriver());
       }
   ```
-  {% endcode-tabs-item %}
-  {% endcode-tabs %}
 * Add Test
 
 ```text
