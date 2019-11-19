@@ -3,17 +3,49 @@
 ## Jason Path Verification
 
 * Verification are separated by ";"
+* Format
+  * JsonPath:Position:command\(value\)
+  * Position is optional
+  * eg. [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+  * ```text
+    _VERIFY.JSON.PART_
+    store..category:1:equalTo(reference);
+    store..category:1:equalTo(<@categoryVariable>);
+    store..category:equalTo(reference,fiction,fiction,fiction);
+
+    jsonPath: store..category
+    Position: 1
+    equalTo: command
+    value: reference
+    ```
+* Position is optional
+  * With position: Select json path value based on occurrence 
+  * Without position: Compare against all occurrences of json path
+* We can use variables for values with &lt;@variable&gt; syntax
 
 ### Json Path 'has Items'
 
-* 
-### Json Path EqualTo
+* [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+* Has items does partial string match if position is specified
+* Does Array contains match if position is not provided
 
 ```text
-"user.email":1: equalTo("autouser313@gmail.com");
+_VERIFY.JSON.PART_
+store..category:1:hasItems(refer);
+store..category:hasItems(reference,fiction);
+
 ```
 
-* first instance of user.email equals "autouser313@gmail.com"
+### Json Path EqualTo
+
+* * [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+
+```text
+_VERIFY.JSON.PART_
+store..category:1:equalTo(reference);
+store..category:equalTo(reference,fiction,fiction,fiction);
+
+```
 
 ### All Values In Json Path Equals
 
