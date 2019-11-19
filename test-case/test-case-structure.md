@@ -3,12 +3,14 @@
 ## Driver Setup
 
 * Before starting the test, we need to setup the web driver
-* ```text
+* {% code title="Verify\_Login\_Test.java" %}
+  ```text
   	@BeforeMethod
   	public void beforeMethod() throws Exception {
   		setupWebDriver(app.webApp.getWebDriver());
   	}
   ```
+  {% endcode %}
 * In this example, we setup a web driver for the webApp module
 
 ## Syntax

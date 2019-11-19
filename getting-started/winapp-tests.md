@@ -5,7 +5,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ## Configure WebApp app
 
@@ -18,7 +18,8 @@
   * Setup locators
 
     windowsApp ▸ CalculatorPanel.java
-* ```text
+* {% code title="calculatePanel.java" %}
+  ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -29,11 +30,13 @@
           public static EnhancedBy RESULTS = Element.byAccessibility("CalculatorResults", "calculator results");
       }
   ```
+  {% endcode %}
 
 ## Define actions
 
 * windowsApp ▸ CalculatorPanel.java
-* ```text
+* {% code title="CalculatorPanel.java" %}
+  ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       /**
@@ -55,17 +58,20 @@
          Helper.assertEquals(val, result);
       }
   ```
+  {% endcode %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨win -&gt; tests
 * setup the windows driver
-* ```text
+* {% code title="VerifyCalculatorTest.java" %}
+  ```text
       @BeforeMethod
       public void beforeMethod() throws Exception {
           setupWebDriver(app.windowsApp.getWinAppDriver());
       }
   ```
+  {% endcode %}
 * Add Test
 * \`\`\`text public class VerifyCalculatorTest extends TestBase {
 

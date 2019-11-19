@@ -5,7 +5,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ## Configure iOS app
 
@@ -33,7 +33,8 @@
   * Setup locators
 
     iosApp ▸ MainPanel.java
-* ```text
+* {% code title="Main.java" %}
+  ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -43,11 +44,13 @@
 
       }
   ```
+  {% endcode %}
 
 ## Define actions
 
 * iosApp ▸ MainPanel.java
-* ```text
+* {% code title="Main.java" %}
+  ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectPanel(options panel) {
@@ -64,13 +67,15 @@
           }
       }
   ```
+  {% endcode %}
 
 ## Define objects
 
 * Objects contain test data used for the tests
 * In this example, they contain values for the form
 * ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
-* ```text
+* {% code title="PlainTableViewObject.java" %}
+  ```text
   @Data
   public class PlainTableViewObject {
 
@@ -86,8 +91,10 @@
 
   }
   ```
+  {% endcode %}
 * ⁨define default values
-* ```text
+* {% code title="PlainTableViewObject.java" %}
+  ```text
   	public PlainTableViewObject withDefaultValues() {
   		PlainTableViewObject view = new PlainTableViewObject();
   		view.name = NAME;
@@ -98,16 +105,19 @@
   		return view;
   	}
   ```
+  {% endcode %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
 * setup the android driver
-* ```text
+* {% code title="RegisterUserTest.java" %}
+  ```text
       public void beforeMethod() throws Exception {
           setupWebDriver(app.iosApp.getIosMobileDriver());
       }
   ```
+  {% endcode %}
 * Add Test
 
 ```text

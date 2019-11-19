@@ -9,7 +9,7 @@ description: setting up an Android Test
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ## Configure Android app
 
@@ -41,7 +41,8 @@ description: setting up an Android Test
   * Setup locators
 
     androidApp ▸ MainPanel.java
-* ```text
+* {% code title="Main.java" %}
+  ```text
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -50,27 +51,32 @@ description: setting up an Android Test
 
       }
   ```
+  {% endcode %}
 
 ## Define actions
 
 * androidApp ▸ MainPanel.java
-* ```text
+* {% code title="Main.java" %}
+  ```text
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectRegisterPanel() {
           Helper.clickAndExpect(elements.REGISTER_PANEL, RegistrationPanel.elements.USERNAME_FIELD);
       }
   ```
+  {% endcode %}
 
 ## Write Test
 
 * ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨android -&gt; tests
 * setup the android driver
-* ```text
+* {% code title="RegisterUserTest.java" %}
+  ```text
       public void beforeMethod() throws Exception {
           setupWebDriver(app.androidApp.getAndroidMobileDriver());
       }
   ```
+  {% endcode %}
 * Add Test
 
 ```text

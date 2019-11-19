@@ -10,15 +10,14 @@
 * We first setup the data in a csv file under the "data" folder
 * The first column is @id which identifies the data and the rest are data values
 
-![UserInvalid.csv](../.gitbook/assets/image%20%2870%29.png)
+![UserInvalid.csv](../.gitbook/assets/image%20%2872%29.png)
 
 ## Implementation
 
 * We generate the data object based on the csv file
 * To Implement in the test, we first create a test method with data provider annotation
 
-{% tabs %}
-{% tab title="VerifyLoginTest.java" %}
+{% code title="VerifyLoginTest.java" %}
 ```text
 	/**
 	 * uses data from UserInvalid.csv at webApp.data
@@ -36,8 +35,7 @@
 		app.webApp.login.loginError(user);
 	}
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 * We set the dataProvider name to "DataRunner". This is used for all dataProviders.
 * The dataProviderClass is set to the csv file name. This refers to the generated class for the csv file

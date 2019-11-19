@@ -1,4 +1,4 @@
-# Restful Api
+# Restful API
 
 ## Purpose
 
@@ -10,7 +10,7 @@
 
 * We can set the values in the csv file as follows:
 
-![apiTestData/testCases/TestTestCases\_database.csv](../.gitbook/assets/image%20%2843%29.png)
+![apiTestData/testCases/TestTestCases\_database.csv](../../.gitbook/assets/image%20%2845%29.png)
 
 
 
@@ -138,109 +138,4 @@
 * **TcComment:** comment for the tests. eg. disable for such and such reasons.
 
 
-
-## Json Body Verification
-
-* We can verify json body and structure through "lenient" verification
-* ```text
-  {
-         "user": {
-          "username":  "<@adminUserName>",
-          "email": "autouser313@gmail.com",
-          "provider": "local",
-          "confirmed": true,
-          "blocked": null
-      }
-  }
-  ```
-* We are using json body to verify the response
-* The json body is strictly enforced, however, the variables are optional
-  * eg. we're not including fields such as "date"
-* We can use variables as part of response
-* ```
-   "username":  "<@adminUserName>",
-  ```
-* **Json body verification and Json Path verification are sepearted by "&&"**
-  * ```text
-    {
-           "user": {
-            "username":  "<@adminUserName>",
-            "email": "autouser313@gmail.com",
-            "provider": "local",
-            "confirmed": true,
-            "blocked": null
-        }
-    }
-    &&
-    _VERIFY_JSON_PART_
-    "user.username": hasItems("<@adminUserName>");
-    ```
-
-## Jason Path Verification
-
-* Verification are separated by ";"
-
-### Json Path Equals
-
-```text
-"user.email":1: equalTo("autouser313@gmail.com");
-```
-
-* first instance of user.email equals "autouser313@gmail.com"
-
-### All Values In Json Path Equals
-
-```text
-"user.email": equalTo("autouser313@gmail.com");
-```
-
-* All user.email values will be stored in an array, and compared to the value
-* eg. if we have response of 2 users: 
-* ```text
-  {
-         "user": {
-          "username":  user1,
-          "email": "autouser1@gmail.com",
-          "provider": "local",
-          "confirmed": true,
-          "blocked": null
-      }
-      "user": {
-          "username":  user2,
-          "email": "autouser2@gmail.com",
-          "provider": "local",
-          "confirmed": true,
-          "blocked": null
-      }
-  }
-  ```
-* Then are verification becomes:
-* ```text
-  "user.email": equalTo("autouser1@gmail.com","autouser2@gmail.com");
-  ```
-
-### Jason Path Contains
-
-```text
-NAME:1: contains(Paul);
-```
-
-* Column "NAME" at row 1 contains the text: Paul
-
-### All Values in Json Path Contain
-
-```text
-NAME:contains(Paul,Allen,Teddy,Mark);
-```
-
-* We have 4 or more rows with column "Name" which contain: Paul, Allen, Teddy, Mark
-
-### Json Path Not Empty
-
-```text
-ADDRESS:1:isNotEmpty;
-```
-
-* Column "Address" at row 1 is not empty
-* Usefully if we want to check a value exists but don't want to verify the value. eg. time stamp
 

@@ -13,7 +13,7 @@
 
 * The csv files are based on template with the following columns
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 * **TestSuite**: The name of the test series
 * **TestCaseID**: Unique test id for each test
@@ -36,9 +36,11 @@
 
 * Service tests are located at: apiTestData -&gt; testCases
 * We can specify custom location through apiTestData -&gt; apiConfig.property 
-* ```text
+* {% code title="apiConfig.properties" %}
+  ```text
   api.parallelTestcasePath = "../apiTestData/testCases/"
   ```
+  {% endcode %}
 * The location is from the root of the project \( where pom.xml file is located \)
 
 ## Running Service Tests
@@ -49,7 +51,7 @@
 
 * We can also run the test directly located at module: test.module.service.tests: ServiceTestRunner.java
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 
 
