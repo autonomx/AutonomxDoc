@@ -6,7 +6,7 @@
 * Format
   * JsonPath:Position:command\(value\)
   * Position is optional
-  * eg. [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+  * eg. [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
   * ```text
     _VERIFY.JSON.PART_
     store..category:1:equalTo(reference);
@@ -23,9 +23,9 @@
   * Without position: Compare against all occurrences of json path
 * We can use variables for values with &lt;@variable&gt; syntax
 
-### Json Path 'has Items'
+### Json Path 'hasItems'
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
 * Has items does partial string match if position is specified
 * Does Array contains match if position is not provided
 
@@ -36,9 +36,22 @@ store..category:hasItems(reference,fiction);
 
 ```
 
+### Json Path notHaveItems
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* not have items will do a 'not contains' validation on json response path
+* In the example case, store..category:1 will not have action.
+* In second example, action and adventure are not part of the store..category responses
+
+```text
+_VERIFY.JSON.PART_
+store..category:1:notHaveItems(action);
+store..category:notHaveItems(action,adventure);
+```
+
 ### Json Path EqualTo
 
-* * [http://jsonpath.herokuapp.com/?path=$.store.\*](http://jsonpath.herokuapp.com/?path=$.store.*)
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
 
 ```text
 _VERIFY.JSON.PART_
@@ -47,52 +60,44 @@ store..category:equalTo(reference,fiction,fiction,fiction);
 
 ```
 
-### All Values In Json Path Equals
+### Json Path notEqualTo
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* Will return true on store..category:1, as first response item is 'reference'
+* Second example is true, cause action is not part of the response
 
 ```text
-"user.email": equalTo("autouser313@gmail.com");
-```
+_VERIFY.JSON.PART_
+store..category:1:notEqualTo(fiction);
+store..category:notEqualTo(action);
 
-* All user.email values will be stored in an array, and compared to the value
-* eg. if we have response of 2 users: 
-* ```text
-  {
-         "user": {
-          "username":  user1,
-          "email": "autouser1@gmail.com",
-          "provider": "local",
-          "confirmed": true,
-          "blocked": null
-      }
-      "user": {
-          "username":  user2,
-          "email": "autouser2@gmail.com",
-          "provider": "local",
-          "confirmed": true,
-          "blocked": null
-      }
-  }
-  ```
-* Then are verification becomes:
-* ```text
-  "user.email": equalTo("autouser1@gmail.com","autouser2@gmail.com");
-  ```
+```
 
 ### Jason Path Contains
 
-```text
-NAME:1: contains(Paul);
-```
-
-* Column "NAME" at row 1 contains the text: Paul
-
-### All Values in Json Path Contain
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* Does partial string match if position is specified
+* Does Array contains match if position is not provided
 
 ```text
-NAME:contains(Paul,Allen,Teddy,Mark);
+_VERIFY.JSON.PART_
+store..category:1:hasItems(refer);
+store..category:contains(reference,fiction);
+
 ```
 
-* We have 4 or more rows with column "Name" which contain: Paul, Allen, Teddy, Mark
+### Json Path notContains
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+*  Will do a 'not contains' validation on json response path
+* In the example case, store..category:1 will not have action.
+* In second example, action and adventure are not part of the store..category responses
+
+```text
+_VERIFY.JSON.PART_
+store..category:1:notContains(action);
+store..category:notContains(action,adventure);
+```
 
 ### Json Path Not Empty
 
