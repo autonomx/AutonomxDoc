@@ -81,7 +81,7 @@ store..category:notEqualTo(action);
 
 ```text
 _VERIFY.JSON.PART_
-store..category:1:hasItems(refer);
+store..category:1:contains(refer);
 store..category:contains(reference,fiction);
 
 ```
@@ -99,12 +99,108 @@ store..category:1:notContains(action);
 store..category:notContains(action,adventure);
 ```
 
-### Json Path Not Empty
+### Json Path containsInAnyOrder
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* In the json response, we are verifying regardless of order
 
 ```text
-ADDRESS:1:isNotEmpty;
+_VERIFY.JSON.PART_
+store..category:containsInAnyOrder(reference,fiction);
+store..category:containsInAnyOrder(fiction,reference);
 ```
 
-* Column "Address" at row 1 is not empty
-* Usefully if we want to check a value exists but don't want to verify the value. eg. time stamp
+### Json Path integerGreaterThan
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
+* In this example, json path returns the value: 8.95, which is greater than 8
+
+```text
+_VERIFY.JSON.PART_
+.book[?(@.author =~ /.*REES/i)].price:integerGreaterThan(8);
+
+```
+
+### 
+
+### Json Path integerLessThan
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
+* In this example, json path returns the value: 8.95, which is less than 9
+
+```text
+_VERIFY.JSON.PART_
+.book[?(@.author =~ /.*REES/i)].price:integerLessThan(9);
+
+```
+
+### Json Path integerEqual
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
+* In this example, json path returns the value: 8.95, which is equal to 8.95
+
+```text
+_VERIFY.JSON.PART_
+.book[?(@.author =~ /.*REES/i)].price:integerEqual(8.95);
+
+```
+
+### Json Path integerNotEqual
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
+* In this example, json path returns the value: 8.95, which is not equal to 8.96
+
+```text
+_VERIFY.JSON.PART_
+.book[?(@.author =~ /.*REES/i)].price:integerNotEqual(8.96);
+
+```
+
+### Json Path nodeSizeGreaterThan
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* In the json response, we are verifying the number of returned categories, which is 4
+
+```text
+_VERIFY.JSON.PART_
+store..category:nodeSizeGreaterThan(3);
+```
+
+### Json Path nodeSizeLessThan
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* In the json response, we are verifying the number of returned categories, which is 4
+
+```text
+_VERIFY.JSON.PART_
+store..category:nodeSizeLessThan(5);
+```
+
+### Json Path nodeSizeExact
+
+* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* In the json response, we are verifying the number of returned categories, which is 4
+
+```text
+_VERIFY.JSON.PART_
+store..category:nodeSizeExact(5);
+```
+
+### Json Path Not Empty
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[2\].category](http://jsonpath.herokuapp.com/?path=$..book[2].category)
+* Verify if json path value is not empty
+
+```text
+.book[2].category:isNotEmpty;
+```
+
+### Json Path Empty
+
+* [http://jsonpath.herokuapp.com/?path=$..book\[2\].category](http://jsonpath.herokuapp.com/?path=$..book[2].category)
+* Verify if json path value is not empty
+
+```text
+.book[2].category2:Empty;
+```
 
