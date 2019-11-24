@@ -6,10 +6,10 @@
 * Verification are separated by ";"
 * Format
   * command\(value\)
-  * eg. [http://jsonpath.herokuapp.com](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+  * eg. if response = {"id":"1234"}
   * ```text
     _VERIFY.RESPONSE.BODY_
-    hasItems(reference);
+    equalTo({"id":"1234"});
     ```
 * We can use variables for values with &lt;@variable&gt; syntax
 
