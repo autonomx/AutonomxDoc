@@ -12,7 +12,7 @@
 
 ![apiTestData/testCases/TestTestCases\_database.csv](../../.gitbook/assets/image%20%2845%29.png)
 
-
+* Following example gets authentication token and calls create user api
 
 <table>
   <thead>
