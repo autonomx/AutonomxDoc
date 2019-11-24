@@ -13,184 +13,121 @@
     ```
 * We can use variables for values with &lt;@variable&gt; syntax
 
-### Json Path 'hasItems'
+### EqualTo
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* Has items does partial string match if position is specified
-* Does Array contains match if position is not provided
+* Verifies response body is equasl to expected
+* eg. if response = {"id":"1234"}
 
 ```text
 _VERIFY.RESPONSE.BODY_
-store..category:1:hasItems(reference);
-store..category:hasItems(reference,fiction);
+equalTo({"id":"1234"});
 
 ```
 
-### Json Path notHaveItems
+### notEqualTo
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* not have items will do a 'not contains' validation on json response path
-* In the example case, store..category:1 will not have action.
-* In second example, action and adventure are not part of the store..category responses
-
-```text
-_VERIFY.RESPONSE.BODY_
-store..category:1:notHaveItems(action);
-store..category:notHaveItems(action,adventure);
-```
-
-### Json Path EqualTo
-
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
+* Verifies response body is not equal to expected
+* eg. if response = {"id":"1234"}
+* We can check if "form" field is not present
 
 ```text
 _VERIFY.RESPONSE.BODY_
-store..category:1:equalTo(reference);
-store..category:equalTo(reference,fiction,fiction,fiction);
+notEqualTo(form);
 
 ```
 
-### Json Path notEqualTo
+### Contains
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* Will return true on store..category:1, as first response item is 'reference'
-* Second example is true, cause action is not part of the response
+* Verifies response body contains expected
+* eg. if response = {"id":"1234", "form":"register"}
+* We can check if "form" field is present
 
 ```text
 _VERIFY.RESPONSE.BODY_
-store..category:1:notEqualTo(fiction);
-store..category:notEqualTo(action);
+contains(form);
+contains("form":"register");
 
 ```
 
-### Jason Path Contains
+### notContains
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* Does partial string match if position is specified
-* Does Array contains match if position is not provided
+* Verifies response body does not contain expected
+* eg. if response = {"id":"1234", "form":"register"}
+* We can check if "action" field is not present
 
 ```text
 _VERIFY.RESPONSE.BODY_
-store..category:1:contains(refer);
-store..category:contains(reference,fiction);
-
+notContains(action);
 ```
 
-### Json Path notContains
+### integerGreaterThan
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-*  Will do a 'not contains' validation on json response path
-* In the example case, store..category:1 will not have action.
-* In second example, action and adventure are not part of the store..category responses
+* Verifies if numeric response greater than expected
 
-```text
-_VERIFY.RESPONSE.BODY_
-store..category:1:notContains(action);
-store..category:notContains(action,adventure);
-```
+  Compares json body to expected value
 
-### Json Path containsInAnyOrder
-
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* In the json response, we are verifying regardless of order
+* eg. if response = 33.1
+* we check if response is greater than 32
 
 ```text
 _VERIFY.RESPONSE.BODY_
-store..category:containsInAnyOrder(reference,fiction);
-store..category:containsInAnyOrder(fiction,reference);
-```
-
-### Json Path integerGreaterThan
-
-* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
-* In this example, json path returns the value: 8.95, which is greater than 8
-
-```text
-_VERIFY.RESPONSE.BODY_
-.book[?(@.author =~ /.*REES/i)].price:integerGreaterThan(8);
+integerGreaterThan(32);
 
 ```
 
 ### 
 
-### Json Path integerLessThan
+### integerLessThan
 
-* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
-* In this example, json path returns the value: 8.95, which is less than 9
-
-```text
-_VERIFY.JSON.PART_
-.book[?(@.author =~ /.*REES/i)].price:integerLessThan(9);
-
-```
-
-### Json Path integerEqual
-
-* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
-* In this example, json path returns the value: 8.95, which is equal to 8.95
+* Verifies if numeric response is less than expected
+* eg. if response = 33.1
+* we check if response is greater than 34
 
 ```text
 _VERIFY.JSON.PART_
-.book[?(@.author =~ /.*REES/i)].price:integerEqual(8.95);
+integerLessThan(34);
 
 ```
 
-### Json Path integerNotEqual
+### integerEqual
 
-* [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\].price](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29].price)
-* In this example, json path returns the value: 8.95, which is not equal to 8.96
+* Verifies if numeric response equals expected
+* eg. if response = 33.1
+* we check if response is greater than 33.1
 
 ```text
 _VERIFY.JSON.PART_
-.book[?(@.author =~ /.*REES/i)].price:integerNotEqual(8.96);
+integerEqual(33.1);
 
 ```
 
-### Json Path nodeSizeGreaterThan
+###  integerNotEqual
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* In the json response, we are verifying the number of returned categories, which is 4
+* Verifies if numeric response does not equal expected
+* eg. if response = 33.1
+* we check if response is greater than 33.2
 
 ```text
 _VERIFY.JSON.PART_
-store..category:nodeSizeGreaterThan(3);
+integerNotEqual(33.2);
+
 ```
 
-### Json Path nodeSizeLessThan
+### Not Empty
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* In the json response, we are verifying the number of returned categories, which is 4
+* Verify if response is not empty
+* eg. if response = {"id":"1234", "form":"register"}
 
 ```text
-_VERIFY.JSON.PART_
-store..category:nodeSizeLessThan(5);
+isNotEmpty;
 ```
 
-### Json Path nodeSizeExact
+### Empty
 
-* [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
-* In the json response, we are verifying the number of returned categories, which is 4
-
-```text
-_VERIFY.JSON.PART_
-store..category:nodeSizeExact(5);
-```
-
-### Json Path Not Empty
-
-* [http://jsonpath.herokuapp.com/?path=$..book\[2\].category](http://jsonpath.herokuapp.com/?path=$..book[2].category)
-* Verify if json path value is not empty
+* Verify if response is not empty
+* eg. if response = ""
 
 ```text
-.book[2].category:isNotEmpty;
-```
-
-### Json Path Empty
-
-* [http://jsonpath.herokuapp.com/?path=$..book\[2\].category](http://jsonpath.herokuapp.com/?path=$..book[2].category)
-* Verify if json path value is not empty
-
-```text
-.book[2].category2:Empty;
+Empty;
 ```
 
