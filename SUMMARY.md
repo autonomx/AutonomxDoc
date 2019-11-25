@@ -53,6 +53,7 @@
   * [Service Code Integration](service-level-testing/service-code-integration.md)
   * [Database](service-level-testing/database.md)
   * [Restful API](service-level-testing/rest-api/README.md)
+    * [Json Path](service-level-testing/rest-api/json-path.md)
     * [Test File](service-level-testing/rest-api/test-file/README.md)
       * [UriPath](service-level-testing/rest-api/test-file/uripath.md)
       * [ContentType](service-level-testing/rest-api/test-file/contenttype.md)

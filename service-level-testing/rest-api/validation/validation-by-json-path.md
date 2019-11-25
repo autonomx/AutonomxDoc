@@ -6,6 +6,7 @@
 * Format
   * JsonPath:Position:command\(value\)
   * Position is optional
+  * More info on Json Path
   * eg. [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
   * ```text
     _VERIFY.JSON.PART_
