@@ -11,6 +11,28 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 * Integrates seamlessly with the API testing framework for end to end testing
 * Detailed reports through ExtentTest reports
 
+## Feature List
+
+
+
+| Features | AUTONOMX |
+| :--- | :--- |
+| Test development platform | Cross-platform |
+| Module Based Testing | Yes – End To End Product’s Integration Support |
+| Application under test | Web, Mobile apps, Win app, API/Web services, Database testing |
+| Scripting languages | Java |
+| Programming skills | API: no coding skills required  UI: Low, Recommended for advanced test scripts |
+| Framework Extendibility | Full – Can extend the framework for any feature |
+| Learning curves | Medium |
+| Ease of installation and use | Easy to setup and run |
+| Script creation time | Quick |
+| Object storage and maintenance | Object repository, Page object mode. Easy maintenance |
+| Continuous integrations | Various CI tools \(e.g. Jenkins, Cruise Control, VSTS\) |
+| Test Analytics | ExtentReports |
+| Product support | Open source community support. |
+| License type | Open source MIT |
+| Cost | Free |
+
 ## Design
 
 * Separated between Logic Core and Client
