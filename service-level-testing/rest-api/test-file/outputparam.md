@@ -5,6 +5,10 @@
 * We can store values from the api response using the **OutputParam** column
 * Format: jsonpath:&lt;$variable&gt; 
 * The stored variable can be accessed using &lt;@variable&gt; syntax
+* Multiple variables can be stored, separted by ";" 
+* eg. 
+
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 ## Json Path
 

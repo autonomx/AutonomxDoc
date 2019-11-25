@@ -6,7 +6,7 @@
 * Content type should be set in ContentType column
 * eg. 
 
-![](../../../.gitbook/assets/image%20%2841%29.png)
+![](../../../.gitbook/assets/image%20%2842%29.png)
 
 ## Form Body
 

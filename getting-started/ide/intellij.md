@@ -20,7 +20,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -39,13 +39,13 @@
 * Navigate to preferences -&gt; plugins
   * search for Save Actions, install and restart
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 * At preferences -&gt; Other Settings -&gt; Save Actions
   * Set "Activate save actions on save"
   * Set "No action if compile time errors"
 
-![](../../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%2893%29.png)
 
 ## Verify Project
 
@@ -60,7 +60,7 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2856%29.png)
 
 ### Verify Annotation Processor 
 

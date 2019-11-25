@@ -13,7 +13,7 @@
 
 * The csv files are based on template with the following columns
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 * **TestSuite**: The name of the test series
 * **TestCaseID**: Unique test id for each test
@@ -51,7 +51,7 @@
 
 * We can also run the test directly located at module: test.module.service.tests: ServiceTestRunner.java
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 
 

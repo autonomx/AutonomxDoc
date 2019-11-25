@@ -15,7 +15,7 @@
 * [https://docs.mongodb.com/manual/installation/](https://docs.mongodb.com/manual/installation/)
 * Select the OS and follow the installation instructions
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 ### Klov Server
 
@@ -24,7 +24,7 @@
 * Navigate to runner -&gt; utils -&gt; klov -&gt; downloadKlovServer.sh or downloadKlovServer.bat based on OS. This will download the klov jar file
 * Navigate to runner -&gt; utils -&gt; klov -&gt; runKlovServer.sh or runKlovServer.bat based on OS
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 * On Browser: [http://localhost](http://localhost) for login page
   * Username: klovadmin
