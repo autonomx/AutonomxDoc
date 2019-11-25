@@ -3,6 +3,7 @@
 ## Json Path
 
 * We are using Json Path library from [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+* Json Path is used for Json response validation and output parameters
 * With Json Path, we can run queries on our json response
 * Json Path queries can be tested out at:
   * [http://jsonpath.herokuapp.com/](http://jsonpath.herokuapp.com/?path=$.store.*..category)
