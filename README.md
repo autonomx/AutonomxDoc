@@ -11,5 +11,15 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 * Integrates seamlessly with the API testing framework for end to end testing
 * Detailed reports through ExtentTest reports
 
+## Design
+
+* Separated between Logic Core and Client
+* 1 Logic Core, many clients
+* Each client represents a project
+* This allows for centralization of the framework
+* Client imports the Logic Core as dependency Jar
+
+![](.gitbook/assets/image%20%2888%29.png)
+
 ## 
 

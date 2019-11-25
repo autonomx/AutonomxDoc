@@ -45,7 +45,7 @@
   * Set "Activate save actions on save"
   * Set "No action if compile time errors"
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 ## Verify Project
 
