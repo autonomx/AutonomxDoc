@@ -41,3 +41,12 @@
   uri1 = /auth/local    
   ```
 
+## Query Parameters
+
+* Query Parameters can be set by appending to the UriPath 
+* eg. /content-manager/explorer/user/?source=users-permissions
+* Multiple query path can be added by & 
+* /content-manager/explorer/user/?source=users-permissions&key=value
+
+![](../../.gitbook/assets/image%20%2889%29.png)
+
