@@ -7,6 +7,9 @@
 * After suite: test file run once after suite
 * Before test file: test file run before each csv test file
 * After test file: test file run after each csv test file
+* Config values stores using &lt;$variable&gt; syntax, will propagate to the test file
+  * Value set at before suite/test file will be available for the test
+  * eg. can authenticate once in before suite and use the token for the entire test run, override as needed per test
 
 ## Configuration
 
