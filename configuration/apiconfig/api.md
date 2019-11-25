@@ -7,7 +7,7 @@
   #UriPath= https://de-qa.azurefd.net
   api.uriPath = http://45.76.245.149:1337
   api.parallelTestcasePath = "../apiTestData/testcases/"
-  api.sequentialTestcasePath = "../apiTestData/testcases/"
+  api.actionTestcasePath = "../apiTestData/keywords/action/"
   api.templaePath=""
 
   # set file name to run single csv file
@@ -43,8 +43,8 @@
         <td style="text-align:left">the location of the test case csv files for parallel runs</td>
       </tr>
       <tr>
-        <td style="text-align:left">api.sequentialTestcasePath</td>
-        <td style="text-align:left">the location of the test case csv files for sequential runs</td>
+        <td style="text-align:left">api.actionTestCasePath</td>
+        <td style="text-align:left">the location of the test case csv files for external csv files.</td>
       </tr>
       <tr>
         <td style="text-align:left">api.templatePath</td>

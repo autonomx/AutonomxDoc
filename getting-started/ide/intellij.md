@@ -20,7 +20,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -39,13 +39,13 @@
 * Navigate to preferences -&gt; plugins
   * search for Save Actions, install and restart
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 * At preferences -&gt; Other Settings -&gt; Save Actions
   * Set "Activate save actions on save"
   * Set "No action if compile time errors"
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 ## Verify Project
 
@@ -60,7 +60,7 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 ### Verify Annotation Processor 
 
@@ -74,7 +74,7 @@
 * Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 ### Verify Results
 

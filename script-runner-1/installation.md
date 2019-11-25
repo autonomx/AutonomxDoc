@@ -21,11 +21,11 @@ Python 3.4 or higher with the following modules:
 * Add to Environment Path
   * Include path and path\Scripts
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 * Verify in command line: python --version
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 * run ⁨automation-client⁩ ▸ ⁨runner⁩ ▸ scriptServer.sh 
 
