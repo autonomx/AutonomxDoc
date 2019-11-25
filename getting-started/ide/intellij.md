@@ -20,7 +20,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -31,7 +31,7 @@
 * Navigate to: project folder -&gt; autonomx -&gt; automation -&gt; open
 * Import maven dependencies from the Intellij 
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## Add Save Actions Plugin
 
@@ -39,13 +39,13 @@
 * Navigate to preferences -&gt; plugins
   * search for Save Actions, install and restart
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2859%29.png)
 
 * At preferences -&gt; Other Settings -&gt; Save Actions
   * Set "Activate save actions on save"
   * Set "No action if compile time errors"
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ## Verify Project
 
@@ -60,27 +60,27 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 ### Verify Annotation Processor 
 
 * Ensure the annotation processor is disabled
 * Autonomx uses maven through Ant file to generate annotation class files
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ### Verify Test
 
 * Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ### Verify Results
 
 * Results should be displayed in the testNG panel
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2812%29.png)
 
 
 

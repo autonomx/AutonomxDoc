@@ -1,6 +1,6 @@
 # Persistent Report
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 ## Purpose
 
@@ -15,7 +15,7 @@
 * [https://docs.mongodb.com/manual/installation/](https://docs.mongodb.com/manual/installation/)
 * Select the OS and follow the installation instructions
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../.gitbook/assets/image%20%2873%29.png)
 
 ### Klov Server
 
@@ -24,7 +24,7 @@
 * Navigate to runner -&gt; utils -&gt; klov -&gt; downloadKlovServer.sh or downloadKlovServer.bat based on OS. This will download the klov jar file
 * Navigate to runner -&gt; utils -&gt; klov -&gt; runKlovServer.sh or runKlovServer.bat based on OS
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 * On Browser: [http://localhost](http://localhost) for login page
   * Username: klovadmin
