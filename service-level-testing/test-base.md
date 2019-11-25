@@ -3,7 +3,10 @@
 ## Purpose
 
 * We can have a test file designated as before/after suite or before/after csv
-* Before suite: test file 
+* Before suite: test file run once before suite
+* After suite: test file run once after suite
+* Before test file: test file run before each csv test file
+* After test file: test file run after each csv test file
 
 ## Configuration
 
