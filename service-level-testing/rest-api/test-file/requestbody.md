@@ -6,11 +6,12 @@
 * Content type should be set in ContentType column
 * eg. 
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 
 ## Form Body
 
 * Form parameters are set as key:value separated by ","
+* Content type must be set. eg. application/x-www-form-urlencoded
 * eg.
 * ```text
   username:zzz_test<@_TIME16>,
@@ -18,6 +19,8 @@
   password:password<@_TIME16>,
   confirmed:true
   ```
+
+![](../../../.gitbook/assets/image%20%281%29.png)
 
 ## Dynamic Values
 
