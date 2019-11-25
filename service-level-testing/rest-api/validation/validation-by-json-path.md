@@ -6,7 +6,7 @@
 * Format
   * JsonPath:Position:command\(value\)
   * Position is optional
-  * More info on Json Path
+  * [More info on Json Path](https://docs.autonomx.io/service-level-testing/rest-api/json-path)
   * eg. [http://jsonpath.herokuapp.com/?path=$.store.\*..category](http://jsonpath.herokuapp.com/?path=$.store.*..category)
   * ```text
     _VERIFY.JSON.PART_

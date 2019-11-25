@@ -4,6 +4,7 @@
 
 * We can verify partial json body using Json Path 
 * [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+* [More info on Json Path](https://docs.autonomx.io/service-level-testing/rest-api/json-path)
 * Format: 
   * ```text
     jsonPath:jsonbody(json body)
