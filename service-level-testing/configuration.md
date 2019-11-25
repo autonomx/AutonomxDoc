@@ -12,8 +12,12 @@
   * UriPath
   * RequestHeader
   * RequestBody
-  * OutputParam
   * ExpectedResponse
+
+## Storing Values
+
+* Values can be stored using &lt;$variable&gt; syntax
+* Storing values can be done at the OutputParam column
 
 
 
