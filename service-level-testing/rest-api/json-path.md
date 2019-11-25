@@ -3,7 +3,7 @@
 ## Json Path
 
 * We are using Json Path library from [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
-* Json Path is used for Json response validation and output parameters
+* Json Path is used for Json [response validation ](https://docs.autonomx.io/service-level-testing/rest-api/validation/validation-by-json-path)and [output parameters](https://docs.autonomx.io/service-level-testing/rest-api/test-file/outputparam)
 * With Json Path, we can run queries on our json response
 * Json Path queries can be tested out at:
   * [http://jsonpath.herokuapp.com/](http://jsonpath.herokuapp.com/?path=$.store.*..category)
