@@ -56,7 +56,6 @@
     * [UriPath](service-level-testing/rest-api/uripath.md)
     * [ContentType](service-level-testing/rest-api/contenttype.md)
     * [Method](service-level-testing/rest-api/method.md)
-    * [Option](service-level-testing/rest-api/option.md)
     * [Header](service-level-testing/rest-api/header.md)
     * [RequestBody](service-level-testing/rest-api/requestbody.md)
     * [OutputParam](service-level-testing/rest-api/outputparam.md)

@@ -9,7 +9,7 @@ description: setting up an Android Test
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 ## Configure Android app
 

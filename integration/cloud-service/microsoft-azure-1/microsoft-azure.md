@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 * 
-![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2875%29.png)
+![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2876%29.png)
 
 ## Web Tests
 
@@ -39,5 +39,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2847%29.png)
+![](../../../.gitbook/assets/image%20%2848%29.png)
 

@@ -12,7 +12,7 @@
 * Uri path value is then appened to the api.uriPath value
 * eg. We append /auth/local to base url: http://demo.autonomx.io
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 ## Override Uri Path
 
@@ -48,5 +48,5 @@
 * Multiple query path can be added by & 
 * /content-manager/explorer/user/?source=users-permissions&key=value
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 
