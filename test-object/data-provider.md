@@ -10,7 +10,7 @@
 * We first setup the data in a csv file under the "data" folder
 * The first column is @id which identifies the data and the rest are data values
 
-![UserInvalid.csv](../.gitbook/assets/image%20%2876%29.png)
+![UserInvalid.csv](../.gitbook/assets/image%20%2878%29.png)
 
 ## Implementation
 

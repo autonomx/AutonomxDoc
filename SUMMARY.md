@@ -53,6 +53,7 @@
   * [Service Code Integration](service-level-testing/service-code-integration.md)
   * [Database](service-level-testing/database.md)
   * [Restful API](service-level-testing/rest-api/README.md)
+    * [Header](service-level-testing/rest-api/header.md)
     * [Validation](service-level-testing/rest-api/validation/README.md)
       * [Validation By Partial Json](service-level-testing/rest-api/validation/validation-by-partial-json.md)
       * [Validation By Response Body](service-level-testing/rest-api/validation/validation-by-response-body.md)
