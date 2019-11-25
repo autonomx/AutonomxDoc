@@ -46,7 +46,7 @@
   * [Create Test Suite](test-suite/create-test-suite.md)
   * [Run From Command Line](test-suite/run-from-command-line.md)
 * [Service Level Testing](service-level-testing/README.md)
-  * [Configuration](service-level-testing/configuration.md)
+  * [Configuration and Variables](service-level-testing/configuration.md)
   * [External](service-level-testing/external/README.md)
     * [Test Base](service-level-testing/external/test-base.md)
     * [Action](service-level-testing/external/action.md)

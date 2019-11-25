@@ -1,4 +1,4 @@
-# Configuration
+# Configuration and Variables
 
 * Service level Integration configuration file can be found at:
   * automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨resources⁩ ▸ properties ▸ apiConfig.property
