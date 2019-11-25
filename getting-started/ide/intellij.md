@@ -39,13 +39,13 @@
 * Navigate to preferences -&gt; plugins
   * search for Save Actions, install and restart
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2858%29.png)
 
 * At preferences -&gt; Other Settings -&gt; Save Actions
   * Set "Activate save actions on save"
   * Set "No action if compile time errors"
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 ## Verify Project
 

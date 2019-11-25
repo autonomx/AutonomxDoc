@@ -15,7 +15,7 @@
 * Set Agent as Hosted macOS
 * If using a locally hosted vm, select appropriate agent
 
-![](../../../.gitbook/assets/image%20%2876%29.png)
+![](../../../.gitbook/assets/image%20%2877%29.png)
 
 ### Install Node 10.x
 
