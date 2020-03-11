@@ -33,23 +33,9 @@
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
-## Add Save Actions Plugin
-
-* Save Actions plugin allows for the Ant code generator to run on save
-* Navigate to preferences -&gt; plugins
-  * search for Save Actions, install and restart
-
-![](../../.gitbook/assets/image%20%2866%29.png)
-
-* At preferences -&gt; Other Settings -&gt; Save Actions
-  * Set "Activate save actions on save"
-  * Set "No action if compile time errors"
-
-![](../../.gitbook/assets/image%20%2894%29.png)
-
 ## Verify Project
 
-### Verify Ant Build
+### Add Ant Build
 
 * Ensure Ant build is available
 * Select Ant build from the right side panel
@@ -62,9 +48,10 @@
 
 ![](../../.gitbook/assets/image%20%2856%29.png)
 
-### Verify Annotation Processor 
+### Disable Annotation Processor 
 
 * Ensure the annotation processor is disabled
+* **Maven default annotation processors** should also be disabled
 * Autonomx uses maven through Ant file to generate annotation class files
 
 ![](../../.gitbook/assets/image%20%2811%29.png)
