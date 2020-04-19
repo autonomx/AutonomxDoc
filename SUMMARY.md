@@ -65,6 +65,7 @@
       * [Validation By Partial Json](service-level-testing/rest-api/validation/validation-by-partial-json.md)
       * [Validation By Response Body](service-level-testing/rest-api/validation/validation-by-response-body.md)
       * [Validation By Json Body](service-level-testing/rest-api/validation/validation-by-json-body.md)
+      * [Custom Validation](service-level-testing/rest-api/validation/custom-validation.md)
       * [Validation By Json Path](service-level-testing/rest-api/validation/validation-by-json-path.md)
 * [Script Runner](script-runner-1/README.md)
   * [Installation](script-runner-1/installation.md)

@@ -32,7 +32,7 @@
   npm install -g appium
   ```
 
-![](../../../.gitbook/assets/image%20%2867%29.png)
+![](../../../.gitbook/assets/image%20%2868%29.png)
 
 ### Install MJPEG Consumer
 
@@ -42,7 +42,7 @@
   brew install ffmpeg
   ```
 
-![](../../../.gitbook/assets/image%20%2877%29.png)
+![](../../../.gitbook/assets/image%20%2878%29.png)
 
 ### Run Appium
 
@@ -52,7 +52,7 @@
   appium --relaxed-security &
   ```
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![](../../../.gitbook/assets/image%20%2886%29.png)
 
 ### Run Tests
 
@@ -69,7 +69,7 @@
   mvn clean compile test -DsuiteXmlFile=suites/iosSmokeTests.xml -Dios.capabilties.platformVersion=10.0 -Dios.mobile="iPhone 6" -Dappium.useExternalAppiumServer=true  -Drecorder.enableRecording=true 
   ```
 
-![](../../../.gitbook/assets/image%20%2882%29.png)
+![](../../../.gitbook/assets/image%20%2883%29.png)
 
 ### Publish the results
 
@@ -80,5 +80,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2875%29.png)
+![](../../../.gitbook/assets/image%20%2876%29.png)
 

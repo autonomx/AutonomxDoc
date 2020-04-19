@@ -79,6 +79,10 @@
           <ul>
             <li>2 is the number of seconds to wait for the validation requirement to be
               met.</li>
+            <li>
+              <p>Validation requirement set at columns:</p>
+              <p>RespCodeEx, ExpectedResponse</p>
+            </li>
           </ul>
           <p>To disable in CSV file, set in Option column:</p>
           <p>NO_VALIDATION_TIMEOUT</p>
