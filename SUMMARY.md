@@ -48,6 +48,7 @@
 * [Service Level Testing](service-level-testing/README.md)
   * [Configuration and Variables](service-level-testing/configuration.md)
   * [External](service-level-testing/external/README.md)
+    * [Custom Method](service-level-testing/external/custom-method.md)
     * [Test Base](service-level-testing/external/test-base.md)
     * [Action](service-level-testing/external/action.md)
   * [Service Code Integration](service-level-testing/service-code-integration.md)
