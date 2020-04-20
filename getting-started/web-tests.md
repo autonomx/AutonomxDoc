@@ -5,14 +5,25 @@
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
 * Download [autonomx-web-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-web-1.0.4.zip)
 * Or download the Web UI + API testing combination: [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
-* Unpack 
+* Unpack
+
+## Install JDK
+
+* Download Java JDK from:
+  * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+* Install: [https://tutorials.visualstudio.com/Java/hello-world/install-jdk](https://tutorials.visualstudio.com/Java/hello-world/install-jdk)
+* Command line, run command: javac -version
+* ```text
+  jenkins@[~/Documents/Selenium]$ javac -version
+  javac 1.8.0_162
+  ```
 
 ## Run Setup
 
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 

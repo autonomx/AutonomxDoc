@@ -20,7 +20,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -46,7 +46,7 @@
   * Select ant.xml from root directory \( where pom.xml is \)
   * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ### Disable Annotation Processor 
 
