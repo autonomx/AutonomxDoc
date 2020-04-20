@@ -23,7 +23,7 @@
   	public void testInterface(ServiceObject serviceObject) {
   	}
   ```
-* 
+
 ## Service Object
 
 * Service object is the only parameter used by custom interface
@@ -40,7 +40,7 @@
 
 * Options values are key value pairs
 * In the custom method, its best to use the same methodology
-* 
+
 ![](../../.gitbook/assets/image%20%2863%29.png)
 
 ```text
@@ -95,8 +95,6 @@
   ```text
   Option column: waitForResponsSecondse:3
   ```
-
- 
 
 ## Csv Test File Usage
 
