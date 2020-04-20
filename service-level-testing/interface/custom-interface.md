@@ -14,5 +14,5 @@
 
 ![](../../.gitbook/assets/image%20%2831%29.png)
 
-* The custom interface class name and main method should be the same, where the method name is lower case of the clas
+* The custom interface class name and main method should be the same, where the method name is lower case of the class
 
