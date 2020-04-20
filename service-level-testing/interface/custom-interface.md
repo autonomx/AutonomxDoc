@@ -36,6 +36,68 @@
   		serviceObject.getExpectedResponse();
   ```
 
+## Option Values
+
+* Options values are key value pairs
+* In the custom method, its best to use the same methodology
+* 
+![](../../.gitbook/assets/image%20%2863%29.png)
+
+```text
+	public class TestInterface {
+	public static final String KEY1Option = "waitForResponsSecondse";
+	public static final String KEY1 = "key1";
+	
+		public static void evaluateOption(ServiceObject serviceObject) {
+	
+			// reset options. will be overwritten by option value if set
+			resetOptions();
+	
+			// if no option specified
+			if (serviceObject.getOption().isEmpty()) {
+				return;
+			}
+	
+			// store value to config directly using format: value:<$key> separated by colon
+			// ';'
+			DataHelper.saveDataToConfig(serviceObject.getOption());
+	
+			// replace parameters for request body
+			serviceObject.withOption(DataHelper.replaceParameters(serviceObject.getOption()));
+	
+			// get key value mapping of header parameters
+			List<KeyValue> keywords = DataHelper.getValidationMap(serviceObject.getOption());
+	
+			// iterate through key value pairs for headers, separated by ";"
+			for (KeyValue keyword : keywords) {
+	
+				// if additional options
+				switch (keyword.key) {
+				case KEY1Option:
+					Config.putValue(KEY1, keyword.value, false);
+					break;
+				default:
+					break;
+				}
+			}
+			KeyValue.printKeyValue(keywords, "option");
+		}
+	
+		private static void resetOptions() {
+			Config.putValue(KEY1, "");
+		}
+	
+	}
+```
+
+* In this example, the option value in csv file:
+
+  ```text
+  Option column: waitForResponsSecondse:3
+  ```
+
+ 
+
 ## Csv Test File Usage
 
 * Custom interface relies on code generation to generate the code required to interact with the csv files
@@ -43,5 +105,5 @@
 * In Csv file, we set:
   * InterfaceType: TestInterface
 * 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 

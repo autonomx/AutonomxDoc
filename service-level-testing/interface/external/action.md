@@ -21,7 +21,7 @@
 
 ## Example
 
-![](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/image%20%2866%29.png)
 
 * We set:
   * Interface: EXTERNAL

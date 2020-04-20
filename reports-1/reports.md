@@ -41,7 +41,7 @@
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 ## Configuration
 
