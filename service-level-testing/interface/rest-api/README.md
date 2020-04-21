@@ -117,21 +117,21 @@
 </table>## Column Values
 
 * **TestSuite**: The name of the test series
-* **TestCaseID**: Unique test id for each test
+* \*\*\*\*[**TestCaseID**](https://docs.autonomx.io/service-level-testing/interface/rest-api/test-file/testcaseid): Unique test id for each test
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
 * **InterfaceType**: RESTfulAPI
-* **UriPath**: 
+* \*\*\*\*[**UriPath**](https://docs.autonomx.io/service-level-testing/interface/rest-api/test-file/uripath): 
   * URI path append to the base URI defined in apiConfig.property
   * Full URL path can be used. If value starts with "http", then the url will not be appended to the base URI. eg. http://www.site.com/api/login
-* **ContentType**: The content type of the request
-* **Method**:  type of call made: POST, GET, PUT, DELETE
+* \*\*\*\*[**ContentType**](https://docs.autonomx.io/service-level-testing/interface/rest-api/test-file/contenttype): The content type of the request
+* Method:  type of call made: POST, GET, PUT, DELETE
 * **Option**: 
-* **RequestHeaders**: The header values, separated by ";". 
+* \*\*\*\*[**RequestHeaders**](test-file/header.md): The header values, separated by ";". 
   * eg. Authorization: Bearer &lt;@accessTokenAdmin&gt;
 * **TemplateFile**: 
-* **RequestBody**: The request body goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username="admin" defined in apiConfig.property file.
-* **OutputParams**: We can store response values into variables defined here. The variables will then be available for other tests.
+* \*\*\*\*[**RequestBody**](https://docs.autonomx.io/service-level-testing/interface/rest-api/test-file/requestbody): The request body goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username="admin" defined in apiConfig.property file.
+* \*\*\*\*[**OutputParams**](test-file/outputparam.md): We can store response values into variables defined here. The variables will then be available for other tests.
   *  Syntax: &lt;$variable&gt;. eg. NAME:1:&lt;$name&gt;. the variable "name" can then be access through syntax &lt;@name&gt; in subsequent tests
 * **RespCodeExp**: expected response code value from the api call
 * **ExpectedResponse**: Verification of the response goes here. More description in the interface sections.
