@@ -1,6 +1,6 @@
 # Validation
 
-* Options for RestFul API validations: 
+* Options for validations: 
   * [Partial Json](https://docs.autonomx.io/service-level-testing/validation/validation-by-partial-json)
     * Validates part of json response based on path 
   * [Response body](https://docs.autonomx.io/service-level-testing/validation/validation-by-response-body)
