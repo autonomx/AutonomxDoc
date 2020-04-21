@@ -1,6 +1,6 @@
 # Validation
 
-* Options for validations: 
+* Options for validation: 
   * [Partial Json](https://docs.autonomx.io/service-level-testing/validation/validation-by-partial-json)
     * Validates part of json response based on path 
   * [Response body](https://docs.autonomx.io/service-level-testing/validation/validation-by-response-body)
