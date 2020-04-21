@@ -79,6 +79,12 @@
 </table>## Column Values
 
 * **TestSuite**: The name of the test series
+  * Tests can be combined by using postfix: \_step\#
+    * ```text
+      createNewUser_step1
+      createNewUser_step2
+      createNewUser_step3
+      ```
 * **TestCaseID**: Unique test id for each test
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
