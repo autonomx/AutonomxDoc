@@ -52,6 +52,7 @@
     * [Restful API](service-level-testing/interface/rest-api/README.md)
       * [Json Path](service-level-testing/interface/rest-api/json-path.md)
       * [Test File](service-level-testing/interface/rest-api/test-file/README.md)
+        * [TestCaseID](service-level-testing/interface/rest-api/test-file/testcaseid.md)
         * [UriPath](service-level-testing/interface/rest-api/test-file/uripath.md)
         * [ContentType](service-level-testing/interface/rest-api/test-file/contenttype.md)
         * [Method](service-level-testing/interface/rest-api/test-file/method.md)
