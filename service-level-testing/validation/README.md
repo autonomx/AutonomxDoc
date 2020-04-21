@@ -9,4 +9,6 @@
     * Validates json response directly
   * Json Path
     * Validates json response based on path
+  * Xml Body 
+    * Validate xml response directly
 
