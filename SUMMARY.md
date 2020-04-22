@@ -67,6 +67,7 @@
         * [OutputParam](service-level-testing/interface/rest-api/test-file/outputparam.md)
       * [Validation](service-level-testing/interface/rest-api/validation.md)
     * [Database](service-level-testing/interface/database.md)
+    * [Service Bus](service-level-testing/interface/service-bus.md)
     * [Kafka](service-level-testing/interface/kafka.md)
     * [Rabbit MQ](service-level-testing/interface/rabbit-mq.md)
     * [External](service-level-testing/interface/external/README.md)
