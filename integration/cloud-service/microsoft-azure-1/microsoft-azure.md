@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 * 
-![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2886%29.png)
+![Autonomx pipeline setup](../../../.gitbook/assets/image%20%2887%29.png)
 
 ## Web Tests
 
@@ -28,7 +28,7 @@
   * eg.-Dweb.maximizeBrowser=true 
   * note: There should be no space in setting the key value combination
 
-![](../../../.gitbook/assets/image%20%2838%29.png)
+![](../../../.gitbook/assets/image%20%2839%29.png)
 
 ### Publish the results
 
@@ -39,5 +39,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2854%29.png)
+![](../../../.gitbook/assets/image%20%2855%29.png)
 

@@ -12,7 +12,7 @@
 * We can add custom interface to the Service project
 * Interfaces are added at **module -&gt; services -&gt; interfaces** package
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 * The custom interface class name and main method should be the same, where the method name is lower case of the class
 * ```text
@@ -41,7 +41,7 @@
 * Options values are key value pairs
 * In the custom method, its best to use the same methodology
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 ```text
 	public class TestInterface {
@@ -103,5 +103,5 @@
 * In Csv file, we set:
   * InterfaceType: TestInterface
 * 
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 

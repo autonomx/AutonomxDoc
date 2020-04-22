@@ -41,7 +41,7 @@
 * Use [http://jsonpath.herokuapp.com/](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29]) web app to validate your json query
 * eg. [http://jsonpath.herokuapp.com/?path=$..book\[?\(@.author%20=~%20/.\*REES/i\)\]](http://jsonpath.herokuapp.com/?path=$..book[?%28@.author%20=~%20/.*REES/i%29])
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ### 
 
@@ -50,7 +50,7 @@
 * At Expected Response column, add the jsonbody validation as follows
 * Example found at **apiTestData -&gt; testCases -&gt; TestCases\_UserValidation.csv \(row 3\)**
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 ### Path Examples
 

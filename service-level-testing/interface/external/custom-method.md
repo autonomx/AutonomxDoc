@@ -42,7 +42,7 @@
       * testmethod is the method name
     * Request Body: param1:value1; param2:3; param3:&lt;@keymap&gt;
 
-![](../../../.gitbook/assets/image%20%2813%29.png)
+![](../../../.gitbook/assets/image%20%2814%29.png)
 
 In CSV:
 
