@@ -27,5 +27,4 @@
       * The number of messages we expect in the response \(optional\)
     * _\_VERIFY.JSON.PART_ event.data.groups..data.groupUUID:contains\(uuid3n0\)
       * Json path validation. More info at the [Validation section](https://docs.autonomx.io/service-level-testing/validation)
-  * 
 
