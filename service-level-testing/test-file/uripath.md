@@ -2,7 +2,7 @@
 
 ## UriPath
 
-* Applicable to **Restful API**
+* **Applicable to Restful API**
 * UriPath column in CSV appends the Uri path to the base Url defined in the apiConfig.properties file
 * ```text
   apiConfig.properties:
