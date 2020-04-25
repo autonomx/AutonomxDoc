@@ -2,6 +2,7 @@
 
 ## Header values
 
+* **Applicable to Restful API**
 * Header values can be set at the **RequestHeaders** column
 * Header values follow the format of Key:value
   * eg. Authorization: Bearer &lt;@accessTokenAdmin&gt;
