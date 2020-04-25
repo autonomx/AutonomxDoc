@@ -42,8 +42,8 @@
 * We can also disable them in the test file
 * Example
   * We set:
-    *  Interface: External
-    * Method: beforeCsvFile:none; afterCsvFile:none;
+    * **Interface**: External
+    * **Method**: beforeCsvFile:none; afterCsvFile:none;
     * or, we can set beforeCsvFile:beforeFile2.csv; afterCsvFile:afterFile2.csv
 
 ![](../../../.gitbook/assets/image%20%2821%29.png)

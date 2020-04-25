@@ -24,8 +24,8 @@
 ![](../../../.gitbook/assets/image%20%2867%29.png)
 
 * We set:
-  * Interface: EXTERNAL
-  * Method: action:createDeleteUser.csv; 
+  * **Interface**: EXTERNAL
+  * **Method**: action:createDeleteUser.csv; 
 * In this example, we are calling createDeleteUser.csv file during test
 * We can call multiple files, separated by ";"
 

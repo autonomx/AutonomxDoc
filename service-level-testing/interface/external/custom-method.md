@@ -36,11 +36,15 @@
 * To set custom method in csv file:
 
   * We set:
-    * Interface: EXTERNAL
-    * Method: **METHOD:classname:methodname** eg. METHOD:External.testMethod
+
+    * **Interface**: EXTERNAL
+    * **Method**: **METHOD:classname:methodname** eg. METHOD:External.testMethod
       * External is the class name
       * testmethod is the method name
-    * Request Body: param1:value1; param2:3; param3:&lt;@keymap&gt;
+    * **Request Body**: param1:value1; param2:3; param3:&lt;@key1&gt;
+
+  * This is equivalent of:
+    * testMethod\("value1", 3, "name1"\)
 
 ![](../../../.gitbook/assets/image%20%2814%29.png)
 
