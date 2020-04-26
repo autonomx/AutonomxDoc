@@ -20,6 +20,13 @@
 ## XML Response
 
 * Format: Field:position:value
-* 
+* The stored variable can be accessed using &lt;@variable&gt; syntax
+* Multiple variables can be stored, separated by ";" 
+* eg.
+  * soi.equipmentId:1:&lt;$equipment&gt;
+  * Here we're storing the field value in XML file named "soi.equipmentId" at first occurrence at variable "equipment"
+  * We can access this value in other tests using the syntax: &lt;@equipment&gt;.
+    * See: [Configuration and Variables ](https://docs.autonomx.io/service-level-testing/features/configuration#accessing-config-values)section
+
 
 
