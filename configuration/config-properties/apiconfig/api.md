@@ -1,25 +1,49 @@
 # Api
 
-
-
-* Handles database connection info
+* Handles Restful Api connection and configuration info
 * ```text
-  #UriPath= https://de-qa.azurefd.net
-  api.uriPath = http://45.76.245.149:1337
-  api.parallelTestcasePath = "../apiTestData/testcases/"
+  # global configuration
+  service.csv.separator = ","
+  service.csv.dataprovider.count = 20
+
+  api.uriPath = http://demo.autonomx.io
+  adminUserName = "autoAdmin1"
+  adminUserPassword = "autoPass1"
+  authentication.disabled = false 
+
+  api.parallelTestcasePath = "../apiTestData/testCases/"
+  api.csv.include.subdir = false
+
   api.actionTestcasePath = "../apiTestData/keywords/action/"
-  api.templaePath=""
+  api.templatePath = "../apiTestData/templates/"
+  api.templateDataFile = "../apiTestData/templates/data/"
+
+  api.base.path = "../apiTestData/keywords/testBase/"
+  api.base.before.testfile = "TestCases_RunBefore.csv"
+  api.base.after.testfile = "TestCases_RunAfter.csv"
+  api.base.before.suite = "TestCases_RunBeforeSuite.csv"
+  api.base.after.suite = "TestCases_RunAfterSuite.csv"
+
+  # timeout in seconds for api calls to return response
+  service.response.timeout.seconds = 60
+
+  # will retry the request, expecting to pass validation for duration of specified duration in seconds
+  service.timeout.validation.isEnabled = false
+  service.timeout.validation.seconds = 2
+  service.timeout.validation.delay.between.attempt.seconds = 3
+  service.retry.count = 0
+  service.retry.after.seconds = 0
 
   # set file name to run single csv file
   api.testCaseFile = ""
   api.testCase = ""
 
-  # timeout in seconds
-  api.timeout.connect.seconds = 5
+  # api validation rules
+  api.validation.fail.on.escapechars = false
 
-  # will retry the request, expecting to pass validation for duration of specified duration in seconds
-  api.timeout.validation.isEnabled = false
-  api.timeout.validation.seconds = 2
+  # api url encoding
+  api.encoding.url = true
+  api.encoding.parameter = false
   ```
 
 
