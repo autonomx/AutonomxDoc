@@ -22,6 +22,7 @@
   # read all config files in . prefix: config.group.
   config.group.root.main = "./resources/properties/"
   ```
-
-
+* [Config Profile](https://docs.autonomx.io/configuration/config-properties/profile): Single file property specifying an profile
+* [Config Group](https://docs.autonomx.io/configuration/config-properties/group): Multiple property files specifying an profile
+* User can create as many profiles and groups as needed
 
