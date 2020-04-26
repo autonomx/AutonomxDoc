@@ -58,6 +58,7 @@
     * [Header](service-level-testing/test-file/header.md)
     * [RequestBody](service-level-testing/test-file/requestbody.md)
     * [OutputParam](service-level-testing/test-file/outputparam.md)
+    * [ExpectedResponse](service-level-testing/test-file/expectedresponse.md)
   * [Validation](service-level-testing/validation/README.md)
     * [Validation By XML Body](service-level-testing/validation/validation-by-xml-body.md)
     * [Validation By Partial Json](service-level-testing/validation/validation-by-partial-json.md)
