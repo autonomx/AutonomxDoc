@@ -17,6 +17,7 @@
 * [Helpers](helpers/README.md)
   * [Additional Helpers](helpers/additional-helpers.md)
 * [Configuration](configuration/README.md)
+  * [Code Usage](configuration/code-usage.md)
   * [Config Properties](configuration/config-properties/README.md)
     * [Profile](configuration/config-properties/profile.md)
     * [Group](configuration/config-properties/group.md)

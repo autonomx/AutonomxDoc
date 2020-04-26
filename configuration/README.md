@@ -4,7 +4,6 @@
   * Contains properties pertaining web, ios, android, api, and winApp tests
 * Configuration files .property and .conf are loaded into memory at run time
 * Additional .conf or .property files can be added to resource folder and they will load at run time
-* Additional folder locations can be added to properties.property file with prefix "config." and the location relative to root directory
 * Config values are scoped based on access layer. 
   * Config value set or updated at before suite, is available to all tests
   * Config value set or updated at before class, is available to all tests in set class
