@@ -2,7 +2,7 @@
 
 ## Purpose
 
-* We can specify single property file profile using the Profile feature
+* We can specify **single property file** profile using the Profile feature
 * This is useful if we want to specify different environment 
 
 ## Implementation
