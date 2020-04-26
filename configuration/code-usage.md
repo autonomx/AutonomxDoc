@@ -4,7 +4,7 @@
 
 * We can access the config values in code 
 
-## Usage
+## Access
 
 * Values added to properties files are run through code generation to become accessible 
 * Syntax: ConfigVariable.&lt;property name&gt;.to&lt;type&gt;\(\)
@@ -20,7 +20,29 @@
   String appiumLogLevel = ConfigVariable.appiumLogginLevel().toString();
   ```
 
+## Updating Values
 
+* Values can be updated using syntax: 
+  * ConfigVariable.&lt;property name&gt;\(\).setValue\(value\);
+* ```text
+  ConfigVariable.globalTimeoutSeconds().setValue(90); 
+  ```
+
+## Adding Values
+
+* Values can be added to config as follows:
+* ```text
+  ConfigVariable.setValue("sample.value", true);
+
+  To access added value:
+  boolean value = ConfigVariable.getBooleanValue("sample.value");
+
+  if Integer:
+  int value = ConfigVariable.getIntegerValue("sample.value");
+
+  if String:
+  String value = ConfigVariable.getStringValue("sample.value");
+  ```
 
 ## Scope
 
