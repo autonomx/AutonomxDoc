@@ -1,4 +1,4 @@
-# Api
+# RestFul Api
 
 * Handles Restful Api connection and configuration info
 * ```text

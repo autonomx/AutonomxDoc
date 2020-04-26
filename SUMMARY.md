@@ -22,7 +22,7 @@
     * [Profile](configuration/config-properties/profile.md)
     * [Group](configuration/config-properties/group.md)
     * [Api configuration](configuration/config-properties/apiconfig/README.md)
-      * [Api](configuration/config-properties/apiconfig/api.md)
+      * [RestFul Api](configuration/config-properties/apiconfig/api.md)
       * [DataBase](configuration/config-properties/apiconfig/database.md)
     * [UI Testing Properties](configuration/config-properties/properties/README.md)
       * [Email](configuration/config-properties/properties/email.md)
