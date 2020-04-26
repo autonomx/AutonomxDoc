@@ -14,7 +14,7 @@ description: Rabbit MQ
 
 * We can set the values in the csv file as follows:
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2890%29.png)
 
 
 

@@ -46,7 +46,7 @@
   * This is equivalent of:
     * testMethod\("value1", 3, "name1"\)
 
-![](../../../.gitbook/assets/image%20%2814%29.png)
+![](../../../.gitbook/assets/image%20%2815%29.png)
 
 In CSV:
 

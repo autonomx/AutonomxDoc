@@ -7,5 +7,5 @@
 * The content type is applicable for the request body
 * examples: application/json or application/x-www-form-urlencoded
 
-![](../../.gitbook/assets/image%20%2890%29.png)
+![](../../.gitbook/assets/image%20%2891%29.png)
 

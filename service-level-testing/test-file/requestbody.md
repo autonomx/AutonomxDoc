@@ -6,7 +6,7 @@
 * Content type should be set in ContentType column
 * eg. 
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 ## Xml Body
 
@@ -33,7 +33,7 @@
 * The advantage of template file is that it is centralized and reusable
 * Template files are located at **apiTestData -&gt; templates** directory
 
-![](../../.gitbook/assets/image%20%2893%29.png)
+![](../../.gitbook/assets/image%20%2894%29.png)
 
 ### Json Template
 
@@ -59,7 +59,24 @@
       * test33: value to set or overwrite the value in xml file
     * Multiple replacements are separated by ";"
 
+### Data File
 
+* We can use data files to store values to replace/overwrite template file values
+* Example: for json template, we set columns:
+  * **TemplateFile**: Car.json
+    * The file name at **apiTestData -&gt; templates** Directory
+  * **RequestBody**: DataFile:Filename:dataId
+    * eg. DataFile:Car:ninja
+      * Car: Car.csv data file
+      * ninja: dataId
+    * Data File:
+      * **dataId**: unique id for each data row
+      * **column names**: Identifier of field for either json, or xml file
+        * For Json template: we use  [jsonPath](https://docs.autonomx.io/service-level-testing/interface/rest-api/json-path)
+          * eg. .model, .year, .type
+        * For XML template: we use Field:position to identify the field to set/overwrite 
+
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ## Dynamic Values
 

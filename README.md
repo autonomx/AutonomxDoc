@@ -41,7 +41,7 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 * This allows for centralization of the framework
 * Client imports the Logic Core as dependency Jar
 
-![](.gitbook/assets/image%20%2899%29.png)
+![](.gitbook/assets/image%20%28100%29.png)
 
 ## 
 
