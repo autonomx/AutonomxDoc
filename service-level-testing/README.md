@@ -13,7 +13,7 @@
 
 * The csv files are based on template with the following columns
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 * **TestSuite**: The name of the test series
 * **TestCaseID**: Unique test id for each test
@@ -47,11 +47,11 @@
 
 * We can run the service tests from apiTestData -&gt; runner -&gt; &lt;os&gt; -&gt; apiRunner file
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 * We can also run the test directly located at module: test.module.service.tests: ServiceTestRunner.java
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2855%29.png)
 
 
 

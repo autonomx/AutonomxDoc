@@ -6,7 +6,7 @@
 * Content type should be set in ContentType column
 * eg. 
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2849%29.png)
 
 ## Xml Body
 
@@ -33,7 +33,7 @@
 * The advantage of template file is that it is centralized and reusable
 * Template files are located at **apiTestData -&gt; templates** directory
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
 
 ### Json Template
 
@@ -78,9 +78,9 @@
         * For XML template: we use Field:position to identify the field to set/overwrite. 
           * Example: Defects.csv
 
-![Car.csv](../../.gitbook/assets/image%20%2810%29.png)
+![Car.csv](../../.gitbook/assets/image%20%2811%29.png)
 
-![Defects.csv](../../.gitbook/assets/image%20%2811%29.png)
+![Defects.csv](../../.gitbook/assets/image%20%2812%29.png)
 
 ## Dynamic Values
 

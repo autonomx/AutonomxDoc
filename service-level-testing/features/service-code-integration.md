@@ -55,7 +55,7 @@
   * automation -&gt; resourced -&gt; api -&gt; keywords
 * Here, we specify the service calls the same way as service tests using csv data entry
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 * We can then call any of these api calls using the testCaseID
 * eg. getToken
