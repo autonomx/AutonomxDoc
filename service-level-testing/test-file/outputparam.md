@@ -19,6 +19,7 @@
 
 ## XML Response
 
+* Format: Field:position:value
 * 
 
 
