@@ -13,7 +13,7 @@
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-## Define profile in Properties file
+## Define profile
 
 * We then specify the profile in the **properties.property** file
 * ```text
