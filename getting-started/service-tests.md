@@ -32,7 +32,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~10 mins\)
 

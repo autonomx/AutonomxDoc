@@ -21,7 +21,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -33,13 +33,13 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 
 * Select finish
 * **If project has errors, Clean the project**
   * Projects -&gt; Clean...
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 ## Download TestNG Plugin
 
@@ -86,7 +86,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 * Csv Files will not look like this:
 
@@ -99,12 +99,12 @@
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2887%29.png)
+* ![](../../.gitbook/assets/image%20%2888%29.png)
 
 ## Verify The Setup
 

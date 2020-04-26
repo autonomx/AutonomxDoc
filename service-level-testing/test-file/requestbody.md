@@ -33,7 +33,7 @@
 * The advantage of template file is that it is centralized and reusable
 * Template files are located at **apiTestData -&gt; templates** directory
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 ### Json Template
 
