@@ -3,7 +3,7 @@
 ## Properties Config
 
 * Main configuration file is **Properties.property** located at automation -&gt; resources directory
-* Here we set config profile and config group for our properties
+* Here we set [config profile](https://docs.autonomx.io/configuration/config-properties/profile) and [config group](https://docs.autonomx.io/configuration/config-properties/group) for our properties
 * ```text
   # properties/conf file location. add additional locations by prefixing with "config". eg. config.api = "../apiTestData/"
   # location from root directory ( where pom.xml file is located at )
