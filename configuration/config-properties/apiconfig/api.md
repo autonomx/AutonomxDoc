@@ -90,11 +90,13 @@
           to be valid</td>
       </tr>
       <tr>
-        <td style="text-align:left">api.timeout.connect.seconds</td>
-        <td style="text-align:left">timeout duration for connecting to the api url</td>
+        <td style="text-align:left">
+          <br />service.response.timeout.seconds</td>
+        <td style="text-align:left">timeout duration for getting response from rest api call</td>
       </tr>
       <tr>
-        <td style="text-align:left">api.timeout.validation.enabled</td>
+        <td style="text-align:left">
+          <br />service.timeout.validation.isEnabled</td>
         <td style="text-align:left">
           <p>Enable timeout validation. Timeout validation will retry tests the api
             test until the validation requirement is met, within the duration specified.</p>
@@ -117,13 +119,31 @@
         </td>
       </tr>
       <tr>
-        <td style="text-align:left">api.timeout.validation.seconds</td>
+        <td style="text-align:left">
+          <br />service.timeout.validation.seconds</td>
         <td style="text-align:left">Max wait time for validation. Timeout validation will retry tests the
           api test until the validation requirement is met, within the duration specified.</td>
       </tr>
       <tr>
-        <td style="text-align:left"></td>
-        <td style="text-align:left"></td>
+        <td style="text-align:left">
+          <p>
+            <br />service.timeout.validation.</p>
+          <p>delay.between.attempt.seconds</p>
+        </td>
+        <td style="text-align:left">Delay in seconds between each try attempt.</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />service.retry.count</td>
+        <td style="text-align:left">
+          <p>Retry count for Rest api calls. If test fails, it will retry.</p>
+          <p>Choose either service.timeout.validation or this option</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />service.retry.after.seconds</td>
+        <td style="text-align:left">Seconds to wait between each retry count</td>
       </tr>
     </tbody>
   </table>
