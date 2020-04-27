@@ -6,9 +6,6 @@
   service.csv.separator = ","
 
   api.uriPath = http://demo.autonomx.io
-  adminUserName = "autoAdmin1"
-  adminUserPassword = "autoPass1"
-  authentication.disabled = false 
 
   api.parallelTestcasePath = "../apiTestData/testCases/"
   api.csv.include.subdir = false
@@ -66,6 +63,10 @@
         <td style="text-align:left">the location of the test case csv files for parallel runs</td>
       </tr>
       <tr>
+        <td style="text-align:left">api.csv.include.subdir</td>
+        <td style="text-align:left">option to read test cases from the sub directories specified by api.parallelTestcasePath</td>
+      </tr>
+      <tr>
         <td style="text-align:left">api.actionTestCasePath</td>
         <td style="text-align:left">the location of the test case csv files for external csv files.</td>
       </tr>
@@ -73,6 +74,11 @@
         <td style="text-align:left">api.templatePath</td>
         <td style="text-align:left">file path for test templates. This could include xml files to be used
           for request body of api calls</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">api.templateDataFile</td>
+        <td style="text-align:left">file path for template data directory. See <a href="https://docs.autonomx.io/service-level-testing/test-file/requestbody#data-file">template data file</a>
+        </td>
       </tr>
       <tr>
         <td style="text-align:left">api.testCaseFile</td>
