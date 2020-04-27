@@ -34,9 +34,6 @@
   api.testCaseFile = ""
   api.testCase = ""
 
-  # api validation rules
-  api.validation.fail.on.escapechars = false
-
   # api url encoding
   api.encoding.url = true
   api.encoding.parameter = false
@@ -79,6 +76,30 @@
         <td style="text-align:left">api.templateDataFile</td>
         <td style="text-align:left">file path for template data directory. See <a href="https://docs.autonomx.io/service-level-testing/test-file/requestbody#data-file">template data file</a>
         </td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />api.base.path</td>
+        <td style="text-align:left">See <a href="https://docs.autonomx.io/service-level-testing/interface/external/test-base">Test Base </a>section</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />api.base.before.testfile</td>
+        <td style="text-align:left">See <a href="https://docs.autonomx.io/service-level-testing/interface/external/test-base">Test Base </a>section</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">api.base.after.testfile</td>
+        <td style="text-align:left">See <a href="https://docs.autonomx.io/service-level-testing/interface/external/test-base">Test Base </a>section</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />api.base.before.suite</td>
+        <td style="text-align:left">See <a href="https://docs.autonomx.io/service-level-testing/interface/external/test-base">Test Base </a>section</td>
+      </tr>
+      <tr>
+        <td style="text-align:left">
+          <br />api.base.after.suite</td>
+        <td style="text-align:left">See <a href="https://docs.autonomx.io/service-level-testing/interface/external/test-base">Test Base </a>section</td>
       </tr>
       <tr>
         <td style="text-align:left">api.testCaseFile</td>
