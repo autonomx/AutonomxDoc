@@ -73,7 +73,7 @@
       <tr>
         <td style="text-align:left">api.templatePath</td>
         <td style="text-align:left">file path for test templates. This could include xml files to be used
-          for request body of api calls</td>
+          for request body of api calls. See <a href="https://docs.autonomx.io/service-level-testing/test-file/requestbody#templates">template</a> section</td>
       </tr>
       <tr>
         <td style="text-align:left">api.templateDataFile</td>
@@ -82,8 +82,7 @@
       </tr>
       <tr>
         <td style="text-align:left">api.testCaseFile</td>
-        <td style="text-align:left">test case file name for running a single csv file. Located at either parallelTestcasePath
-          or sequentialTestcasePath, depending on what type of tests are executed</td>
+        <td style="text-align:left">test case file name for running a single csv file</td>
       </tr>
       <tr>
         <td style="text-align:left">api.testCase</td>
