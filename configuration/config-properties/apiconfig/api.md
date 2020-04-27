@@ -4,7 +4,6 @@
 * ```text
   # global configuration
   service.csv.separator = ","
-  service.csv.dataprovider.count = 20
 
   api.uriPath = http://demo.autonomx.io
   adminUserName = "autoAdmin1"
