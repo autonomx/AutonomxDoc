@@ -3,6 +3,7 @@
 ## Prerequisite
 
 * [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+* [Setup iOS Environment](https://docs.autonomx.io/prerequisites/ios)
 
 ## Run Setup
 
