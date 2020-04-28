@@ -27,6 +27,14 @@
   * run command: **mvn clean compile test -DsuiteXmlFile=suites/servicesTests.xml**
   * This will compile and run the test suite: serviceTests.xml
 
+## Getting Started
+
+* [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
+* [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
+* [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
+* [Service Tests \( Restful API, Database, Message Queue \)](https://docs.autonomx.io/getting-started/service-tests)
+* [Web Tests](https://docs.autonomx.io/getting-started/web-tests)
+
 ## IDE Setup
 
 * For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
