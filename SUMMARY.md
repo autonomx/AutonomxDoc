@@ -2,8 +2,8 @@
 
 * [Overview](README.md)
 * [Prerequisites](prerequisites/README.md)
-  * [iOS](prerequisites/ios.md)
   * [Android](prerequisites/android.md)
+  * [iOS](prerequisites/ios.md)
 * [Getting Started](getting-started/README.md)
   * [Quick Start](getting-started/quick-start.md)
   * [Android Tests](getting-started/android-tests.md)
