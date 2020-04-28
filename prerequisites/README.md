@@ -9,26 +9,26 @@
 
 ####  Install Java on your computer
 
-Download and install the **Java Software Development Kit \(JDK\)** [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Download and install the **Java Software Development Kit \(JDK\)** [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-[![How to Download &amp; Install Selenium WebDriver](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst1.png)](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst1.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
-Next –
+* This JDK version comes bundled with Java Runtime Environment \(JRE\), so you do not need to download and install the JRE separately.
+* Once installation is complete, open command prompt and type:
 
-[![How to Download &amp; Install Selenium WebDriver](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst2.png)](https://www.guru99.com/images/2-2017/022017_1205_Guidetoinst2.png)
+  * **java -version**
 
-This JDK version comes bundled with Java Runtime Environment \(JRE\), so you do not need to download and install the JRE separately.
+   If you see the following screen you are good to move to the next step
 
-Once installation is complete, open command prompt and type “java”. If you see the following screen you are good to move to the next step
-
-* Command line: run: java -version
-* ```text
+* ```
   $ java -version
+  ```
+* ```text
   java version "1.8.0_162"
   Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
   Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
   ```
-* Command line, run command: javac -version
+* Command line, run command: **javac -version**
 * ```text
   jenkins@[~/Documents/Selenium]$ javac -version
   javac 1.8.0_162

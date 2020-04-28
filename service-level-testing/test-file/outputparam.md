@@ -15,7 +15,7 @@
     * We can access this value in other tests using the syntax: &lt;@role&gt;.
       * See: [Configuration and Variables ](https://docs.autonomx.io/service-level-testing/features/configuration#accessing-config-values)section
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 ## XML Response
 

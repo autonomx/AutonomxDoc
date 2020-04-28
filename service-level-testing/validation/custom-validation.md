@@ -23,7 +23,7 @@
 * Method is added to **Services -&gt; method -&gt; Command.java** 
 * \*\*\*\*
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
 * Method example
 * ```text

@@ -16,3 +16,15 @@ To execute the examples over the Android platform you'll need:
 * Run command: **npm install -g appium**
 * If permission issues: **sudo npm install -g appium --unsafe-perm=true --allow-root**
 
+## Install Appium Desktop
+
+* Appium desktop:
+  * Runs external appium server
+  * Includes App inspector to view elements 
+* Download appium desktop from [https://github.com/appium/appium-desktop/releases](https://github.com/appium/appium-desktop/releases)
+  * Select the proper download based on the OS
+
+![](../.gitbook/assets/image%20%2881%29.png)
+
+
+
