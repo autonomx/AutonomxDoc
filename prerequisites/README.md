@@ -36,10 +36,15 @@ Download and install the **Java Software Development Kit \(JDK\)** [here](http:/
 
 ## Maven
 
+### Automatic Download
+
 * **Run autonomx -&gt; setup.sh/.bat to automatically downloaded maven locally**
+
+### Download Manually
+
 * or download manually:
-* You will also need [Maven 3.3.x or higher](https://maven.apache.org/download.cgi).
-* Download maven zip file
+  * You will also need [Maven 3.3.x or higher](https://maven.apache.org/download.cgi).
+  * Download maven zip file
 
 ![](../.gitbook/assets/image.png)
 
