@@ -21,13 +21,26 @@ This JDK version comes bundled with Java Runtime Environment \(JRE\), so you do 
 
 Once installation is complete, open command prompt and type “java”. If you see the following screen you are good to move to the next step
 
+* Command line: run: java -version
+* ```text
+  $ java -version
+  java version "1.8.0_162"
+  Java(TM) SE Runtime Environment (build 1.8.0_162-b12)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.162-b12, mixed mode)
+  ```
+* Command line, run command: javac -version
+* ```text
+  jenkins@[~/Documents/Selenium]$ javac -version
+  javac 1.8.0_162
+  ```
+
 ## Maven
 
 * **Run autonomx -&gt; setup.sh/.bat to automatically downloaded maven locally**
 * or download manually:
-* You will also need [Maven 3.3.x or higher](https://maven.apache.org/download.cgi) installed.
+* You will also need [Maven 3.3.x or higher](https://maven.apache.org/download.cgi).
 * Download maven zip file
-* 
+
 ![](../.gitbook/assets/image.png)
 
 * Unzip to a directory

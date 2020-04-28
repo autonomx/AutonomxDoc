@@ -4,6 +4,10 @@ description: setting up an Android Test
 
 # Android Tests
 
+## Prerequisite
+
+* [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+
 ## Run Setup
 
 * Run autonomx -&gt; setup.sh/.bat

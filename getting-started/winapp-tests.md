@@ -1,5 +1,9 @@
 # WinApp Tests
 
+## Prerequisite
+
+* [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+
 ## Run Setup
 
 * Run autonomx -&gt; setup.sh/.bat
@@ -7,18 +11,7 @@
 
 ![](../.gitbook/assets/image%20%2868%29.png)
 
-## Install JDK
 
-* Download Java JDK from:
-  * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-* Install: [https://tutorials.visualstudio.com/Java/hello-world/install-jdk](https://tutorials.visualstudio.com/Java/hello-world/install-jdk)
-* Command line, run command: javac -version
-* ```text
-  jenkins@[~/Documents/Selenium]$ javac -version
-  javac 1.8.0_162
-  ```
-
-## 
 
 ## Configure WebApp app
 

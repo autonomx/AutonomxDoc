@@ -9,23 +9,16 @@
 * This allows us to add lots of tests to each csv file, covering large number of permutations
 * This falls in line with the [pyramid of testing](https://app.gitbook.com/@ehsan-matean/s/autonomx/testing-tips/pyramid-of-testing)
 
+## Prerequisite
+
+* [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+
 ## Download Service Test Latest Release
 
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
 * Download [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
 * Or download the Web UI + API testing combination: [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
 * Unpack
-
-## Install Java JDK
-
-* Download Java JDK from:
-  * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-* Install: [https://tutorials.visualstudio.com/Java/hello-world/install-jdk](https://tutorials.visualstudio.com/Java/hello-world/install-jdk)
-* Command line, run command: javac -version
-* ```text
-  jenkins@[~/Documents/Selenium]$ javac -version
-  javac 1.8.0_162
-  ```
 
 ## Run Setup
 

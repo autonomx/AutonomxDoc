@@ -1,5 +1,9 @@
 # Quick Start
 
+## Prerequisite
+
+* [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+
 ## Quick Test Run Using Generated Scripts
 
 * Download the latest release of [Autonomx](https://github.com/autonomx/Autonomx/releases) based on your project needs
