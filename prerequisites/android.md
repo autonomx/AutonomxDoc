@@ -51,6 +51,11 @@ To execute the examples over the Android platform you'll need:
 
 * Run command: **npm install -g appium**
 * If permission issues: **sudo npm install -g appium --unsafe-perm=true --allow-root**
+* Check version in command line:
+* ```text
+  appium --version
+  1.15.1
+  ```
 
 ## Install Appium Desktop
 
@@ -76,6 +81,7 @@ To execute the examples over the Android platform you'll need:
   * **automationName**: UiAutomator2
   * **avd**: Simulator name
     * Real Android device: 
+      * Connect a real Android device to your computer
       * Command prompt: adb devices
       * Device name: **ENUL6303030010**
       * **In Appium Set: UDID: ENUL6303030010 \(**_do not set avd_**\)**
