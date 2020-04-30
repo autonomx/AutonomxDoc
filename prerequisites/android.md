@@ -2,6 +2,7 @@
 
 To execute the examples over the Android platform you'll need:
 
+* NodeJs
 * Android SDK
 * Install Android Simulator
 * Appium
