@@ -10,6 +10,16 @@ To execute the examples over the iOS platform you'l need:
 
 * [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
 
+## Install NodeJs
+
+* [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+* Run command prompt: npm -version
+* Alternatively, you install via brew: brew install node
+* ```text
+  npm -version
+  6.13.4
+  ```
+
 ## Install Homebrew
 
 Homebrew is a package management software that will make it much simpler for us to install a few other software.
@@ -32,15 +42,34 @@ In [terminal](https://www.macworld.co.uk/how-to/mac-software/how-use-terminal-on
 brew install carthage
 ```
 
-## Install NodeJs
+## Install authorize-ios
 
-* [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-* Run command prompt: npm -version
-* Alternatively, you install via brew: brew install node
-* ```text
-  npm -version
-  6.13.4
-  ```
+[authorize-ios](https://github.com/appium/authorize-ios) is a little utility that pre-authorizes Instruments to run UIAutomation scripts against iOS devices. You need this utility to run tests on real devices
+
+In terminal, enter the following:
+
+```text
+npm install -g authorize-ios
+```
+
+## Install ideviceinstaller
+
+[ideviceinstaller](https://github.com/libimobiledevice/ideviceinstaller) is a tool to interact with the installation\_proxy  
+of an iOS device allowing to install, upgrade, uninstall, archive, restore  
+and enumerate installed or archived apps. You also need this utility to run tests on real devices.
+
+```text
+brew install ideviceinstaller
+```
+
+\*\*If you are macOS High Sierra or Mojave you may encounter an error involving “invalid active developer path” in which case run the following command in terminal:
+
+```text
+xcode-select --install
+sudo xcode-select -r
+```
+
+Then try install ideviceinstaller one more time.
 
 ## Install Appium
 
@@ -51,4 +80,25 @@ brew install carthage
   appium --version
   1.15.1
   ```
+
+## Install Appium Doctor
+
+* Appium doctor checks preconditions for appium
+* In terminal, enter the following:
+
+```text
+npm install -g appium-doctor
+```
+
+To run appium doctor, set the following into terminal:
+
+```text
+appium-doctor
+```
+
+* appium-doctor’s output should look something like this:![](https://miro.medium.com/max/3036/1*znQbz_vbtZXkdX4LOJWuzg.png)
+* Android Home, adb, android and emulator errors can be ignored as they relate to automation testing on Android devices.
+* Follow instructions on missing components
+
+
 
