@@ -15,7 +15,7 @@
 * We can test without a authorization token set using the NO\_TOKEN key
 * This is to test an api call without authentication set
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 
 
@@ -25,7 +25,7 @@
 * This will take existing token set from previous steps, and invalidate them
 * If no token is set, it will set AUTHORIZATION header to "invalid" 
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 
 

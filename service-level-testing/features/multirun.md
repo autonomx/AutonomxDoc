@@ -7,7 +7,7 @@
 
 ## Implementation
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 * We set:
   * **Option**: RUN\_COUNT:5
