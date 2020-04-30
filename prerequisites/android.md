@@ -6,11 +6,45 @@ To execute the examples over the Android platform you'll need:
 * Install Android Simulator
 * Appium
 
-## Install Android Studio And Install Simulator
+## Install Android Studio And Simulator
 
 * Install Android Studio: [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
 * Follow Instructions: [https://www.swtestacademy.com/appium-tutorial/](https://www.swtestacademy.com/appium-tutorial/) **Android Studio Installation Section**
 * You should now have an Android simulator installed 
+
+## Install NodeJs
+
+* [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+* Run command prompt: npm -version
+* ```text
+  npm -version
+  6.13.4
+
+  ```
+
+### Win10
+
+* If the Nodejs is successfully installed and still displays the message like this:
+
+  > 'npm' is not recognized as an internal or external command, operable program or batch file.
+
+  Follow the steps below for Windows users:
+
+  1. Go to **My Computer** Properties
+  2. Click **Advanced System Setting** from the Left bar of a window.
+  3. Now you have a System Properties window. Click **Advanced**
+  4. Then, Click **Environment Variable** button
+  5. Now you have Environment variable window: From _System Variable_, Select **Path**
+  6. Click **Edit**
+  7. At the end of the Variable value, add `;C:\Program Files\nodejs\`
+
+     **Note**: If you have installed _nodejs_ on other drives then please act accordingly.
+
+  8. Click **Ok** all the open dialogue box
+
+  **Very important Note**: _**"Close your Command Prompt And Restart Again"**_ \(It's very important because if you didn't restart your command prompt then changes will not be reflected.\)
+
+  Now you can use the **npm** command anywhere
 
 ## Install Appium
 
