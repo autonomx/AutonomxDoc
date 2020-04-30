@@ -7,6 +7,10 @@ To execute the examples over the Android platform you'll need:
 * Install Android Simulator
 * Appium
 
+## Prerequisite
+
+* [Install Java JDK and Maven](https://docs.autonomx.io/prerequisites)
+
 ## Install Android Studio And Simulator
 
 * Install Android Studio: [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html)
