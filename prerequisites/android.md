@@ -117,3 +117,7 @@ To execute the examples over the Android platform you'll need:
 * **If Errors occur or session cannot start, you may consider using UIAutomator Viewer Instead**
   * [https://www.guru99.com/uiautomatorviewer-tutorial.html](https://www.guru99.com/uiautomatorviewer-tutorial.html)
 
+## Android Test Setup
+
+* Continue with [Android test setup](https://docs.autonomx.io/getting-started/android-tests)
+
