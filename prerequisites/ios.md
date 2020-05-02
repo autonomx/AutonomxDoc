@@ -145,3 +145,11 @@ appium-doctor
 
 ![](../.gitbook/assets/image%20%2854%29.png)
 
+* Start Session
+* The app and the page source will be displayed side by side
+
+### UiAutomator Viewer
+
+* **If Errors occur or session cannot start, you may consider using UIAutomator Viewer Instead**
+  * [https://www.guru99.com/uiautomatorviewer-tutorial.html](https://www.guru99.com/uiautomatorviewer-tutorial.html)
+
