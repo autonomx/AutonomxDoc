@@ -153,3 +153,7 @@ appium-doctor
 * **If Errors occur or session cannot start, you may consider using UIAutomator Viewer Instead**
   * [https://www.guru99.com/uiautomatorviewer-tutorial.html](https://www.guru99.com/uiautomatorviewer-tutorial.html)
 
+## Getting Started
+
+* Continue with [iOS Test Setup](https://docs.autonomx.io/getting-started/ios-tests)
+
