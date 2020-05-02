@@ -41,7 +41,7 @@
 * Options values are key value pairs
 * In the custom method, its best to use the same methodology
 
-![](../../.gitbook/assets/image%20%2873%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ```text
 	public class TestInterface {
@@ -103,5 +103,5 @@
 * In Csv file, we set:
   * InterfaceType: TestInterface
 * 
-![](../../.gitbook/assets/image%20%28114%29.png)
+![](../../.gitbook/assets/image%20%28115%29.png)
 

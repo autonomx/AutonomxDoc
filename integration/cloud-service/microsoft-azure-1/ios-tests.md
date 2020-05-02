@@ -6,7 +6,7 @@
 * In this example, we will setup jobs for web, android and iOS tests. 
 * For mobile tests, we will use simulators on hosted vms
 
-![](../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2859%29.png)
 
 ## iOS Tests
 
@@ -32,7 +32,7 @@
   npm install -g appium
   ```
 
-![](../../../.gitbook/assets/image%20%2883%29.png)
+![](../../../.gitbook/assets/image%20%2884%29.png)
 
 ### Install MJPEG Consumer
 
@@ -42,7 +42,7 @@
   brew install ffmpeg
   ```
 
-![](../../../.gitbook/assets/image%20%2895%29.png)
+![](../../../.gitbook/assets/image%20%2896%29.png)
 
 ### Run Appium
 
@@ -52,7 +52,7 @@
   appium --relaxed-security &
   ```
 
-![](../../../.gitbook/assets/image%20%28106%29.png)
+![](../../../.gitbook/assets/image%20%28107%29.png)
 
 ### Run Tests
 
@@ -69,7 +69,7 @@
   mvn clean compile test -DsuiteXmlFile=suites/iosSmokeTests.xml -Dios.capabilties.platformVersion=10.0 -Dios.mobile="iPhone 6" -Dappium.useExternalAppiumServer=true  -Drecorder.enableRecording=true 
   ```
 
-![](../../../.gitbook/assets/image%20%28102%29.png)
+![](../../../.gitbook/assets/image%20%28103%29.png)
 
 ### Publish the results
 
@@ -80,5 +80,5 @@
   ```
 * Set: Fail if there are test failures
 
-![](../../../.gitbook/assets/image%20%2893%29.png)
+![](../../../.gitbook/assets/image%20%2894%29.png)
 

@@ -110,7 +110,7 @@ appium-doctor
 * Download appium desktop from [https://github.com/appium/appium-desktop/releases](https://github.com/appium/appium-desktop/releases)
   * Select the proper download based on the OS
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 
 
@@ -118,34 +118,30 @@ appium-doctor
 
 * Launch Appium and Start Server
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../.gitbook/assets/image%20%28113%29.png)
 
 * Select "**Start Inspector Session**" \(magnifying glass, top right icon\)
 * Setup Desired Capabilities:
-  * **platforName**: Android
-  * **automationName**: UiAutomator2
-  * **avd**: Simulator name
-    * Real Android device: 
+  * **platforName**: iOS
+  * **platformVersion**: version of iOS simulator
+  * **deviceName**: Simulator name
+  * * Real Android device: 
       * Connect a real Android device to your computer
       * Command prompt: adb devices
       * Device name: **ENUL6303030010**
-      * **In Appium Set: UDID: ENUL6303030010 \(**_do not set avd_**\)**
+      * **In Appium Set: UDID: ENUL6303030010**
 
 ![](../.gitbook/assets/image%20%2826%29.png)
 
-* * **app**: location of apk file
-* **deviceName**: Android
+* **app**: location of app file
 * ```text
   {
-    "platformName": "Android",
-    "automationName": "UiAutomator2",
-    "avd": "Pixel_C_API_25",
-    "app": "/Users/Shared/Jenkins/Documents/Selenium/autonomx/autonomx-client/autonomx/automation/resources/selendroid.apk",
-    "deviceName": "Android"
+    "platformName": "iOS",
+    "platformVersion": "12.1",
+    "deviceName": "iPhone XR",
+    "app": "/Users/Shared/Jenkins/Documents/Selenium/automation-client/selenium/resources/eurika.app"
   }
   ```
 
-![](../.gitbook/assets/image%20%2825%29.png)
-
-
+![](../.gitbook/assets/image%20%2854%29.png)
 

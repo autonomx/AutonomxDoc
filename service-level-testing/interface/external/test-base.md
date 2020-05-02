@@ -34,7 +34,7 @@
 
 * Test base location:
 
-![](../../../.gitbook/assets/image%20%2890%29.png)
+![](../../../.gitbook/assets/image%20%2891%29.png)
 
 ## Override Values
 

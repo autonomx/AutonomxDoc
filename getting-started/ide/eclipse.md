@@ -21,7 +21,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2873%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -33,13 +33,13 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/image%20%28119%29.png)
 
 * Select finish
 * **If project has errors, Clean the project**
   * Projects -&gt; Clean...
 
-![](../../.gitbook/assets/image%20%28110%29.png)
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 ## Download TestNG Plugin
 
@@ -64,7 +64,7 @@
 * Set Name: testNG
 * Select testNG from the result and then Next
 * 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 * Security warning could be displayed. Install anyways
 * Restart eclipse to apply changes
@@ -86,7 +86,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 * Csv Files will not look like this:
 
@@ -99,12 +99,12 @@
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 
-![](../../.gitbook/assets/image%20%2874%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2894%29.png)
+* ![](../../.gitbook/assets/image%20%2895%29.png)
 
 ## Verify The Setup
 
@@ -112,7 +112,7 @@
   * src → test → java → module -&gt; web -&gt; tests → VerifyLoginTest.java
   * Right click and select: Run As → TestNG Tests
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 * * Test should pass
 
