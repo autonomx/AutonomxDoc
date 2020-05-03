@@ -5,7 +5,7 @@
 * Handles configuration for web apps
 * ```text
   # Web
-  webApp="http://45.76.245.149:1337/admin/"
+  webApp="http://demo.autonomx.io/admin/"
   web.browserType = CHROME
   web.capabilities.takesScreenshot = true
   chrome.options.start-fullscreen = false
