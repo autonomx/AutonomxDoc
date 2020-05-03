@@ -8,10 +8,17 @@
 ## Writing UI Tests
 
 * Writing tests involves setting up 
-  * Properties file
+  * [Properties file](https://docs.autonomx.io/configuration/config-properties/properties/web)
   * [Test Data](https://docs.autonomx.io/ui-testing/test-data) \(optional\)
   * [Test Panel](https://docs.autonomx.io/ui-testing/test-panel)
   * [Test Case](https://docs.autonomx.io/ui-testing/test-case)
+
+### Set Web URL In Web Property
+
+* Set app url:
+* ```text
+  webApp="http://demo.autonomx.io/admin/"
+  ```
 
 ### Set Test Data \( Optional \)
 
