@@ -7,9 +7,9 @@
 ## Writing UI Tests
 
 * Writing tests involves setting up 
-  * Test Data \(optional\)
-  * Test Panel
-  * Test Case
+  * [Test Data](https://docs.autonomx.io/ui-testing/test-data) \(optional\)
+  * [Test Panel](https://docs.autonomx.io/ui-testing/test-panel)
+  * [Test Case](https://docs.autonomx.io/ui-testing/test-case)
 
 ### Set Test Data
 
