@@ -51,6 +51,14 @@
   ios.UDID = ""
   ```
 
+#### Win
+
+* Set app path at Win.property
+* ```text
+  #win
+  win.app = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
+  ```
+
 ### Set Test Data \( Optional \)
 
 * If test case requires data, such as user information for login, we can add test data using 3 different methods:
