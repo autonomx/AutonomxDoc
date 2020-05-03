@@ -13,11 +13,42 @@
   * [Test Panel](https://docs.autonomx.io/ui-testing/test-panel)
   * [Test Case](https://docs.autonomx.io/ui-testing/test-case)
 
-### Set Web URL In Web Property
+### Setup Property File
 
-* Set app url:
+#### Web:
+
+* Set app url at [Web.property](https://docs.autonomx.io/configuration/config-properties/properties/web) and browser type
 * ```text
   webApp="http://demo.autonomx.io/admin/"
+  web.browserType = CHROME
+  ```
+
+#### Android
+
+* Set app apk file, dir, and simulator, or UDID \(real device\) at [Android.property](https://docs.autonomx.io/configuration/config-properties/properties/android)
+* ```text
+  # Android
+  android.app = "selendroid.apk"
+  android.appDir = "resources/"
+  android.mobile = "Pixel_2_XL_API_25"
+  android.tablet = "Pixel_2_XL_API_25"
+
+  # udid for real device
+  android.UDID = ""
+  ```
+
+#### iOS
+
+* Set app file, directory, mobile name or UDID \(real device\) at [ios.property](https://docs.autonomx.io/configuration/config-properties/properties/ios)
+* ```text
+  #iOS
+  ios.app = "eurika.app"
+  ios.appDir = "resources/"
+  ios.mobile = "iPhone 7"
+  ios.tablet = "iPad Air 2"
+
+  # udid for real device
+  ios.UDID = ""
   ```
 
 ### Set Test Data \( Optional \)
