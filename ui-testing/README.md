@@ -3,6 +3,7 @@
 ## UI Testing
 
 * UI tests is compromised of Web and Mobile \( Android, iOS, Win\) tests
+* Test are written similarly, using the same structure for all UI platforms \( Web, Mobile \)
 
 ## Writing UI Tests
 
