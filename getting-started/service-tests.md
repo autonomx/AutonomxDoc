@@ -17,7 +17,6 @@
 
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
 * Download [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
-* Or download the Web UI + API testing combination: [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
 * Unpack
 
 ## Run Setup
