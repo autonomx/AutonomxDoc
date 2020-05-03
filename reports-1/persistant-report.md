@@ -15,7 +15,7 @@
 * [https://docs.mongodb.com/manual/installation/](https://docs.mongodb.com/manual/installation/)
 * Select the OS and follow the installation instructions
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
 ### Klov Server
 

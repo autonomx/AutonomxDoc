@@ -24,21 +24,23 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
-* Wait until the download of the maven dependencies are complete \(~10 mins\)
+* Wait until the download of the maven dependencies are complete \(~5 mins\)
 
 ## Load The Project In IDE or Runner
 
 * Open the project in [Intellij](https://docs.autonomx.io/getting-started/ide/intellij) or [Eclipse](https://docs.autonomx.io/getting-started/ide/eclipse) \( Please follow the instructions properly, as the config files are build in\)
-* Or use the [Script Server](https://docs.autonomx.io/script-runner-1/installation) to quickly run the tests
+* Or setup the [Script Server](https://docs.autonomx.io/script-runner-1/installation) to quickly run the tests
 
 ## Run Sample Tests
 
 * Run service test suite at "automation -&gt; suites -&gt; serviceTests.xml"
-* If using web + service project, also run 
-  * "automation -&gt; suites -&gt; serviceIntegration.xml"
 * Test results will be displayed at the end of the run
+
+![](../.gitbook/assets/image%20%28100%29.png)
+
+![](../.gitbook/assets/image%20%2859%29.png)
 
 ## Create Tests
 
