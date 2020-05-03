@@ -7,7 +7,7 @@
   * Step comment
   * Data object
   * Panel action
-  * {% code title="Verify\_Login\_Test.java" %}
+  * {% code title="VerifyLoginTest.java" %}
     ```text
     		TestLog.When("I login with admin user");
     		UserObject user = UserObject.user().withAdminLogin();
@@ -17,11 +17,9 @@
 
 ## Step Comments
 
-* {% code title="Verify\_Login\_Test.java" %}
-  ```text
+* ```text
   TestLog.When("I login with admin user");
   ```
-  {% endcode %}
 * Comments follow the Gherkins natural language model 
 * [https://www.guru99.com/gherkin-test-cucumber.html](https://www.guru99.com/gherkin-test-cucumber.html)
 * These comments are displayed in the extent test report 
@@ -30,7 +28,7 @@
 ## Data Objects
 
 * Data objects describe the data we want to use in the actions
-* {% code title="Verify\_Login\_Test.java" %}
+* {% code title="VerifyLoginTest.java" %}
   ```text
   UserObject user = UserObject.user().withAdminLogin();
   ```
@@ -48,7 +46,34 @@
 * This allows for cross platform and cross application testing
 * eg. testing android and web together in one test method
 
+## Sample Test Class
 
+```text
+public class VerifyLoginTest extends TestBase {
+
+		@BeforeMethod
+		public void beforeMethod() throws Exception {
+			setupWebDriver(app.webApp.getHybridDriver());
+		}
+	
+	  @Test()
+		public void verifyAdminUserWithCsvData() {
+			
+		  User user = Data.webApp.user().admin();
+			TestLog.When("I login with user " + user.getUsername());
+			app.webApp.login.loginWithCsvData(user);
+					
+			TestLog.Then("I verify admin logo is displayed");
+			Helper.verifyElementIsDisplayed(MainPanel.elements.ADMIN_LOGO);
+			
+			TestLog.When("I logout");
+			app.webApp.main.logout();
+	
+			TestLog.Then("I should see the login panel");
+			Helper.verifyElementIsDisplayed(LoginPanel.elements.LOGIN_SUBMIT);
+		}
+	}
+```
 
 
 

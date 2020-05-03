@@ -7,7 +7,7 @@
 
 ## Structure
 
-* Panel compromises of 3 parts: Constructor, Locator, and Action
+* Panel compromises of 2 parts: Locator, and Action
 * On compile, panel manager is generated using Java annotations
 * The panel manager takes care of linking the panels, so they can interact with one another
 
