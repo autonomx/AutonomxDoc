@@ -38,4 +38,36 @@
 
 ### Write Test Case
 
-* 
+* Test case class involves:
+  *  [Setting up the driver](https://docs.autonomx.io/ui-testing/test-case/test-case-structure)
+  *  [Writing test methods](https://docs.autonomx.io/ui-testing/test-case/test-method)
+
+#### Sample Test Class
+
+```text
+public class VerifyLoginTest extends TestBase {
+
+		@BeforeMethod
+		public void beforeMethod() throws Exception {
+			setupWebDriver(app.webApp.getHybridDriver());
+		}
+	
+	  @Test()
+		public void verifyAdminUserWithCsvData() {
+			
+		  User user = Data.webApp.user().admin();
+			TestLog.When("I login with user " + user.getUsername());
+			app.webApp.login.loginWithCsvData(user);
+					
+			TestLog.Then("I verify admin logo is displayed");
+			Helper.verifyElementIsDisplayed(MainPanel.elements.ADMIN_LOGO);
+			
+			TestLog.When("I logout");
+			app.webApp.main.logout();
+	
+			TestLog.Then("I should see the login panel");
+			Helper.verifyElementIsDisplayed(LoginPanel.elements.LOGIN_SUBMIT);
+		}
+	}
+```
+
