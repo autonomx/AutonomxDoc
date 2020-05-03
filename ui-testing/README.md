@@ -25,7 +25,7 @@
 
 #### Android
 
-* Set app apk file, dir, and simulator, or UDID \(real device\) at [Android.property](https://docs.autonomx.io/configuration/config-properties/properties/android)
+* Set app apk file, dir, and simulator, or UDID \(real device\) at [android.property](https://docs.autonomx.io/configuration/config-properties/properties/android)
 * ```text
   # Android
   android.app = "selendroid.apk"
@@ -53,7 +53,7 @@
 
 #### Win
 
-* Set app path at Win.property
+* Set app path at win.property
 * ```text
   #win
   win.app = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
