@@ -6,6 +6,7 @@
 * The override is only for the test the option is invoked on
 * Format: key value pair
   * Syntax: in csv option column: key:value. eg. WAIT\_FOR\_RESPONSE:5
+  * Multiple values are separated by ";"
 
 ## RestfulApi Interface Options
 
@@ -35,8 +36,12 @@
 
 ### Pagination Testing Options
 
-* PAGINATION\_STOP\_CRITERIA:
-* PAGINATION\_MAX\_PAGES
-* PAGINATION\_FROM
-* PAGINATION\_INCREMENT
+* Pagination testing, refers to rest api calls with response separated in pages; hence, we need to navigate through the pages to find the desired result
+* PAGINATION\_STOP\_CRITERIA: 
+* PAGINATION\_MAX\_PAGES: Maximum number of pages to navigate before stopping
+  * eg. PAGINATION\_MAX\_PAGES:10
+* PAGINATION\_FROM: Starting page to starting searching for results
+  * eg. PAGINATION\_FROM:1
+* PAGINATION\_INCREMENT: How many pages are incremented each time
+  * eg. PAGINATION\_INCREMENT:1
 
