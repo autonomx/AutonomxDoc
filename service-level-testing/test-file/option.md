@@ -8,6 +8,12 @@
   * Syntax: in csv option column: key:value. eg. WAIT\_FOR\_RESPONSE:5
   * Multiple values are separated by ";"
 
+## Global
+
+* Global options apply to all Interfaces
+* [RUN\_COUNT](https://docs.autonomx.io/service-level-testing/features/multirun): how many times to run the current tests case
+  * eg. creating multiple orders
+
 ## RestfulApi Interface
 
 ### Retry Options
@@ -102,6 +108,17 @@
 ## KAFKA
 
 * **topic**: kafka topic to receive messages
+* **response\_identifier**: unique identifier for message received
+  * This is the means we associate the receiving messages with the current test
+  * eg. response\_identifier:order5434
+* **WAIT\_FOR\_RESPONSE**: how long in seconds we wait for the desired message to appear
+  * eg. WAIT\_FOR\_RESPONSE:60
+
+## SERVICE BUS
+
+* **topic**: topic to send message
+* **outbound\_topic**: topic to receive message
+* **host**: host to connect to
 * **response\_identifier**: unique identifier for message received
   * This is the means we associate the receiving messages with the current test
   * eg. response\_identifier:order5434
