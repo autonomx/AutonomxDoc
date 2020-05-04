@@ -48,3 +48,38 @@
 * **PAGINATION\_INCREMENT**: How many pages are incremented each time
   * eg. PAGINATION\_INCREMENT:1
 
+## Database Interface Options
+
+* **database**: specify the database number to use
+  * database sets in config file
+  * eg. database:2
+    * selects database set 2 to use in the current test
+  * ```text
+    # Database Server
+    db.1.driver = org.postgresql.Driver
+    db.1.url=jdbc:postgresql://localhost:5432
+    db.1.name=testdb
+    db.1.username=postgres
+    db.1.password=123
+
+    db.2.driver = org.postgresql.Driver
+    db.2.url=jdbc:postgresql://localhost:5432
+    db.2.name=testdb2
+    db.2.username=postgres
+    db.2.password=123
+    ```
+
+
+
+### Retry Options
+
+* **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property ****service.timeout.validation.isEnabled to false
+  * There is no value associated with this
+  * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
+* **WAIT\_FOR\_RESPONSE**: enables timeout validation.Sets value in seconds.
+  * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
+  * eg. WAIT\_FOR\_RESPONSE:5 
+* **WAIT\_FOR\_RESPONSE\_DELAY\_SECONDS:** wait time between each timeout validation response in seconds
+  * Overwrites properties value:  service.timeout.validation.delay.between.attempt.seconds
+  * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns
+* 
