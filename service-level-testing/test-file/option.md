@@ -96,9 +96,17 @@
 * **response\_identifier**: unique identifier for message received
   * This is the means we associate the receiving messages with the current test
   * eg. response\_identifier:order5434
-* **WAIT\_FOR\_RESPONSE**: enables timeout validation.Sets value in seconds.
-  * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
-  * eg. WAIT\_FOR\_RESPONSE:5 
+* **WAIT\_FOR\_RESPONSE**: how long in seconds we wait for the desired message to appear
+  * eg. WAIT\_FOR\_RESPONSE:60
+
+## KAFKA
+
+* **topic**: kafka topic to receive messages
+* **response\_identifier**: unique identifier for message received
+  * This is the means we associate the receiving messages with the current test
+  * eg. response\_identifier:order5434
+* **WAIT\_FOR\_RESPONSE**: how long in seconds we wait for the desired message to appear
+  * eg. WAIT\_FOR\_RESPONSE:60
 
 
 
