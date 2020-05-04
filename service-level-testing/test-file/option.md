@@ -37,11 +37,14 @@
 ### Pagination Testing Options
 
 * Pagination testing, refers to rest api calls with response separated in pages; hence, we need to navigate through the pages to find the desired result
-* PAGINATION\_STOP\_CRITERIA: 
-* PAGINATION\_MAX\_PAGES: Maximum number of pages to navigate before stopping
+* **PAGINATION\_STOP\_CRITERIA**: [Json path](https://docs.autonomx.io/service-level-testing/interface/rest-api/json-path) criteria to stop searching
+  * The Json path would refer to an item on the page that we expect to be available on each page that has content. Once the result returns empty, then we stop searching
+  * eg. PAGINATION\_STOP\_CRITERIA**:** .id
+    * if no id's are returned, we stop
+* **PAGINATION\_MAX\_PAGES**: Maximum number of pages to navigate before stopping
   * eg. PAGINATION\_MAX\_PAGES:10
-* PAGINATION\_FROM: Starting page to starting searching for results
+* **PAGINATION\_FROM**: Starting page to starting searching for results
   * eg. PAGINATION\_FROM:1
-* PAGINATION\_INCREMENT: How many pages are incremented each time
+* **PAGINATION\_INCREMENT**: How many pages are incremented each time
   * eg. PAGINATION\_INCREMENT:1
 
