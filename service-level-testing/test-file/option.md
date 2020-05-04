@@ -8,7 +8,7 @@
   * Syntax: in csv option column: key:value. eg. WAIT\_FOR\_RESPONSE:5
   * Multiple values are separated by ";"
 
-## RestfulApi Interface Options
+## RestfulApi Interface
 
 ### Retry Options
 
@@ -34,7 +34,7 @@
   * Overwrites property value: service.retry.after.seconds
   * eg. RETRY\_AFTER\_SECONDS:3
 
-### Pagination Testing Options
+### Pagination Testing
 
 * Pagination testing, refers to rest api calls with response separated in pages; hence, we need to navigate through the pages to find the desired result
 * **PAGINATION\_STOP\_CRITERIA**: [Json path](https://docs.autonomx.io/service-level-testing/interface/rest-api/json-path) criteria to stop searching
@@ -48,7 +48,7 @@
 * **PAGINATION\_INCREMENT**: How many pages are incremented each time
   * eg. PAGINATION\_INCREMENT:1
 
-## Database Interface Options
+## Database Interface
 
 * **database**: specify the database number to use
   * database sets in config file
@@ -82,4 +82,8 @@
 * **WAIT\_FOR\_RESPONSE\_DELAY\_SECONDS:** wait time between each timeout validation response in seconds
   * Overwrites properties value:  service.timeout.validation.delay.between.attempt.seconds
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns
-* 
+
+## Rabbit MQ
+
+
+
