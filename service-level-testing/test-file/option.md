@@ -9,7 +9,7 @@
 
 ## RestfulApi Interface Options
 
-#### Retry Options
+### Retry Options
 
 * **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property ****service.timeout.validation.isEnabled to false
   * There is no value associated with this
@@ -33,7 +33,7 @@
   * Overwrites property value: service.retry.after.seconds
   * eg. RETRY\_AFTER\_SECONDS:3
 
-#### Pagination Testing Options
+### Pagination Testing Options
 
 * PAGINATION\_STOP\_CRITERIA:
 * PAGINATION\_MAX\_PAGES
