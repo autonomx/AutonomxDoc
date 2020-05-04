@@ -16,20 +16,20 @@
 ![](../.gitbook/assets/image%20%2851%29.png)
 
 * **TestSuite**: The name of the test series
-* \*\*\*\*[**TestCaseID**](https://docs.autonomx.io/service-level-testing/test-file/testcaseid): Unique test id for each test
+* **TestCaseID**: Unique test id for each test
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
 * **InterfaceType**: The type of testing. Options: RESTfulAPI, SQL. Additional testing types can be added.
-* \*\*\*\*[**UriPath**](https://docs.autonomx.io/service-level-testing/test-file/uripath): The uri path appended to the based uri in the config folder. Applicable to rest api tests.
-* \*\*\*\*[**ContentType**](https://docs.autonomx.io/service-level-testing/test-file/contenttype): Type of request. Applicable to rest api tests.
-* \*\*\*\*[**Method**](https://docs.autonomx.io/service-level-testing/test-file/method): For Rest API: type of call made: POST, GET, PUT, DELETE
+* **UriPath**: The uri path appended to the based uri in the config folder. Applicable to rest api tests.
+* **ContentType**: Type of request. Applicable to rest api tests.
+* **Method**: For Rest API: type of call made: POST, GET, PUT, DELETE
 * **Option**: Additional options to be added for the interface type. Currently, API and SQL do not make use of it.
-* \*\*\*\*[**RequestHeaders**](https://docs.autonomx.io/service-level-testing/test-file/header): For API: headers values are added here. The format is key:value separated by ";". eg. Authorization:somekey
+* **RequestHeaders**: For API: headers values are added here. The format is key:value separated by ";". eg. Authorization:somekey
 * **TemplateFile**: template file to be used for requests. 
-* \*\*\*\*[**RequestBody**](https://docs.autonomx.io/service-level-testing/test-file/requestbody): For API: the request goes here. For sql: the query goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username="admin" defined in apiConfig.property file.
-* \*\*\*\*[**OutputParams**](https://docs.autonomx.io/service-level-testing/test-file/outputparam): We can store response values into variables defined here. The variables will then be available for other tests. Syntax: &lt;$variable&gt;. eg. userid=&lt;$adminUserId&gt;. the variable "adminUserId" can then be access by &lt;@adminUserId&gt; in subsequent tests
+* **RequestBody**: For API: the request goes here. For sql: the query goes here. We can use values set in api config file through the syntax: &lt;@variable&gt;. eg. &lt;@username&gt;, where username="admin" defined in apiConfig.property file.
+* **OutputParams**: We can store response values into variables defined here. The variables will then be available for other tests. Syntax: &lt;$variable&gt;. eg. userid=&lt;$adminUserId&gt;. the variable "adminUserId" can then be access by &lt;@adminUserId&gt; in subsequent tests
 * **RespCodeExp**: For API: the expected response code. eg. 200
-* \*\*\*\*[**ExpectedResponse**](https://docs.autonomx.io/service-level-testing/test-file/expectedresponse): Verification of the response goes here. More description in the interface sections.
+* **ExpectedResponse**: Verification of the response goes here. More description in the interface sections.
 * **TcComment:** comment for the tests. eg. disable for such and such reasons.
 
 ## Service Tests Location

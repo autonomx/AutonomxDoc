@@ -59,6 +59,7 @@
     * [Method](service-level-testing/test-file/method.md)
     * [Header](service-level-testing/test-file/header.md)
     * [RequestBody](service-level-testing/test-file/requestbody.md)
+    * [Option](service-level-testing/test-file/option.md)
     * [OutputParam](service-level-testing/test-file/outputparam.md)
     * [ExpectedResponse](service-level-testing/test-file/expectedresponse.md)
   * [Validation](service-level-testing/validation/README.md)
