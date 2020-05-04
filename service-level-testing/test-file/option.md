@@ -85,5 +85,20 @@
 
 ## Rabbit MQ
 
+* **exchange**: exchange to send messages
+  * eg. exchange:exchange1
+* **queue**: queue to send messages
+  * eg. queue:queue1
+* **outbound\_exchange**: exchange to receive messages
+  * eg. outbound\_exchange:outboundExchange1
+* **outbound\_queue**: queue to receive messages
+  * eg. outbound\_queue:outboundqueue1
+* **response\_identifier**: unique identifier for message received
+  * This is the means we associate the receiving messages with the current test
+  * eg. response\_identifier:order5434
+* **WAIT\_FOR\_RESPONSE**: enables timeout validation.Sets value in seconds.
+  * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
+  * eg. WAIT\_FOR\_RESPONSE:5 
+
 
 
