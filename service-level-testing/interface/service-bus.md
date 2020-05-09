@@ -10,7 +10,7 @@
 
 * We can set the values in the csv file as follows:
 
-![](../../.gitbook/assets/image%20%28123%29.png)
+![](../../.gitbook/assets/image%20%28124%29.png)
 
 | TestSuite | TestCaseID | RunFlag | Description | InterfaceType | UriPath | ContentType | Method | Option | RequestHeader | TemplateFile | RequestBody | OutputParam | RespCodeExp | ExpectedResponse | TcComments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

@@ -38,7 +38,7 @@
 * Run service test suite at "automation -&gt; suites -&gt; serviceTests.xml"
 * Test results will be displayed at the end of the run
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 ![](../.gitbook/assets/image%20%2859%29.png)
 

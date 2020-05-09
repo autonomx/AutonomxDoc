@@ -43,15 +43,25 @@
   {% endcode %}
 * The location is from the root of the project \( where pom.xml file is located \)
 
+## Writing Service Tests
+
+* Writing service tests involved setting the proper values at the csv column
+
+### Restful Api Tests
+
+* See [Restful Api](https://docs.autonomx.io/service-level-testing/interface/rest-api) section for writing tests
+* Third party applications can be used to test out the Rest Api calls before adding them to the csv file, such as [Postman](https://www.postman.com/). 
+  * Same values can be copied over from postman to csv test file
+
 ## Running Service Tests
 
 * We can run the service tests from apiTestData -&gt; runner -&gt; &lt;os&gt; -&gt; apiRunner file
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-* We can also run the test directly located at module: test.module.service.tests: ServiceTestRunner.java
+* We can also run the service test using the test suite
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 
 
