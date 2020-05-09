@@ -49,9 +49,15 @@
 
 ### Restful Api Tests
 
+* Configuration: RestApi base url and other config info can be set at [RestApi config section](https://docs.autonomx.io/configuration/config-properties/apiconfig/api)
 * See [Restful Api](https://docs.autonomx.io/service-level-testing/interface/rest-api) section for writing tests
 * Third party applications can be used to test out the Rest Api calls before adding them to the csv file, such as [Postman](https://www.postman.com/). 
   * Same values can be copied over from postman to csv test file
+
+### Database Tests
+
+* Configuration: Database connection info can be set at the [database config section ](https://docs.autonomx.io/configuration/config-properties/apiconfig/database)
+* See [Database testing](https://docs.autonomx.io/service-level-testing/interface/database) section for writing tests
 
 ## Running Service Tests
 
