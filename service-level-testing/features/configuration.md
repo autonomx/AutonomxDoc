@@ -2,8 +2,11 @@
 
 * Service level Integration configuration file can be found at:
   * automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨resources⁩ ▸ properties ▸ apiConfig.property
-* RestApi Configuration: [RestApi](https://docs.autonomx.io/configuration/apiconfig/api)
-* Database Configuration: [Database](https://docs.autonomx.io/configuration/apiconfig/database)
+* RestApi configuration: [RestApi](https://docs.autonomx.io/configuration/apiconfig/api)
+* Database configuration: [Database](https://docs.autonomx.io/configuration/apiconfig/database)
+* RabbitMQ configuration: [RabbitMQ](https://docs.autonomx.io/configuration/config-properties/apiconfig/rabbitmq)
+* Kafka configuration: [Kafka](https://docs.autonomx.io/configuration/config-properties/apiconfig/kafka)
+* Service Bus configuration: [Service Bus ](https://docs.autonomx.io/configuration/config-properties/apiconfig/service-bus)
 
 ## Accessing Config Values
 
