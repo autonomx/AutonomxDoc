@@ -95,9 +95,3 @@
 * We can combine multiple modification commands, separated by ";"
 * eg. &lt;@\_TIME\_24+1d;ZONE:Asia/Kolkata;FORMAT:dd-M-yyyy hh:mm:ss&gt;
 
-
-
-
-
-
-
