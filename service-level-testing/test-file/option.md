@@ -17,7 +17,7 @@
 * DEPENDS\_ON\_TEST: specify which previous test the current test depends on
   * If dependent test fail, the current test will be skipped
   * Syntax: 
-    * DEPENDS\_ON\_TEST:&lt;testCaseId&gt;
+    * DEPENDS\_ON\_TEST:testCaseId
   * eg. DEPENDS\_ON\_TEST:testId1;
 
 ## RestfulApi Interface
