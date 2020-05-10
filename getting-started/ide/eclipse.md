@@ -33,13 +33,13 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 * Select finish
 * **If project has errors, Clean the project**
   * Projects -&gt; Clean...
 
-![](../../.gitbook/assets/image%20%28118%29.png)
+![](../../.gitbook/assets/image%20%28119%29.png)
 
 ## Download TestNG Plugin
 
@@ -86,7 +86,7 @@
 * Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%2897%29.png)
 
 * Csv Files will not look like this:
 
@@ -99,12 +99,12 @@
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 
-![](../../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%2899%29.png)
+* ![](../../.gitbook/assets/image%20%28100%29.png)
 
 ## Verify The Setup
 

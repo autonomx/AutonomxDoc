@@ -49,5 +49,5 @@
 * Multiple query path can be added by & 
 * /content-manager/explorer/user/?source=users-permissions&key=value
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+![](../../.gitbook/assets/image%20%28130%29.png)
 

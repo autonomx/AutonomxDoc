@@ -82,7 +82,7 @@
 
 * We can also run the service test using the test suite
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 
 
