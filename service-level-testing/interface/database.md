@@ -85,6 +85,7 @@
       createNewUser_step2
       createNewUser_step3
       ```
+* **TestSuite**: Unique identifier of the test file
 * **TestCaseID**: Unique test id for each test
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
