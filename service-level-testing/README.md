@@ -64,6 +64,16 @@
 * Configuration: RMQ connection info configuration can be found at [RabbitMQ configuration section](https://docs.autonomx.io/configuration/config-properties/apiconfig/rabbitmq)
 * See [RabbitMQ section](https://docs.autonomx.io/service-level-testing/interface/rabbit-mq) for writing tests
 
+### Kafka
+
+* Configuration: Kafka connection info configuration can be found at [Kafka configuration section](https://docs.autonomx.io/configuration/config-properties/apiconfig/kafka)
+* See [Kafka section](https://docs.autonomx.io/service-level-testing/interface/kafka) for writing tests
+
+### Service Bus
+
+* Configuration: Service Bus connection info configuration can be found at [Service Bus configuration section](https://docs.autonomx.io/configuration/config-properties/apiconfig/service-bus)
+* See [Service Bus](https://docs.autonomx.io/service-level-testing/interface/service-bus) section for writing tests
+
 ## Running Service Tests
 
 * We can run the service tests from apiTestData -&gt; runner -&gt; &lt;os&gt; -&gt; apiRunner file
