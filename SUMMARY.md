@@ -56,6 +56,7 @@
     * [Service Code Integration](service-level-testing/features/service-code-integration.md)
     * [MultiRun](service-level-testing/features/multirun.md)
   * [Test File](service-level-testing/test-file/README.md)
+    * [TestSuite](service-level-testing/test-file/testsuite.md)
     * [TestCaseID](service-level-testing/test-file/testcaseid.md)
     * [UriPath](service-level-testing/test-file/uripath.md)
     * [ContentType](service-level-testing/test-file/contenttype.md)
