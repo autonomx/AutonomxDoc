@@ -1,4 +1,4 @@
-# Api configuration
+# Service Testing configuration
 
 
 
