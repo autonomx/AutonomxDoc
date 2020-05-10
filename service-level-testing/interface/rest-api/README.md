@@ -116,7 +116,7 @@
   </tbody>
 </table>## Column Values
 
-* **TestSuite**: The name of the test series
+* **TestSuite**: The unique name of the test series
 * \*\*\*\*[**TestCaseID**](https://docs.autonomx.io/service-level-testing/interface/rest-api/test-file/testcaseid): Unique test id for each test
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
