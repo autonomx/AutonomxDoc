@@ -11,7 +11,7 @@
 
 Download and install the **Java Software Development Kit \(JDK\)** [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 * This JDK version comes bundled with Java Runtime Environment \(JRE\), so you do not need to download and install the JRE separately.
 * Once installation is complete, open command prompt and type:

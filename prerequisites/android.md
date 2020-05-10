@@ -69,7 +69,7 @@ To execute the examples over the Android platform you'll need:
 * Download appium desktop from [https://github.com/appium/appium-desktop/releases](https://github.com/appium/appium-desktop/releases)
   * Select the proper download based on the OS
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 
 
@@ -77,7 +77,7 @@ To execute the examples over the Android platform you'll need:
 
 * Launch Appium and Start Server
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../.gitbook/assets/image%20%28120%29.png)
 
 * Select "**Start Inspector Session**" \(magnifying glass, top right icon\)
 * Setup Desired Capabilities:
@@ -90,7 +90,7 @@ To execute the examples over the Android platform you'll need:
       * Device name: **ENUL6303030010**
       * **In Appium Set: UDID: ENUL6303030010 \(**_do not set avd_**\)**
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 * * **app**: location of apk file
 * **deviceName**: Android
@@ -104,11 +104,11 @@ To execute the examples over the Android platform you'll need:
   }
   ```
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 * Start Session
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2825%29.png)
 
 * The app and the page source will be displayed side by side
 

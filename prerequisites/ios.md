@@ -110,7 +110,7 @@ appium-doctor
 * Download appium desktop from [https://github.com/appium/appium-desktop/releases](https://github.com/appium/appium-desktop/releases)
   * Select the proper download based on the OS
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 
 
@@ -118,7 +118,7 @@ appium-doctor
 
 * Launch Appium and Start Server
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../.gitbook/assets/image%20%28120%29.png)
 
 * Select "**Start Inspector Session**" \(magnifying glass, top right icon\)
 * Setup Desired Capabilities:
@@ -131,7 +131,7 @@ appium-doctor
       * Device name: **ENUL6303030010**
       * **In Appium Set: UDID: ENUL6303030010**
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2827%29.png)
 
 * **app**: location of app file
 * ```text
@@ -143,7 +143,7 @@ appium-doctor
   }
   ```
 
-![](../.gitbook/assets/image%20%2854%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 * Start Session
 * The app and the page source will be displayed side by side

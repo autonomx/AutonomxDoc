@@ -33,6 +33,34 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 | License type | Open source MIT |
 | Cost | Free |
 
+## Benefits
+
+* **Autonomx provides scalability, maintainability, easy of use, cross platform, automation best practices**
+
+### Scalability
+
+* Structure: Separation of logic from test client, page object model, object oriented data structure, test structure
+
+![](.gitbook/assets/image%20%2842%29.png)
+
+### Maintainability
+
+* Centralization of functionality: 
+  * Helper/Utility functions
+  *  Page object model
+  * object oriented
+
+### Ease of use
+
+* Separation of core logic from tests to page objects to backend helper/utility functions
+*  Enforces good testing practices, better logs/commenting
+
+### Cross platform
+
+* Common and general Utility/Helper functions applicable for web, iOS, android and Win app automation
+* Webdriver for mobile and web interaction
+  *  iOS and android driver casting for mobile specific functionalities
+
 ## Design
 
 * Separated between Logic Core and Client
@@ -41,7 +69,7 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 * This allows for centralization of the framework
 * Client imports the Logic Core as dependency Jar
 
-![](.gitbook/assets/image%20%28113%29.png)
+![](.gitbook/assets/image%20%28110%29.png)
 
 ## 
 

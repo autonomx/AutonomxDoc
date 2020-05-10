@@ -13,7 +13,7 @@
 
 * The csv files are based on template with the following columns
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2853%29.png)
 
 * **TestSuite**: The name of the test series
 * \*\*\*\*[**TestCaseID**](https://docs.autonomx.io/service-level-testing/test-file/testcaseid): Unique test id for each test
@@ -78,11 +78,11 @@
 
 * We can run the service tests from apiTestData -&gt; runner -&gt; &lt;os&gt; -&gt; apiRunner file
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 * We can also run the service test using the test suite
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%28100%29.png)
 
 
 

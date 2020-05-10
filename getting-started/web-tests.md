@@ -16,7 +16,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -113,7 +113,7 @@
 * ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨module ▸ webApp ▸ user.csv
 * We are going to use the csv file to setup our data. For more info [Csv](https://app.gitbook.com/@ehsan-matean/s/autonomx/test-object/csv-test-data)
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 ### Setup Tests
 
