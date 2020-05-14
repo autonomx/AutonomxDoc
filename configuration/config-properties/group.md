@@ -12,7 +12,7 @@
   * eg. regression directory will contain all property files for regression environment
   * 
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 ## Define Group
 

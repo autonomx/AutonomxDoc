@@ -69,7 +69,7 @@ To execute the examples over the Android platform you'll need:
 * Download appium desktop from [https://github.com/appium/appium-desktop/releases](https://github.com/appium/appium-desktop/releases)
   * Select the proper download based on the OS
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2890%29.png)
 
 
 
@@ -77,7 +77,7 @@ To execute the examples over the Android platform you'll need:
 
 * Launch Appium and Start Server
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](../.gitbook/assets/image%20%28122%29.png)
 
 * Select "**Start Inspector Session**" \(magnifying glass, top right icon\)
 * Setup Desired Capabilities:

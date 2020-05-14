@@ -17,11 +17,11 @@
 
 * We can place any test file in "action" folder and call them directly from our test case files
 * 
-![](../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../.gitbook/assets/image%20%2869%29.png)
 
 ## Example
 
-![](../../../.gitbook/assets/image%20%2881%29.png)
+![](../../../.gitbook/assets/image%20%2882%29.png)
 
 * We set:
   * **Interface**: EXTERNAL

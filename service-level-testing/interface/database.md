@@ -8,7 +8,7 @@
 
 * We can set the columns in the csv file as follows:
 
-![apiTestData/testCases/sampleTests/TestCases\_database.csv](../../.gitbook/assets/image%20%2875%29.png)
+![apiTestData/testCases/sampleTests/TestCases\_database.csv](../../.gitbook/assets/image%20%2876%29.png)
 
 <table>
   <thead>

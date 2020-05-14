@@ -20,7 +20,7 @@
 * Run autonomx -&gt; setup.sh/.bat
   * 
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 * Wait until the download of the maven dependencies are complete \(~5 mins\)
 
@@ -35,26 +35,11 @@
 
 ## Verify Project
 
-### Add Ant Build
+### Enable Annotation Processor 
 
-* Ensure Ant build is available
-* Select Ant build from the right side panel
-* Ant build is used to generate source code
-* If ant.xml is not available, try manually adding the file
-  * Select Ant tool window: View -&gt; Tool Windows -&gt; Ant \([https://www.jetbrains.com/help/idea/ant-build-tool-window.html](https://www.jetbrains.com/help/idea/ant-build-tool-window.html)\)
-  * Select + button to add ant file in Ant build tool window
-  * Select ant.xml from root directory \( where pom.xml is \)
-  * Right click on mvn-clean-generate target, and select Execute on -&gt; Before Compilation
+* Intellij IDEA -&gt; Preferences -&gt; Build, Execution, Deployment -&gt; Compiler -&gt; Annotation Processors 
 
-![](../../.gitbook/assets/image%20%2874%29.png)
-
-### Disable Annotation Processor 
-
-* Ensure the annotation processor is disabled
-* **Maven default annotation processors** should also be disabled
-* Autonomx uses maven through Ant file to generate annotation class files
-
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
 ### Verify Test
 

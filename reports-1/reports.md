@@ -36,12 +36,12 @@
 * Test failures are displayed with stack trace of the failed test
 * Screenshot is attached to the failing step 
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 * A new side menu option will also be displayed 
 * We will be able to see the list of failures
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 ## Configuration
 

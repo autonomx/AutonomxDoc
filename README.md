@@ -41,7 +41,7 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 
 * Structure: Separation of logic from test client, page object model, object oriented data structure, test structure
 
-![](.gitbook/assets/image%20%2877%29.png)
+![](.gitbook/assets/image%20%2878%29.png)
 
 ### Maintainability
 
@@ -69,5 +69,5 @@ Autonomx provides a complete testing platform for UI \(Web, iOS, Android, Win\) 
 * This allows for centralization of the framework
 * Client imports the Logic Core as dependency Jar
 
-![](.gitbook/assets/image%20%28111%29.png)
+![](.gitbook/assets/image%20%28112%29.png)
 
