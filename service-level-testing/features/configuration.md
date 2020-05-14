@@ -43,11 +43,11 @@
   * eg. &lt;@\_TIME20&gt; becomes 2020-04-23T14:23:33Z
 * Time Epoch: &lt;@\_TIME\_MS\_13&gt;
   * Time variable gets the current time UTC timezone
-  * 13is the length of the time string we want
+  * 13 is the length of the time string we want
   * eg. &lt;@\_TIME\_MS\_13&gt; becomes 1587609999109
 * Time String: &lt;@\_TIME\_STRING\_17&gt;
   * Time variable gets the current time UTC timezone
-  * 13is the length of the time string we want
+  * 17 is the length of the time string we want
   * eg. &lt;@\_TIME\_STRING\_17&gt; becomes 20200423024730910
 
 ### Time Modification
