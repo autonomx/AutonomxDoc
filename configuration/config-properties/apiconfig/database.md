@@ -10,12 +10,21 @@
   db.1.name = testdb
   db.1.username = postgres
   db.1.password = 123
+
+  db.2.driver = org.postgresql.Driver
+  db.2.url = jdbc:postgresql://localhost:5432
+  db.2.name = testdb
+  db.2.username = postgres
+  db.2.password = 123
   ```
 
-* db.1 indicated database 1
-* we can define multiple databases
+* db.1: we can have multiple database connections
 
+  * In this case, this is database 1 and database 2
 
+* In csv we use db.1 by default
+* We can use other db's by setting **Option** column:
+  * database:2
 
 **Parameters**
 
