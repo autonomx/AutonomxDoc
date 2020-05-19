@@ -17,7 +17,11 @@
 * We first set our project name, which acts as identifier for our project 
 * At resources-&gt; properties -&gt; global.property
   * project.name = projectname
-* This will result in code generator to create references to our project to be used externally
+* This will result in code generator to create references to our project to be used externally. Files created:
+  * &lt;projectname&gt;Manager.java -&gt; contains reference to panel methods and elements
+  * &lt;projectname&gt;Data.java -&gt; contains reference to data files 
+
+
 
 ### Export project
 
@@ -25,7 +29,7 @@
 * At automation -&gt; pom.xml, **set artifact id** and **group id** for the project
   * ```text
     	<groupId>com.companyname</groupId>
-    	<artifactId>projectA</artifactId>
+    	<artifactId>autonomx</artifactId>
     	<version>1.0</version>
     	<packaging>jar</packaging>
     ```
@@ -72,4 +76,46 @@
 * At command line we depoy
   * mvn deploy
   * This will upload the jar and the source to the Jar repository
+
+### Import Jar At Target Project
+
+#### Import Local Jar
+
+* If we want to import the created Jar locally without using the Jar repository, we can add the dependency at pom.xml file under the dependency section
+  * ```text
+    <dependency>
+    		    <groupId>io.autonomx</groupId>
+    		    <artifactId>autonomx</artifactId>
+    		    <version>1.0.1</version>
+    		    <scope>system</scope>
+    		    <systemPath>${project.basedir}/library/autonomx-1.0.jar</systemPath>
+    </dependency>
+    ```
+
+#### Import From Jar Repository
+
+* We can import from jar repository by adding the dependency int he pom.xml file
+  * ```text
+    	<dependency>
+    			<groupId>io.autonomx</groupId>
+    			<artifactId>autonomx</artifactId>
+    			<version>1.0.1</version>
+    		</dependency>
+    ```
+
+### End To End Test
+
+* We can then call the imported project's panel methods and elements
+  * ```text
+    @Test(description = "uses module manager and data class created through project.name")
+    	public void verifyCrossProjectManager() {
+		
+    		autonomxManager autonomx = new autonomxManager();
+    		User user = autonomxData.webApp.user().admin();
+    		autonomx.webApp.login.loginWithCsvData(user);
+    	}
+    ```
+  * Here, autonomxManager is &lt;project.name&gt;Manager
+    * With autonomxManager we can access all methods and elements the same way as we do using "app." in our current project
+  * autonomxData is &lt;project.name&gt;Data class, giving us access to all data files
 
