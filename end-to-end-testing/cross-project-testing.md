@@ -37,7 +37,7 @@
   * **mvn clean instal l-DskipTests**
   * The Jar file will be created at automation -&gt; target directory
 * 
-![](../.gitbook/assets/image%20%28132%29.png)
+![](../.gitbook/assets/image%20%28133%29.png)
 
 #### Export to Jar repository
 
