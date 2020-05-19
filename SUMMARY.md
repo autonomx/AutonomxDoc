@@ -15,6 +15,7 @@
     * [Intellij](getting-started/ide/intellij.md)
     * [Eclipse](getting-started/ide/eclipse.md)
 * [Helpers](helpers/README.md)
+  * [Localization Testing](helpers/localization-testing.md)
   * [Additional Helpers](helpers/additional-helpers.md)
 * [Configuration](configuration/README.md)
   * [Config Properties](configuration/config-properties/README.md)
