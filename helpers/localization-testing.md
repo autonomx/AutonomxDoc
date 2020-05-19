@@ -43,7 +43,7 @@
 #### Write Test
 
 * Our test page:
-* 
+
 ![](../.gitbook/assets/image%20%28132%29.png)
 
 * We want to validate the username and password labels are localized
