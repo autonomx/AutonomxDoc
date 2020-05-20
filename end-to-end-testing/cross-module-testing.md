@@ -7,3 +7,12 @@
 * Modules are sub projects in our project
   * eg. Gardening app with have Web, Android and iOS module
 
+## Implementation
+
+* Within any test case in our project, we can call any Panel method or element from other modules
+* This allows us to have end to end module testing among different application within the same project
+
+
+
+
+
