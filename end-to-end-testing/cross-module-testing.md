@@ -40,9 +40,3 @@
   		app.androidApp.main.verifyOrderIsDisplayed(orderId);
   ```
 
-
-
-
-
-
-
