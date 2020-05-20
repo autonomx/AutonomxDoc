@@ -59,17 +59,16 @@
 {% tabs %}
 {% tab title="LoginPanel.java" %}
 ```java
-        public static class elements {
-            public static EnhancedBy USER_NAME_FIELD = Element.byCss("[placeholder='John Doe']", "username field");
-            public static EnhancedBy PASSWORD_FIELD = Element.byCss("#password", "password field");
-            public static EnhancedBy LOGIN_SUBMIT = Element.byCss("[type='submit']", "submit button");
-            public static EnhancedBy LOGOUT_BUTTON = Element.byCss("[href*='logout']", "logout button");
-            public static EnhancedBy MAIN_SITE = Element.byCss(".main-site", "main site button");
-            public static EnhancedBy ERROR_MESSAGE = Element.byCss("[class*='InputErrors']", "input errors");
+public static EnhancedBy USER_NAME_FIELD = Element.byCss("[placeholder='John Doe']", "username field");
+public static EnhancedBy PASSWORD_FIELD = Element.byCss("#password", "password field");
+public static EnhancedBy LOGIN_SUBMIT = Element.byCss("[type='submit']", "submit button");
+public static EnhancedBy LOGOUT_BUTTON = Element.byCss("[href*='logout']", "logout button");
+public static EnhancedBy MAIN_SITE = Element.byCss(".main-site", "main site button");
+public static EnhancedBy ERROR_MESSAGE = Element.byCss("[class*='InputErrors']", "input errors");
 
-            public static EnhancedBy LOADING_INDICATOR = Element.byCss("[class*='Loading']", "loading indicator");
+public static EnhancedBy LOADING_INDICATOR = Element.byCss("[class*='Loading']", "loading indicator");
 
-        }
+        
 ```
 {% endtab %}
 {% endtabs %}
