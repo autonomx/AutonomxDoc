@@ -19,6 +19,11 @@
 
 ![](../.gitbook/assets/image%20%28114%29.png)
 
+## IDE Setup
+
+* For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
+* For Eclipse IDE, navigate to [Eclipse Setup Page](https://docs.autonomx.io/getting-started/ide/eclipse)
+
 ## Manual Run
 
 * Run automation -&gt; setup.bash/.bat
@@ -34,11 +39,6 @@
 * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
 * [Service Tests \( Restful API, Database, Message Queue \)](https://docs.autonomx.io/getting-started/service-tests)
 * [Web Tests](https://docs.autonomx.io/getting-started/web-tests)
-
-## IDE Setup
-
-* For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
-* For Eclipse IDE, navigate to [Eclipse Setup Page](https://docs.autonomx.io/getting-started/ide/eclipse)
 
 
 
