@@ -12,6 +12,11 @@
 
 ![](../.gitbook/assets/image%20%2877%29.png)
 
+## IDE Setup
+
+* For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
+* For Eclipse IDE, navigate to [Eclipse Setup Page](https://docs.autonomx.io/getting-started/ide/eclipse)
+
 ## Configure iOS app
 
 * resources -&gt; properties -&gt; ios.property
