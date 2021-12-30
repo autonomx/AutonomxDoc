@@ -7,21 +7,21 @@
 
 ## Implementation
 
-![](../../.gitbook/assets/image%20%28105%29.png)
+![](<../../.gitbook/assets/image (108).png>)
 
 * We set:
   * **Option**: RUN\_COUNT:5
     * This will rerun the test 5 times, creating 5 users
-  * **RequestBody**: username:zzz\_test&lt;@\_RAND16&gt;&lt;@\_INCREMENT\_FROM\_1&gt;
+  * **RequestBody**: username:zzz\_test<@\_RAND16><@\_INCREMENT\_FROM\_1>
     * We set username with random 16 digit String and appending a incremental number, starting from 1
-    * Result:
+    *   Result:
 
-      * Run1:  username:zzz\_testasdf42lsghyx4bgt1
-      * Run2: username:zzz\_testasdf42lsghyx4bgt2
-      * Run3: username:zzz\_testasdf42lsghyx4bgt3
-      * Run4: username:zzz\_testasdf42lsghyx4bgt4
-      * Run5: username:zzz\_testasdf42lsghyx4bgt5
+        * Run1:  username:zzz\_testasdf42lsghyx4bgt1
+        * Run2: username:zzz\_testasdf42lsghyx4bgt2
+        * Run3: username:zzz\_testasdf42lsghyx4bgt3
+        * Run4: username:zzz\_testasdf42lsghyx4bgt4
+        * Run5: username:zzz\_testasdf42lsghyx4bgt5
+
+
 * This is applicable to all interfaces
-
-
 

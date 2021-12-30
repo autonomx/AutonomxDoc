@@ -7,34 +7,34 @@
 ## Download Web Test Latest Release
 
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
-* Download [autonomx-web-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-web-1.0.4.zip)
-* Or download the Web UI + API testing combination: [autonomx-webWithService-&lt;version&gt;.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
+* Download [autonomx-web-\<version>.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-web-1.0.4.zip)
+* Or download the Web UI + API testing combination: [autonomx-webWithService-\<version>.zip](https://github.com/autonomx/Autonomx/releases/download/v1.0.4/autonomx-webWithService-1.0.4.zip)
 * Unpack
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](<../.gitbook/assets/image (73).png>)
 
-* Wait until the download of the maven dependencies are complete \(~5 mins\)
+* Wait until the download of the maven dependencies are complete (\~5 mins)
 
 ## Load The Project In IDE or Runner
 
-* Open the project in [Intellij](https://docs.autonomx.io/getting-started/ide/intellij) or [Eclipse](https://docs.autonomx.io/getting-started/ide/eclipse) \( Please follow the instructions properly, as the config files are build in\)
+* Open the project in [Intellij](https://docs.autonomx.io/getting-started/ide/intellij) or [Eclipse](https://docs.autonomx.io/getting-started/ide/eclipse) ( Please follow the instructions properly, as the config files are build in)
 * Or use the [Script Server](https://docs.autonomx.io/script-runner-1/installation) to quickly run the tests
 
 ## Run Sample Tests
 
-* Run service test suite at "automation -&gt; suites -&gt; webSmokeTests.xml"
+* Run service test suite at "automation -> suites -> webSmokeTests.xml"
 * Test results will be displayed at the end of the run
 
 ## Configure Web app
 
-* resources -&gt; properties -&gt; web.property
+* resources -> properties -> web.property
 * More Info [Web Config](https://docs.autonomx.io/configuration/properties/web) and [Global Config](https://docs.autonomx.io/configuration/properties/global-config)
-* ```text
+* ```
   # Web
   #key value. key should match the web app test.module name. eg. test.module name = google, therefore: google="http://google.com"
   webApp="http://104.207.156.47:1337/admin/"
@@ -50,11 +50,11 @@
   web.remote.server_url = localhost
   web.remote.server_port = 4444
   ```
-* Note: **webApp is the name of the web module. For more Info:** [**Web Properties**](https://app.gitbook.com/@autonomx/s/autonomx/configuration/properties/web)\*\*\*\*
+* Note: **webApp is the name of the web module. For more Info:** [**Web Properties**](https://app.gitbook.com/@autonomx/s/autonomx/configuration/properties/web)****
 * Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ ⁨webApp⁩
-  * Setup locators
+  *   Setup locators
 
-    webApp ▸ LoginPanel.java
+      webApp ▸ LoginPanel.java
 
 {% tabs %}
 {% tab title="LoginPanel.java" %}
@@ -77,48 +77,48 @@ public static EnhancedBy LOADING_INDICATOR = Element.byCss("[class*='Loading']",
 
 ## Define actions
 
-* webApp ▸ LoginPanel.java
+*   webApp ▸ LoginPanel.java
 
-  ```java
-       /**
-        * enter login info and click login button
-        * 
-        * @param user
-        */
-       public void login(User user) {
-           setLoginFields(user);
-           Helper.form.formSubmit(elements.LOGIN_SUBMIT, MainPanel.elements.ADMIN_LOGO, elements.LOADING_INDICATOR);
+    ```java
+         /**
+          * enter login info and click login button
+          * 
+          * @param user
+          */
+         public void login(User user) {
+             setLoginFields(user);
+             Helper.form.formSubmit(elements.LOGIN_SUBMIT, MainPanel.elements.ADMIN_LOGO, elements.LOADING_INDICATOR);
 
-       }
+         }
 
-       public void loginError(User user) {
-           setLoginFields(user);
-           Helper.form.formSubmit(elements.LOGIN_SUBMIT, elements.ERROR_MESSAGE);
-       }
+         public void loginError(User user) {
+             setLoginFields(user);
+             Helper.form.formSubmit(elements.LOGIN_SUBMIT, elements.ERROR_MESSAGE);
+         }
 
-       public void relogin(User user) {
-           manager.main.logout();
-           login(user);
-       }
+         public void relogin(User user) {
+             manager.main.logout();
+             login(user);
+         }
 
-       public void setLoginFields(User user) {
-           Helper.form.setField(elements.USER_NAME_FIELD, user.username().get());
-           Helper.form.setField(elements.PASSWORD_FIELD, user.password().get());
-       }
-  ```
+         public void setLoginFields(User user) {
+             Helper.form.setField(elements.USER_NAME_FIELD, user.username().get());
+             Helper.form.setField(elements.PASSWORD_FIELD, user.password().get());
+         }
+    ```
 
 ## Define objects
 
 * ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨module ▸ webApp ▸ user.csv
 * We are going to use the csv file to setup our data. For more info [Csv](https://app.gitbook.com/@ehsan-matean/s/autonomx/test-object/csv-test-data)
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](<../.gitbook/assets/image (19).png>)
 
 ### Setup Tests
 
 {% tabs %}
-{% tab title="Verify\_Login\_Test.java" %}
-```text
+{% tab title="Verify_Login_Test.java" %}
+```
 
 
 
@@ -145,4 +145,3 @@ public static EnhancedBy LOADING_INDICATOR = Element.byCss("[class*='Loading']",
 ```
 {% endtab %}
 {% endtabs %}
-

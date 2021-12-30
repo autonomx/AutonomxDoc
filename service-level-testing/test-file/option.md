@@ -16,7 +16,7 @@
   * eg. RUN\_COUNT:3;
 * DEPENDS\_ON\_TEST: specify which previous test the current test depends on
   * If dependent test fail, the current test will be skipped
-  * Syntax: 
+  * Syntax:&#x20;
     * DEPENDS\_ON\_TEST:testCaseId
   * eg. DEPENDS\_ON\_TEST:testId1;
 
@@ -24,24 +24,24 @@
 
 ### Retry Options
 
-* **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property ****service.timeout.validation.isEnabled to false
+* **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property **** service.timeout.validation.isEnabled to false
   * There is no value associated with this
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
 * **WAIT\_FOR\_RESPONSE**: enables timeout validation.Sets value in seconds.
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
-  * eg. WAIT\_FOR\_RESPONSE:5 
+  * eg. WAIT\_FOR\_RESPONSE:5&#x20;
 * **WAIT\_FOR\_RESPONSE\_DELAY\_SECONDS:** wait time between each timeout validation response in seconds
-  * Overwrites properties value:  service.timeout.validation.delay.between.attempt.seconds
+  * Overwrites properties value: \
+    service.timeout.validation.delay.between.attempt.seconds
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
-* **RETRY\_COUNT**: Set retry count if validation at RespCodeExp or ExpectedResponse column is not met. 
+*   **RETRY\_COUNT**: Set retry count if validation at RespCodeExp or ExpectedResponse column is not met.&#x20;
 
-  * This is different from Timeout Validation as that is based on time, this is based on count
-  * Overwrites property value: service.retry.count
-  * eg. RETRY\_COUNT:3
+    * This is different from Timeout Validation as that is based on time, this is based on count
+    * Overwrites property value: service.retry.count
+    * eg. RETRY\_COUNT:3
 
- 
-
-* **RETRY\_AFTER\_SECONDS**: Seconds to wait between each test retry. 
+    &#x20;
+* **RETRY\_AFTER\_SECONDS**: Seconds to wait between each test retry.&#x20;
   * Set with RETRY\_COUNT
   * Overwrites property value: service.retry.after.seconds
   * eg. RETRY\_AFTER\_SECONDS:3
@@ -66,7 +66,7 @@
   * database sets in config file
   * eg. database:2
     * selects database set 2 to use in the current test
-  * ```text
+  * ```
     # Database Server
     db.1.driver = org.postgresql.Driver
     db.1.url=jdbc:postgresql://localhost:5432
@@ -85,14 +85,15 @@
 
 ### Retry Options
 
-* **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property ****service.timeout.validation.isEnabled to false
+* **NO\_VALIDATION\_TIMEOUT:** disabled timeout validation**.** Sets property **** service.timeout.validation.isEnabled to false
   * There is no value associated with this
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
 * **WAIT\_FOR\_RESPONSE**: enables timeout validation.Sets value in seconds.
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns.
-  * eg. WAIT\_FOR\_RESPONSE:5 
+  * eg. WAIT\_FOR\_RESPONSE:5&#x20;
 * **WAIT\_FOR\_RESPONSE\_DELAY\_SECONDS:** wait time between each timeout validation response in seconds
-  * Overwrites properties value:  service.timeout.validation.delay.between.attempt.seconds
+  * Overwrites properties value: \
+    service.timeout.validation.delay.between.attempt.seconds
   * Timeout validation means waiting in seconds for expected response. Expected response values can be in both expected RespCodeExp and ExpectedResponse columns
 
 ## Rabbit MQ
@@ -130,6 +131,4 @@
   * eg. response\_identifier:order5434
 * **WAIT\_FOR\_RESPONSE**: how long in seconds we wait for the desired message to appear
   * eg. WAIT\_FOR\_RESPONSE:60
-
-
 

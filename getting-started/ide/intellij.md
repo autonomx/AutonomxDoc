@@ -7,7 +7,7 @@
 ## Clone project
 
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
-* Download a release version based on the testing needs: service \(api, db testing\), web, iOS, Android, WinApp. See Getting Started:
+* Download a release version based on the testing needs: service (api, db testing), web, iOS, Android, WinApp. See Getting Started:
   * [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
   * [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
   * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
@@ -17,42 +17,40 @@
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](<../../.gitbook/assets/image (73).png>)
 
-* Wait until the download of the maven dependencies are complete \(~5 mins\)
+* Wait until the download of the maven dependencies are complete (\~5 mins)
 
 ## Launch Automation Project Through Intellij
 
 * The automation project is already setup for intellij
-* **Launch Intellij -&gt; Open**
-* Navigate to: project folder -&gt; autonomx -&gt; automation -&gt; open
-* Import maven dependencies from the Intellij 
+* **Launch Intellij -> Open**
+* Navigate to: project folder -> autonomx -> automation -> open
+* Import maven dependencies from the Intellij&#x20;
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](<../../.gitbook/assets/image (26).png>)
 
 ## Verify Project
 
-### Enable Annotation Processor 
+### Enable Annotation Processor&#x20;
 
-* Intellij IDEA -&gt; Preferences -&gt; Build, Execution, Deployment -&gt; Compiler -&gt; Annotation Processors 
+* Intellij IDEA -> Preferences -> Build, Execution, Deployment -> Compiler -> Annotation Processors&#x20;
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](<../../.gitbook/assets/image (131).png>)
 
 ### Verify Test
 
-* Navigate to src -&gt; test -&gt; java -&gt; test.modules -&gt; web.tests
+* Navigate to src -> test -> java -> test.modules -> web.tests
 * Right click on VerifyLoginTest and select "Run 'VerifyLoginTest'"
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](<../../.gitbook/assets/image (23).png>)
 
 ### Verify Results
 
 * Results should be displayed in the testNG panel
 
-![](../../.gitbook/assets/image%20%2820%29.png)
-
-
+![](<../../.gitbook/assets/image (24).png>)
 

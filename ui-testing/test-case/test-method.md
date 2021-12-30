@@ -8,7 +8,7 @@
   * Data object
   * Panel action
   * {% code title="VerifyLoginTest.java" %}
-    ```text
+    ```
     		TestLog.When("I login with admin user");
     		UserObject user = UserObject.user().withAdminLogin();
     		app.webApp.login.login(user);
@@ -17,38 +17,38 @@
 
 ## Step Comments
 
-* ```text
+* ```
   TestLog.When("I login with admin user");
   ```
-* Comments follow the Gherkins natural language model 
+* Comments follow the Gherkins natural language model&#x20;
 * [https://www.guru99.com/gherkin-test-cucumber.html](https://www.guru99.com/gherkin-test-cucumber.html)
-* These comments are displayed in the extent test report 
+* These comments are displayed in the extent test report&#x20;
 * Options are: Given, When, And, Then, But, Background
 
 ## Data Objects
 
 * Data objects describe the data we want to use in the actions
 * {% code title="VerifyLoginTest.java" %}
-  ```text
+  ```
   UserObject user = UserObject.user().withAdminLogin();
   ```
   {% endcode %}
-* Refer to [Test Object](https://ehsan-matean.gitbook.io/automationcore/~/edit/drafts/-L_G98XxUqlCKVCkJFH2/test-object/test-object) section for more info
+* Refer to [Test Object](https://ehsan-matean.gitbook.io/automationcore/\~/edit/drafts/-L\_G98XxUqlCKVCkJFH2/test-object/test-object) section for more info
 
 ## Panel Action
 
-* Actions refer to methods described in Panel classes 
-* ```text
+* Actions refer to methods described in Panel classes&#x20;
+* ```
   app.webApp.login.login(user);
   ```
-* Syntax: app.&lt;module&gt;.&lt;panel&gt;.&lt;action&gt;
+* Syntax: app.\<module>.\<panel>.\<action>
 * We can call any of the modules and actions in our test environment
 * This allows for cross platform and cross application testing
 * eg. testing android and web together in one test method
 
 ## Sample Test Class
 
-```text
+```
 public class VerifyLoginTest extends TestBase {
 
 		@BeforeMethod
@@ -74,6 +74,4 @@ public class VerifyLoginTest extends TestBase {
 		}
 	}
 ```
-
-
 

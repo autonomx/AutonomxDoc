@@ -7,17 +7,16 @@
 
 ## TestNG Report Location
 
-* TestNG test reports can be found at 
-  * automation -&gt; test-output 
+* TestNG test reports can be found at&#x20;
+  * automation -> test-output&#x20;
   * This folder is generated after a test run
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](<../.gitbook/assets/image (42).png>)
 
 ## Junit Test Report Location
 
 * Junit test report is used for Continuous Integration reporting
 * The location is:
-  * automation -&gt; test-output -&gt; junitReports
+  * automation -> test-output -> junitReports
 
-![](../.gitbook/assets/image%20%2894%29.png)
-
+![](<../.gitbook/assets/image (43).png>)

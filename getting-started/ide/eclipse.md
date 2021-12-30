@@ -8,7 +8,7 @@
 ## Clone Project
 
 * Go to [https://github.com/autonomx/Autonomx/releases](https://github.com/autonomx/Autonomx/releases)
-* Download a release version based on the testing needs: service \(api, db testing\), web, iOS, Android, WinApp. See Getting Started:
+* Download a release version based on the testing needs: service (api, db testing), web, iOS, Android, WinApp. See Getting Started:
   * [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
   * [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
   * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
@@ -18,12 +18,12 @@
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](<../../.gitbook/assets/image (73).png>)
 
-* Wait until the download of the maven dependencies are complete \(~5 mins\)
+* Wait until the download of the maven dependencies are complete (\~5 mins)
 
 ## Launch Automation Project Through Eclipse
 
@@ -33,17 +33,17 @@
 * Root Directory: Select the automation project folder
 * Select the project
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![](../../.gitbook/assets/image.png)
 
 * Select finish
 * **If project has errors, Clean the project**
-  * Projects -&gt; Clean...
+  * Projects -> Clean...
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](<../../.gitbook/assets/image (46).png>)
 
 ## Download TestNG Plugin
 
-* Select Help -&gt; Eclipse Marketplace
+* Select Help -> Eclipse Marketplace
 * Search for Testng
 * Install and restart
 
@@ -52,19 +52,20 @@
 ### Install Plugin Manually
 
 * If the TestNG plugin is not found in the eclipse market place:
-* Go to url [http://dl.bintray.com/testng-team/testng-eclipse-release//](http://dl.bintray.com/testng-team/testng-eclipse-release//)
+* Go to url [http://dl.bintray.com/testng-team/testng-eclipse-release//](http://dl.bintray.com/testng-team/testng-eclipse-release/)
 * Go to latest TestNG version link
 * Copy the url of the version. eg. [http://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/](http://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/)
-* In Eclipse: Navigate: Help -&gt; Install New Software
+* In Eclipse: Navigate: Help -> Install New Software
 * Paste the link in the work with field
 
-![](../../.gitbook/assets/image%20%284%29.png)
+![](<../../.gitbook/assets/image (16).png>)
 
 * Select Add
 * Set Name: testNG
 * Select testNG from the result and then Next
-* 
-![](../../.gitbook/assets/image%20%2857%29.png)
+*
+
+![](<../../.gitbook/assets/image (17).png>)
 
 * Security warning could be displayed. Install anyways
 * Restart eclipse to apply changes
@@ -72,49 +73,49 @@
 
 ## Disable Refresh Using Native Hooks Or Polling
 
-* Select Eclipse -&gt; Preferences -&gt; Workspace
+* Select Eclipse -> Preferences -> Workspace
 * Deselect "Refresh using native hooks or polling"
 * This is important, so the code generator will not be called more than once per file update
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (18).png>)
 
 
 
 ## Install CSV plugin
 
-* CSV plugin allows for the csv files to be displayed 
-* Go to: Helper -&gt; Eclipse Marketplace -&gt; Search for csv Edit resurrector
+* CSV plugin allows for the csv files to be displayed&#x20;
+* Go to: Helper -> Eclipse Marketplace -> Search for csv Edit resurrector
 * Install the csv Edit resurrector plugin
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](<../../.gitbook/assets/image (20).png>)
 
 * Csv Files will not look like this:
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](<../../.gitbook/assets/image (21).png>)
 
 ## Enable Annotations
 
-* Right click on the project folder -&gt; properties -&gt; Java Compiler -&gt; Annotation Processing
+* Right click on the project folder -> properties -> Java Compiler -> Annotation Processing
 * Enable "Enable Annotation Process"
 * Set "Generated source directory" to "./target/generated-sources/annotations"
 * Apply and Close
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## Select Package View
 
 * Select Package Explorer → Package Presentation → Hierarchical
-* ![](../../.gitbook/assets/image%20%28101%29.png)
+* ![](<../../.gitbook/assets/image (1).png>)
 
 ## Verify The Setup
 
 * Select login test from:
-  * src → test → java → module -&gt; web -&gt; tests → VerifyLoginTest.java
+  * src → test → java → module -> web -> tests → VerifyLoginTest.java
   * Right click and select: Run As → TestNG Tests
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](<../../.gitbook/assets/image (2).png>)
 
-* * Test should pass
+*
+  * Test should pass
 
-![](../../.gitbook/assets/image%20%2833%29.png)
-
+![](<../../.gitbook/assets/image (3).png>)

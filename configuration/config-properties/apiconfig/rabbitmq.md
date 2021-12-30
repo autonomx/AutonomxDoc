@@ -3,19 +3,20 @@
 ## MessageQueue Configuration
 
 * Message queue configuration applies to Rabbitmq, Service Bus and Kafka interfaces
-*  * ```text
+*
+  * ```
     # timeout in seconds for api calls to return response
     service.response.timeout.seconds = 60
     ```
 
-| Parameter | Description |
-| :--- | :--- |
+| Parameter                        | Description                                                                |
+| -------------------------------- | -------------------------------------------------------------------------- |
 | service.response.timeout.seconds | numbers of seconds to seek new messages until the expected message arrives |
 
 ## RabbitMq Configuration
 
 * Rabbitmq connection info are set here
-* ```text
+* ```
   # Rabbit MQ
   rabbitMQ.host = "localhost"
   rabbitMQ.port = ""
@@ -31,6 +32,4 @@
   rabbitMQ.Queue.durable = true
   rabbitMQ.msgId.prefix = "rabbitTestMsgID"
   ```
-
-
 

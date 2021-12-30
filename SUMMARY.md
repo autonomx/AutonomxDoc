@@ -98,6 +98,7 @@
   * [Generating Tests Scripts](script-runner/generating-tests-scripts.md)
   * [Running Tests](script-runner/execute-tests.md)
 * [Reports](reports-1/README.md)
+  * [Report Portal](reports-1/report-portal.md)
   * [Persistent Report](reports-1/persistant-report.md)
   * [HTML Report](reports-1/reports.md)
   * [TestNG Report](reports-1/testng-report.md)
@@ -111,4 +112,3 @@
   * [Console Mode Execution](integration/console-mode-execution.md)
 * [Testing Tips](testing-tips/README.md)
   * [Pyramid Of Testing](testing-tips/pyramid-of-testing.md)
-

@@ -7,10 +7,10 @@
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](<../.gitbook/assets/image (73).png>)
 
 ## IDE Setup
 
@@ -19,8 +19,8 @@
 
 ## Configure iOS app
 
-* resources -&gt; properties -&gt; ios.property
-* ```text
+* resources -> properties -> ios.property
+* ```
   #iOS
   ios.app = "eurika.app"
   ios.appDir = "resources/"
@@ -40,11 +40,11 @@
   ios.capabilties.shouldUseTestManagerForVisibilityDetection = false
   ```
 * Example project: ⁨autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ iosApp⁩
-  * Setup locators
+  *   Setup locators
 
-    iosApp ▸ MainPanel.java
+      iosApp ▸ MainPanel.java
 * {% code title="Main.java" %}
-  ```text
+  ```
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -60,7 +60,7 @@
 
 * iosApp ▸ MainPanel.java
 * {% code title="Main.java" %}
-  ```text
+  ```
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectPanel(options panel) {
@@ -83,9 +83,9 @@
 
 * Objects contain test data used for the tests
 * In this example, they contain values for the form
-* ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
+* ⁨autonomx⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -> tests
 * {% code title="PlainTableViewObject.java" %}
-  ```text
+  ```
   @Data
   public class PlainTableViewObject {
 
@@ -93,7 +93,7 @@
   	private static final String USER_NAME = "auto user";
   	private static final String EMAIL_ADDRESS = "test123@email.com";
   	private static final String PASSWORD = "password123";
-	
+  	
   	public String name = "";
   	public String username = "";
   	public String emailAddress = "";
@@ -104,7 +104,7 @@
   {% endcode %}
 * ⁨define default values
 * {% code title="PlainTableViewObject.java" %}
-  ```text
+  ```
   	public PlainTableViewObject withDefaultValues() {
   		PlainTableViewObject view = new PlainTableViewObject();
   		view.name = NAME;
@@ -119,10 +119,10 @@
 
 ## Write Test
 
-* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -&gt; tests
+* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨ios -> tests
 * setup the android driver
 * {% code title="RegisterUserTest.java" %}
-  ```text
+  ```
       public void beforeMethod() throws Exception {
           setupWebDriver(app.iosApp.getIosMobileDriver());
       }
@@ -130,7 +130,7 @@
   {% endcode %}
 * Add Test
 
-```text
+```
   @BeforeMethod
   public void beforeMethod() throws Exception {
      setupWebDriver(app.iosApp.getIosMobileDriver());
@@ -150,4 +150,3 @@
 		Helper.verifyElementIsDisplayed(MainPanel.elements.PLAIN_TABLE_VIEW_STYLE);
 	}
 ```
-

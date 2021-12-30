@@ -11,15 +11,20 @@ description: setting up an Android Test
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](<../.gitbook/assets/image (73).png>)
+
+## IDE Setup
+
+* For Intellij IDE, navigate to [Intellij Setup Page](https://docs.autonomx.io/getting-started/ide/intellij)
+* For Eclipse IDE, navigate to [Eclipse Setup Page](https://docs.autonomx.io/getting-started/ide/eclipse)
 
 ## Configure Android app
 
-* resources -&gt; properties -&gt; android.property
-* ```text
+* resources -> properties -> android.property
+* ```
   # Android
   android.app = "selendroid.apk"
   android.appDir = "resources/"
@@ -42,12 +47,13 @@ description: setting up an Android Test
   android.home = ""
   android.javaHome = ""
   ```
-* * Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ androidApp⁩
-  * Setup locators
+*
+  * Example project: autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ androidApp⁩
+  *   Setup locators
 
-    androidApp ▸ MainPanel.java
+      androidApp ▸ MainPanel.java
 * {% code title="Main.java" %}
-  ```text
+  ```
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -62,7 +68,7 @@ description: setting up an Android Test
 
 * androidApp ▸ MainPanel.java
 * {% code title="Main.java" %}
-  ```text
+  ```
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       public void selectRegisterPanel() {
@@ -73,10 +79,10 @@ description: setting up an Android Test
 
 ## Write Test
 
-* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨android -&gt; tests
+* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨Test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨android -> tests
 * setup the android driver
 * {% code title="RegisterUserTest.java" %}
-  ```text
+  ```
       public void beforeMethod() throws Exception {
           setupWebDriver(app.androidApp.getAndroidMobileDriver());
       }
@@ -84,7 +90,7 @@ description: setting up an Android Test
   {% endcode %}
 * Add Test
 
-```text
+```
   public class RegisterUserTest extends TestBase {
   
   @BeforeMethod
@@ -103,4 +109,3 @@ description: setting up an Android Test
       app.androidApp.registration.registerUser(user);
   }
 ```
-

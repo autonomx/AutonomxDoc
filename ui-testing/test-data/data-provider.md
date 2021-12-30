@@ -10,7 +10,7 @@
 * We first setup the data in a csv file under the "data" folder
 * The first column is @id which identifies the data and the rest are data values
 
-![UserInvalid.csv](../../.gitbook/assets/image%20%28115%29.png)
+![UserInvalid.csv](<../../.gitbook/assets/image (27).png>)
 
 ## Implementation
 
@@ -18,7 +18,7 @@
 * To Implement in the test, we first create a test method with data provider annotation
 
 {% code title="VerifyLoginTest.java" %}
-```text
+```
 	/**
 	 * uses data from UserInvalid.csv at webApp.data
 	 * reruns the test per row of csv file
@@ -41,9 +41,7 @@
 * The dataProviderClass is set to the csv file name. This refers to the generated class for the csv file
 * We pass in the data column as parameters
 * We then create a user object based on the user.csv template to pass into the loginError function
-* ```text
+* ```
   User user = Data.webApp.user().withUsername(username).withPassword(password);
   ```
-
-
 

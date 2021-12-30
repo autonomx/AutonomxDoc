@@ -8,16 +8,16 @@
 
 * Download the latest release of [Autonomx](https://github.com/autonomx/Autonomx/releases) based on your project needs
 
-![choose the platform to test](../.gitbook/assets/image%20%2896%29.png)
+![choose the platform to test](<../.gitbook/assets/image (75).png>)
 
-* Run the setup: 
-  * setup.bat \(windows\)
-  * setup.sh \(osx, linux\)
+* Run the setup:&#x20;
+  * setup.bat (windows)
+  * setup.sh (osx, linux)
   * This will download maven if not installed, and all the required dependencies
 * Navigate to runner//. eg. runner/mac/restTests.sh
 * The run scripts are generated from testng testSuites by **runner/generateScripts.sh**. Each script is associated with a suite of tests
 
-![](../.gitbook/assets/image%20%28114%29.png)
+![](<../.gitbook/assets/image (44).png>)
 
 ## IDE Setup
 
@@ -26,7 +26,7 @@
 
 ## Manual Run
 
-* Run automation -&gt; setup.bash/.bat
+* Run automation -> setup.bash/.bat
 * To compile using command line:
   * at: automation directory:
   * run command: **mvn clean compile test -DsuiteXmlFile=suites/servicesTests.xml**
@@ -37,8 +37,6 @@
 * [Android Tests](https://docs.autonomx.io/getting-started/android-tests)
 * [iOS Tests](https://docs.autonomx.io/getting-started/ios-tests)
 * [WinApp Tests](https://docs.autonomx.io/getting-started/winapp-tests)
-* [Service Tests \( Restful API, Database, Message Queue \)](https://docs.autonomx.io/getting-started/service-tests)
+* [Service Tests ( Restful API, Database, Message Queue )](https://docs.autonomx.io/getting-started/service-tests)
 * [Web Tests](https://docs.autonomx.io/getting-started/web-tests)
-
-
 

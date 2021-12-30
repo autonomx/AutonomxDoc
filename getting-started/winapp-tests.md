@@ -6,26 +6,27 @@
 
 ## Run Setup
 
-* Run autonomx -&gt; setup.sh/.bat
-  * 
+* Run autonomx -> setup.sh/.bat
+  *
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](<../.gitbook/assets/image (73).png>)
 
 
 
 ## Configure WebApp app
 
-* resources -&gt; properties -&gt; win.property
-* ```text
+* resources -> properties -> win.property
+* ```
   #win
   win.app = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"
   ```
-* * Example project: ⁨autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ windowsApp⁩
-  * Setup locators
+*
+  * Example project: ⁨autonomx ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨main⁩ ▸ ⁨java⁩ ▸ ⁨modules⁩ ▸ windowsApp⁩
+  *   Setup locators
 
-    windowsApp ▸ CalculatorPanel.java
+      windowsApp ▸ CalculatorPanel.java
 * {% code title="calculatePanel.java" %}
-  ```text
+  ```
       // Locators
       //--------------------------------------------------------------------------------------------------------    
       public static class elements {
@@ -42,7 +43,7 @@
 
 * windowsApp ▸ CalculatorPanel.java
 * {% code title="CalculatorPanel.java" %}
-  ```text
+  ```
       // Actions
       //--------------------------------------------------------------------------------------------------------    
       /**
@@ -68,10 +69,10 @@
 
 ## Write Test
 
-* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨win -&gt; tests
+* ⁨automation-client⁩ ▸ ⁨automation⁩ ▸ ⁨src⁩ ▸ ⁨test ▸ ⁨java⁩ ▸ ⁨module ▸ ⁨win -> tests
 * setup the windows driver
 * {% code title="VerifyCalculatorTest.java" %}
-  ```text
+  ```
       @BeforeMethod
       public void beforeMethod() throws Exception {
           setupWebDriver(app.windowsApp.getWinAppDriver());
@@ -79,16 +80,16 @@
   ```
   {% endcode %}
 * Add Test
-* \`\`\`text public class VerifyCalculatorTest extends TestBase {
+*   \`\`\`text public class VerifyCalculatorTest extends TestBase {
 
-  ```text
-  @BeforeMethod
-  public void beforeMethod() throws Exception {
-      setupWebDriver(app.windowsApp.getWinAppDriver());
-  }
-  ```
+    ```
+    @BeforeMethod
+    public void beforeMethod() throws Exception {
+        setupWebDriver(app.windowsApp.getWinAppDriver());
+    }
+    ```
 
-```text
+```
   @Test(enabled=true) 
   public void validateCalculator() {
 
@@ -96,4 +97,3 @@
       app.windowsApp.calculate.calculate();
   }
 ```
-

@@ -6,81 +6,22 @@
 
 ## Implementation
 
-* We can set the columns in the csv file as follows:
+*   We can set the columns in the csv file as follows:
 
-![apiTestData/testCases/sampleTests/TestCases\_database.csv](../../.gitbook/assets/image%20%2876%29.png)
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">TestSuite</th>
-      <th style="text-align:left">TestCaseID</th>
-      <th style="text-align:left">RunFlag</th>
-      <th style="text-align:left">Description</th>
-      <th style="text-align:left">InterfaceType</th>
-      <th style="text-align:left">UriPath</th>
-      <th style="text-align:left">ContentType</th>
-      <th style="text-align:left">Method</th>
-      <th style="text-align:left">Option</th>
-      <th style="text-align:left">RequestHeader</th>
-      <th style="text-align:left">TemplateFile</th>
-      <th style="text-align:left">RequestBody</th>
-      <th style="text-align:left">OutputParam</th>
-      <th style="text-align:left">RespCodeExp</th>
-      <th style="text-align:left">ExpectedResponse</th>
-      <th style="text-align:left">TcComments</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">TcPostgres</td>
-      <td style="text-align:left">getUsers</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left">verify user</td>
-      <td style="text-align:left">SQLDB</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">SELECT * FROM COMPANY</td>
-      <td style="text-align:left">NAME:1:&lt;$name&gt;</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p>ID:1: equalTo(1);</p>
-        <p>ID:equalTo(1,2,3,4);</p>
-        <p>NAME:1: contains(Paul);</p>
-        <p>NAME:contains(Paul,Allen,Teddy,Mark);</p>
-        <p>AGE:1: equalTo(32);</p>
-        <p>ADDRESS:1: isNotEmpty, SALARY:1: equalTo(20000)</p>
-      </td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">TcPostgres</td>
-      <td style="text-align:left">getUsersByName</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left">verify user data</td>
-      <td style="text-align:left">SQLDB</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">SELECT * FROM COMPANY WHERE NAME = &apos;&lt;@name&gt;&apos;</td>
-      <td style="text-align:left">AGE:1:&lt;$age&gt;</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">ID:1: equalTo(1);</td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>## Column Values
+
+![apiTestData/testCases/sampleTests/TestCases\_database.csv](<../../.gitbook/assets/image (34).png>)
+
+| TestSuite  | TestCaseID     | RunFlag | Description      | InterfaceType | UriPath | ContentType | Method | Option | RequestHeader | TemplateFile | RequestBody                                   | OutputParam    | RespCodeExp | ExpectedResponse                                                                                                                                                                                              | TcComments |
+| ---------- | -------------- | ------- | ---------------- | ------------- | ------- | ----------- | ------ | ------ | ------------- | ------------ | --------------------------------------------- | -------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| TcPostgres | getUsers       | Y       | verify user      | SQLDB         |         |             |        |        |               |              | SELECT \* FROM COMPANY                        | NAME:1:<$name> |             | <p>ID:1: equalTo(1);</p><p>ID:equalTo(1,2,3,4);</p><p>NAME:1: contains(Paul);</p><p>NAME:contains(Paul,Allen,Teddy,Mark);</p><p>AGE:1: equalTo(32);</p><p>ADDRESS:1: isNotEmpty, SALARY:1: equalTo(20000)</p> |            |
+| TcPostgres | getUsersByName | Y       | verify user data | SQLDB         |         |             |        |        |               |              | SELECT \* FROM COMPANY WHERE NAME = '<@name>' | AGE:1:<$age>   |             | ID:1: equalTo(1);                                                                                                                                                                                             |            |
+
+## Column Values
 
 * **TestSuite**: The name of the test series
-  * Tests can be combined by using postfix: \_step\#
-    * ```text
+  * Tests can be combined by using postfix: \_step#
+    * ```
       createNewUser_step1
       createNewUser_step2
       createNewUser_step3
@@ -90,16 +31,16 @@
 * **RunFlag**: set 'Y' to run the test. Set 'N' to skip.
 * **Description**: Short description of the test.
 * **InterfaceType**: SQLDB
-* **UriPath**: 
-* **ContentType**: 
-* **Method**: 
-* **Option**: 
-* **RequestHeaders**: 
-* **TemplateFile**: 
+* **UriPath**:&#x20;
+* **ContentType**:&#x20;
+* **Method**:&#x20;
+* **Option**:&#x20;
+* **RequestHeaders**:&#x20;
+* **TemplateFile**:&#x20;
 * **RequestBody**: Relational database query
 * **OutputParams**: We can store response values into variables defined here. The variables will then be available for other tests.
-  *  Syntax: &lt;$variable&gt;. eg. NAME:1:&lt;$name&gt;. the variable "name" can then be access through syntax &lt;@name&gt; in subsequent tests
-* **RespCodeExp**: 
+  * &#x20;Syntax: <$variable>. eg. NAME:1:<$name>. the variable "name" can then be access through syntax <@name> in subsequent tests
+* **RespCodeExp**:&#x20;
 * **ExpectedResponse**: Verification of the response goes here. More description in the interface sections.
 * **TcComment:** comment for the tests. eg. disable for such and such reasons.
 
@@ -109,7 +50,7 @@
 
 ### Row Equal
 
-```text
+```
 ID:1: equalTo(1);
 ```
 
@@ -117,7 +58,7 @@ ID:1: equalTo(1);
 
 ### All Rows Equal
 
-```text
+```
 ID:equalTo(1,2,3,4);
 ```
 
@@ -125,7 +66,7 @@ ID:equalTo(1,2,3,4);
 
 ### Row Contain
 
-```text
+```
 NAME:1: contains(Paul);
 ```
 
@@ -133,7 +74,7 @@ NAME:1: contains(Paul);
 
 ### All Rows Contain
 
-```text
+```
 NAME:contains(Paul,Allen,Teddy,Mark);
 ```
 
@@ -141,10 +82,9 @@ NAME:contains(Paul,Allen,Teddy,Mark);
 
 ### Row Value Not Empty
 
-```text
+```
 ADDRESS:1:isNotEmpty;
 ```
 
 * Column "Address" at row 1 is not empty
 * Usefully if we want to check a value exists but don't want to verify the value. eg. time stamp
-
